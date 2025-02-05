@@ -4,8 +4,6 @@ description: Learn how to self-host AutoMod for Revolt. Step-by-step guide for s
 og_description: AutoMod's self-hosting documentation.
 ---
 
-# Self-Hosting
-
 If you are hosting your own instance, or wish to run a modified version of the bot, you can self-host it.
 
 > [!IMPORTANT]
