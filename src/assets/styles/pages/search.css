@@ -1,0 +1,22 @@
+.no-js-search {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+
+	label {
+		width: 100%;
+	}
+
+	input {
+		flex: 1;
+	}
+
+	button {
+		flex: 0;
+	}
+}
+
+.pagefind-ui--reset,
+.pagefind-ui__result-link {
+	color: inherit !important;
+}

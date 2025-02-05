@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>AutoMod</ShortName>
+	<Description>AutoMod Documentation</Description>
+	<Tags>AutoMod Revolt Moderation</Tags>
+	<Contact>search@vale.rocks</Contact>
+	<Url type="text/html" template="https://automod.vale.rocks/search?q={searchTerms}" />
+	<Url type="application/opensearchdescription+xml" rel="self"
+		template="https://automod.vale.rocks/opensearch.xml" />
+	<LongName>AutoMod Documentation</LongName>
+	<Developer>Declan Chidlow (Vale)</Developer>
+	<Language>en-au</Language>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+</OpenSearchDescription>

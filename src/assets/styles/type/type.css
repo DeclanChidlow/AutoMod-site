@@ -1,0 +1,171 @@
+/* Fonts preloaded in head */
+
+@font-face {
+	font-family: "Roboto";
+	src: url("/assets/typefaces/Roboto/Roboto-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+	font-family: "Fira Code";
+	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2");
+}
+
+@font-face {
+	font-family: "Material Symbols";
+	src: url("/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.ttf");
+}
+
+.icons {
+	font-family: "Material Symbols";
+	user-select: none;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 2.3rem;
+	line-height: 2.2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+	line-height: 2rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+h5 {
+	font-size: 0.8rem;
+	line-height: 1rem;
+}
+
+h6 {
+	font-size: 0.6rem;
+	line-height: 0.8rem;
+}
+
+blockquote,
+.markdown-alert {
+	padding: 0.5rem 1rem;
+	background: light-dark(oklch(76% 0.03 55 / 0.3), oklch(24% 0.006 17.6 / 0.3));
+	border: 0.05rem solid light-dark(transparent, var(--grey));
+	border-left: 0.3rem solid var(--grey);
+}
+
+.markdown-alert-title {
+	display: flex;
+	gap: 1ch;
+	align-items: center;
+	color: var(--alert_colour);
+	fill: var(--alert_coolour);
+}
+
+.markdown-alert-note {
+	border-left-color: var(--blue);
+
+	.markdown-alert-title {
+		color: var(--blue);
+		fill: var(--blue);
+	}
+}
+
+.markdown-alert-tip {
+	border-left-color: var(--green);
+
+	.markdown-alert-title {
+		color: var(--green);
+		fill: var(--green);
+	}
+}
+
+.markdown-alert-important {
+	border-left-color: var(--magenta);
+
+	.markdown-alert-title {
+		color: var(--magenta);
+		fill: var(--magenta);
+	}
+}
+
+.markdown-alert-warning {
+	border-left-color: var(--orange);
+
+	.markdown-alert-title {
+		color: var(--orange);
+		fill: var(--orange);
+	}
+}
+
+.markdown-alert-caution {
+	border-left-color: var(--red);
+
+	.markdown-alert-title {
+		color: var(--red);
+		fill: var(--red);
+	}
+}
+
+ul,
+ol {
+	line-height: 1.4rem;
+	margin-left: 2rem;
+}
+
+li {
+	margin: 0.5rem 0;
+}
+
+sup,
+sub {
+	line-height: 100%;
+}
+
+abbr {
+	font-variant-caps: all-small-caps;
+	text-decoration: underline dotted 0.1rem;
+}
+
+kbd {
+	border-bottom-width: 5px;
+}
+
+hr {
+	all: unset;
+	display: block;
+	height: 2px;
+	background: var(--grey);
+	margin-bottom: 1rem;
+}
+
+mark {
+	background: var(--yellow);
+}
+
+.button {
+	background: var(--red);
+	color: var(--white);
+	padding: 0.5rem 1.5rem;
+	border-radius: 1.5rem;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+}

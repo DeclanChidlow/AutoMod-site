@@ -1,0 +1,5 @@
+docs/commands
+→ =map(_, {
+  extension: ".md->.html"
+  value: (doc) => functions/parse-markdown.js(doc)
+})

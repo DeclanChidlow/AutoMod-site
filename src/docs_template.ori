@@ -1,0 +1,68 @@
+(doc) => main_template.ori({
+	title: doc/title
+	stylesheet: "pages/docs.css"
+
+	@text: indent`
+	<section data-pagefind-body>
+		<h1>${ doc/title }</h1>
+
+		<div>
+			${ doc/@text }
+		</div>
+	</section>
+
+	<aside>
+	<h2>Index</h2>
+
+	<ul>
+		<li><a href="/docs">Home</a></li>
+
+		<li><a href="/docs/commands">Commands</a></li>
+		<ul>
+			<li><a href="/docs/commands/moderation">Moderation</a></li>
+			<ul>
+				<li><a href="/docs/commands/moderation/avatar">Avatar</a></li>
+				<li><a href="/docs/commands/moderation/ban">Ban</a></li>
+				<li><a href="/docs/commands/moderation/unban">Unban</a></li>
+				<li><a href="/docs/commands/moderation/kick">Kick</a></li>
+				<li><a href="/docs/commands/moderation/nick">Nick</a></li>
+				<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
+				<li><a href="/docs/commands/moderation/warn">Warn</a></li>
+				<li><a href="/docs/commands/moderation/infractions">Infractions</a></li>
+			</ul>
+		</ul>
+
+		<ul>
+			<li><a href="/docs/commands/configuration">Configuration</a></li>
+			<ul>
+				<li><a href="/docs/commands/configuration/filter">Filter</a></li>
+				<li><a href="/docs/commands/configuration/logs">Logs</a></li>
+				<li><a href="/docs/commands/configuration/moderator">Moderator</a></li>
+				<li><a href="/docs/commands/configuration/prefix">Prefix</a></li>
+				<li><a href="/docs/commands/configuration/spam">Spam</a></li>
+			</ul>
+		</ul>
+
+		<ul>
+			<li><a href="/docs/commands/owner">Owner</a></li>
+			<ul>
+				<li><a href="/docs/commands/owner/override">Override</a></li>
+				<li><a href="/docs/commands/owner/stats">Stats</a></li>
+			</ul>
+		</ul>
+
+		<ul>
+			<li><a href="/docs/commands/miscellaneous">Miscellaneous</a></li>
+			<ul>
+				<li><a href="/docs/commands/miscellaneous/help">Help</a></li>
+				<li><a href="/docs/commands/miscellaneous/web">Web</a></li>
+				<li><a href="/docs/commands/miscellaneous/ping">Ping</a></li>
+				<li><a href="/docs/commands/miscellaneous/support">Support</a></li>
+				<li><a href="/docs/commands/miscellaneous/test">Test</a></li>
+			</ul>
+		</ul>
+
+		<li><a href="/docs/self-hosting">Self-Hosting</a></li>
+	</ul>
+	</aside>
+` })

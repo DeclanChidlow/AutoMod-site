@@ -1,0 +1,9 @@
+---
+title: Ping
+description: Check AutoMod's response time and status in your Revolt server. Monitor bot performance and connection health.
+og_description: AutoMod's ping command usage documentation.
+---
+
+Checks how long it takes AutoMod to respond.
+
+Usage: `/ping`
