@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head profile="http://a9.com/-/spec/opensearch/1.1/">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Search | AutoMod</title>
+	<meta property="og:title" content="Search">
+	
+				<meta name="description" content="Search the AutoMod website and all of the documentation for details on usage.">
+				<meta property="og:description" content="Search the AutoMod docs.">
+			
+
+	<link rel="icon" type="image/svg+xml" href="/assets/favicons/AutoMod_Favicon.svg">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/AutoMod_Favicon_x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/AutoMod_Favicon_x32.png">
+	<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicons/AutoMod_Favicon_x48.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/assets/favicons/AutoMod_Favicon_x64.png">
+	<link rel="icon" type="image/png" sizes="152x152" href="/assets/favicons/AutoMod_Favicon_x152.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/AutoMod_Favicon_x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="/assets/favicons/AutoMod_Favicon_x512.png">
+
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/AutoMod_Favicon_x152.png">
+	<link rel="apple-touch-icon" sizes="192x192" href="/assets/favicons/AutoMod_Favicon_x192.png">
+	<link rel="apple-touch-icon" sizes="512x512" href="/assets/favicons/AutoMod_Favicon_x512.png">
+
+	<meta property="og:image" content="/assets/og_image.png">
+	<meta property="og:image:alt" content="The AutoMod logo, featuring a shield with a strike in it and the text 'AutoMod' on a background of repeating icons in a rainbow gradien.">
+
+	<meta property="og:site_name" content="AutoMod">
+	<meta property="og:locale" content="en_AU">
+	<meta property="og:site" content="AutoMod">
+	<meta property="og:type" content="website">
+
+	<meta name="color-scheme" content="light dark">
+	<meta name="theme-color" content="oklch(100% 0 360)" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="oklch(13.3% 0.0392 254.4)" media="(prefers-color-scheme: dark)">
+
+	<link rel="preload" href="/assets/typefaces/Roboto/Roboto-VariableFont_wdth,wght.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.ttf" as="font" type="font/ttf" crossorigin>
+
+	<link rel="stylesheet" href="/assets/styles/base/reset.css">
+	<link rel="stylesheet" href="/assets/styles/base/body.css">
+	<link rel="stylesheet" href="/assets/styles/type/code.css">
+	<link rel="stylesheet" href="/assets/styles/type/links.css">
+	<link rel="stylesheet" href="/assets/styles/type/type.css">
+	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
+	<link rel="stylesheet" href="/assets/styles/components/footer.css">
+	
+				<link rel="stylesheet" href="/assets/styles/pages/search.css">
+			
+
+	<link rel="search" type="application/opensearchdescription+xml" title="AutoMod Search" href="https://automod.vale.rocks/opensearch.xml" />
+</head>
+
+<body >
+	<header id="navbar">
+		<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+		<nav>
+			<a href="/" id="navlanding">AutoMod</a>
+			<ul>
+				<li><a href="/docs">Docs</a></li>
+				<a href="/search" class="icons">search</a>
+			</ul>
+		</nav>
+</header>
+
+<main id="main">
+	<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+	<script src="/pagefind/pagefind-ui.js"></script>
+	<div id="search"></div>
+	
+	<noscript>
+	<p>For full search functionality JavaScript is required. This is a fallback that will perform a site search using Google.</p>
+	
+	<form class="no-js-search" role="search" action="https://google.com/search" method="GET">
+	  <label for="search-for">Search with Google:</label>
+	  <input id="search-for" type="search" name="q" required>
+	  <input type="hidden" name="q" value="site:automod.vale.rocks">
+	  <button type="submit">Search</button>
+	</form>
+	</noscript>
+	
+	<script>
+	    window.addEventListener('DOMContentLoaded', (event) => {
+	        const queryString = window.location.search;
+	        const urlParams = new URLSearchParams(queryString);
+	        const searchString = urlParams.get("q");
+	
+	        const pagefind = new PagefindUI({
+	            element: "#search",
+	            pageSize: 10,
+	            showSubResults: true,
+	            showImages: false,
+	            excerptLength: 30,
+	            autofocus: true
+	        });
+	
+	        const updateUrlQuery = (query) => {
+	            const newUrl = new URL(window.location);
+	            if (query) {
+	                newUrl.searchParams.set("q", query);
+	            } else {
+	                newUrl.searchParams.delete("q");
+	            }
+	            window.history.pushState({}, '', newUrl);
+	        };
+	
+	        if (searchString) {
+	            pagefind.triggerSearch(searchString);
+	        }
+	
+	        const searchInput = document.querySelector('.pagefind-ui__search-input');
+	            if (searchInput) {
+	            searchInput.addEventListener('input', (e) => {
+	                const query = e.target.value.trim();
+	                updateUrlQuery(query);
+	            });
+	        }
+	
+	        const observer = new MutationObserver((mutations) => {
+	            mutations.forEach((mutation) => {
+	                if (mutation.addedNodes.length) {
+	                    document.querySelectorAll('.pagefind-ui__result-link').forEach(link => {
+	                        const url = new URL(link.href);
+	                        if (url.pathname.includes('.html')) {
+	                            url.pathname = url.pathname.replace('.html', '');
+	                            link.href = url.toString();
+	                        }
+	                    });
+	                }
+	            });
+	        });
+	
+	        const searchResults = document.querySelector('#search');
+	        observer.observe(searchResults, {
+	            childList: true,
+	            subtree: true
+	        });
+	    });
+	</script>
+</main>
+
+<footer id="footer">
+	<div>
+		<picture>
+			<source srcset="/assets/logo-light.svg" media="(prefers-color-scheme: light)"/>
+			<source srcset="/assets/logo-dark.svg"  media="(prefers-color-scheme: dark)"/>
+			<img src="/assets/logo-light.svg"/>
+		</picture>
+		<p>Developed and maintained by <a href="https://vale.rocks">Vale</a>.</p>
+	</div>
+	<nav>
+		<ul>
+			<a href="https://vale.rocks/support" class="button">Donate</a>
+			<li><a href="/docs">Documentation</a></li>
+			<li><a href="https://github.com/DeclanChidlow/AutoMod">Source Code</a></li>
+			<li><a href="/sitemap.xml">Sitemap</a></li>
+		</ul>
+	</nav>
+</footer>
+
+    </body>
+  </html>
