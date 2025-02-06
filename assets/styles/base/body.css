@@ -33,6 +33,10 @@ body {
 	transition: 0.25s;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 @media (max-width: 45rem) {
 	html {
 		scroll-padding-top: 4rem;
