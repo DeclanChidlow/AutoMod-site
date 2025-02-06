@@ -10,22 +10,10 @@
 		
 		commands = {
 			...map(commands_data.ori, docs_template.ori)
-
-			configuration = {
-				...map(configuration_commands_data.ori, docs_template.ori)
-			}
-
-			miscellaneous = {
-				...map(miscellaneous_commands_data.ori, docs_template.ori)
-			}
-
-			moderation = {
-				...map(moderation_commands_data.ori, docs_template.ori)
-			}
-
-			owner = {
-				...map(owner_commands_data.ori, docs_template.ori)
-			}
+			configuration = map(configuration_commands_data.ori, docs_template.ori)
+			miscellaneous = map(miscellaneous_commands_data.ori, docs_template.ori)
+			moderation = map(moderation_commands_data.ori, docs_template.ori)
+			owner = map(owner_commands_data.ori, docs_template.ori)
 		}
 	}
 }

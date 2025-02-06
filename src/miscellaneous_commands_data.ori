@@ -1,5 +1,5 @@
 docs/commands/miscellaneous
 → =map(_, {
-  extension: ".md->.html"
-  value: (doc) => functions/parse-markdown.js(doc)
+	extension: ".md->.html"
+	value: functions/parse-markdown.js
 })
