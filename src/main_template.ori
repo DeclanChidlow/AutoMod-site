@@ -60,7 +60,8 @@
 			<nav>
 				<a href="/" id="navlanding">AutoMod</a>
 				<ul>
-					<li><a href="/docs">Docs</a></li>
+					<li><a href="/docs">Documentation</a></li>
+					<button id="palette-switch" class="icons">routine</button>
 					<a href="/search" class="icons">search</a>
 				</ul>
 			</nav>
@@ -88,7 +89,7 @@
 			</ul>
 		</nav>
 	</footer>
-
+	<script src="/assets/scripts/light-dark.js"></script>
     </body>
   </html>
 `

@@ -39,6 +39,16 @@
 			margin: 0;
 			list-style: none;
 		}
+
+		.icons {
+			font-size: 1.2rem;
+		}
+
+		button {
+			background: none;
+			border: transparent;
+			display: none;
+		}
 	}
 
 	.skip-link {
