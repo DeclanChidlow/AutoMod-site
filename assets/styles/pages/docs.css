@@ -10,6 +10,9 @@ main {
 
 section {
 	width: 100%;
+	padding: 2rem;
+	border-radius: 2rem;
+	background: light-dark(var(--blue), var(--grey));
 }
 
 aside {
@@ -23,19 +26,20 @@ aside {
 	}
 
 	ul {
-		margin-left: 1rem;
+		margin-left: 0;
+		padding-left: 0.8rem;
+
+		ul {
+			border-left: 2px var(--grey) solid;
+		}
 
 		li {
 			list-style-type: none;
 		}
-
-		ul li {
-			list-style-type: "• ";
-		}
 	}
 
 	> ul {
-		margin-left: 0;
+		padding-left: 0;
 	}
 
 	@media (max-width: 45rem) {
