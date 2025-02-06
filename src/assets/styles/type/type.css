@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: "Roboto";
-	src: url("/assets/typefaces/Roboto/Roboto-VariableFont_wdth,wght.ttf");
+	src: url("/assets/typefaces/Roboto/Roboto-VariableFont_wdth,wght.woff2");
 }
 
 @font-face {
@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family: "Material Symbols";
-	src: url("/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.ttf");
+	src: url("/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.woff2");
 }
 
 .icons {

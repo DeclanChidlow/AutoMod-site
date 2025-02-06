@@ -37,9 +37,9 @@
 		<meta name="theme-color" content="oklch(100% 0 360)" media="(prefers-color-scheme: light)">
 		<meta name="theme-color" content="oklch(13.3% 0.0392 254.4)" media="(prefers-color-scheme: dark)">
 
-		<link rel="preload" href="/assets/typefaces/Roboto/Roboto-VariableFont_wdth,wght.ttf" as="font" type="font/ttf" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Roboto/Roboto-VariableFont_wdth,wght.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preload" href="/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
-		<link rel="preload" href="/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.ttf" as="font" type="font/ttf" crossorigin>
+		<link rel="preload" href="/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
 		<link rel="stylesheet" href="/assets/styles/base/reset.css">
 		<link rel="stylesheet" href="/assets/styles/base/body.css">
