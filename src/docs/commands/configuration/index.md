@@ -4,7 +4,7 @@ description: Configure AutoMod settings for your Revolt server. Set up content f
 og_description: AutoMod's configuration command category documentation.
 ---
 
-Configuration commands exist for setting up and customising AutoMod for your needs.
+Configuration commands exist for setting up and customising AutoMod for your specific needs and use case.
 
 - [Filter](/docs/commands/configuration/filter)
 - [Logs](/docs/commands/configuration/logs)

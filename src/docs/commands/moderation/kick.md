@@ -6,4 +6,6 @@ og_description: AutoMod's kick command usage documentation.
 
 Removes a user from the server, but they can rejoin if they have an invite. Providing a reason is optional.
 
-Usage: `/kick [user] (reason)`
+Usage: `/kick <user> [reason]`
+
+Aliases: `yeet`, `vent`

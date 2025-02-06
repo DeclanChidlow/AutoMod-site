@@ -6,17 +6,20 @@ og_description: AutoMod's prefix command usage documentation.
 
 Manage AutoMod's prefix. The default prefix is `/`. This is useful if you already have a bot in your server bound to the default prefix.
 
-- **Set** \
-  Set a prefix that bot commands should start with.
+## Set
 
-  Usage: `/prefix set [prefix]`
+Set a prefix that AutoMod commands should start with.
 
-- **Get** \
-  Returns the bot's current prefix.
+Usage: `/prefix set <prefix>`
 
-  Usage: `/prefix get`
+## Get
 
-- **Clear** \
-  Returns back to the default prefix.
+Returns AutoMod's current prefix.
 
-  Usage: `/prefix clear`
+Usage: `/prefix get`
+
+## Clear
+
+Returns back to the default prefix.
+
+Usage: `/prefix clear`

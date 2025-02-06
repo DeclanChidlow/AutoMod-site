@@ -4,6 +4,8 @@ description: Temporarily restrict user activity in your Revolt server with AutoM
 og_description: AutoMod's timeout command usage documentation.
 ---
 
-Set a timeout on a user, making them unable to send messages for a given duration.
+Set a timeout on a user, making them unable to send messages for a given duration, such as 1h (one hour) or 30s (thirty seconds).
 
-Usage: `/timeout [user] [duration] (reason)`
+Usage: `/timeout <user> <duration> [reason]`
+
+Aliases: `mute`, `silence`

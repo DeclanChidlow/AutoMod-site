@@ -6,4 +6,6 @@ og_description: AutoMod's unban command usage documentation.
 
 Removes a user's server ban, allowing them to rejoin the server if they have an invite.
 
-Usage: `/unban [user]`
+Usage: `/unban <user>`
+
+Aliases: `pardon`

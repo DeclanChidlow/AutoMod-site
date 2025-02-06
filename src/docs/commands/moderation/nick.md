@@ -4,6 +4,8 @@ description: Manage user nicknames in your Revolt server with AutoMod's nick com
 og_description: AutoMod's nick command usage documentation.
 ---
 
-Manage a user's nickname.
+Manage a user's server-specific nickname. If no nickname is provided, the user's nickname will be reset.
 
-Usage: `/nick [user] (nickname)`
+Usage: `/nick <user> [nickname]`
+
+Aliases: `setnick`

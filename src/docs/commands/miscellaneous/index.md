@@ -8,6 +8,7 @@ Miscellaneous commands include all the commands that didn't fit in the other cat
 
 - [Help](/docs/commands/miscellaneous/help)
 - [Web](/docs/commands/miscellaneous/web)
+- [Info](/docs/commands/miscellaneous/info)
 - [Ping](/docs/commands/miscellaneous/ping)
 - [Support](/docs/commands/miscellaneous/support)
 - [Test](/docs/commands/miscellaneous/test)

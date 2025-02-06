@@ -7,3 +7,5 @@ og_description: AutoMod's support command usage documentation.
 Provides details regarding how to financially support AutoMod's development and hosting.
 
 Usage: `/support`
+
+Aliases: `donate`, `tip`

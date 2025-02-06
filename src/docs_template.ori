@@ -26,6 +26,7 @@
 				<li><a href="/docs/commands/moderation/unban">Unban</a></li>
 				<li><a href="/docs/commands/moderation/kick">Kick</a></li>
 				<li><a href="/docs/commands/moderation/nick">Nick</a></li>
+				<li><a href="/docs/commands/moderation/purge">Purge</a></li>
 				<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
 				<li><a href="/docs/commands/moderation/warn">Warn</a></li>
 				<li><a href="/docs/commands/moderation/infractions">Infractions</a></li>
@@ -56,6 +57,7 @@
 			<ul>
 				<li><a href="/docs/commands/miscellaneous/help">Help</a></li>
 				<li><a href="/docs/commands/miscellaneous/web">Web</a></li>
+				<li><a href="/docs/commands/miscellaneous/info">Info</a></li>
 				<li><a href="/docs/commands/miscellaneous/ping">Ping</a></li>
 				<li><a href="/docs/commands/miscellaneous/support">Support</a></li>
 				<li><a href="/docs/commands/miscellaneous/test">Test</a></li>

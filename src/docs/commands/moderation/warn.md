@@ -6,4 +6,4 @@ og_description: AutoMod's warn command usage documentation.
 
 Adds an infraction to a user's record. You can view this record with [the infractions command](/docs/commands/moderation/infractions).
 
-Usage: `/warn [user] (reason)`
+Usage: `/warn <user> [reason]`

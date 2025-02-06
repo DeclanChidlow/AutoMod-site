@@ -9,4 +9,4 @@ og_description: AutoMod's web command usage documentation.
 
 Allows you to log in and out of the web dashboard.
 
-Usage: `/web (command)`
+Usage: `/web <login|logout>`

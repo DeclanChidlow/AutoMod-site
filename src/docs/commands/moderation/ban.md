@@ -6,4 +6,8 @@ og_description: AutoMod's ban command usage documentation.
 
 Removes a user from the server and prevents them from rejoining.This command can be undone with [unban](/docs/commands/moderation/unban).
 
-Usage: `/ban [user] (reason)`
+You can provide a length for the ban, such as 1h (one hour) or 30s (thirty seconds).
+
+Usage: `/ban <user> [period] [reason]`
+
+Aliases: `eject`

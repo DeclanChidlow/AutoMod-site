@@ -4,6 +4,8 @@ description: Use AutoMod's override command to manage exceptional cases in your 
 og_description: AutoMod's override command usage documentation.
 ---
 
-Allows you to run any command regardless of your server permissions. It will be automatically disabled 5 minutes after your last interaction with AutoMod.
+The override command allows running any command regardless of the user's current permissions. It will be automatically disabled 5 minutes after your last interaction with AutoMod.
 
-Usage: `/override`
+Usage: `/override [enable|disable]`
+
+Aliases: `sudo`, `doas`

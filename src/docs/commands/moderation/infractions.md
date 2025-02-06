@@ -8,4 +8,6 @@ Shows a user's infractions. Using the command without specifying a user will ret
 
 Infractions are added to a user when they are [banned](/docs/commands/moderation/ban), [kicked](/docs/commands/moderation/kick), or [warned](/docs/commands/moderation/warn).
 
-Usage: `/infractions (user)`
+Usage: `/infractions [user]`
+
+Aliases: `warns`, `warnings`

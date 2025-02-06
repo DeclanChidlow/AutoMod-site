@@ -4,4 +4,8 @@ description: Manage and moderate user avatars in your Revolt server with AutoMod
 og_description: AutoMod's avatar command usage documentation.
 ---
 
-Manage or return a user's profile picture. If you just do `/avatar [user]` it will return the user's avatar. If you do `/avatar [user] reset` you can remove their server specific profile picture.
+Allows managing or returning a user's profile picture. Using with the `reset` argument will remove the user's server-specific profile picture.
+
+Usage: `/avatar <user> [reset]`
+
+Aliases: `pfp`

@@ -4,6 +4,8 @@ description: View detailed AutoMod statistics. Track the cache, connections, det
 og_description: AutoMod's stats command usage documentation.
 ---
 
-Returns information about AutoMod including the current cache, connection details, dependency versions, and other miscellaneous stuff.
+Returns information about AutoMod, including the current cache, connection details, dependency versions, environment, owners, and other miscellaneous stuff.
 
-Usage: `/status`
+Usage: `/stats`
+
+Aliases: `statistics`

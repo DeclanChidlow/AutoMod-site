@@ -4,59 +4,94 @@ description: Set up content filtering in your Revolt server with AutoMod. Block 
 og_description: AutoMod's filter command usage documentation.
 ---
 
-Allows for messages to be checked against a word list.
+Allows for messages to be checked against a word list and then action to be taken based on infractions.
 
-## Actions
+## Enable/Disable
 
-- **Enable** \
-  Enables message filtering.
+Enables message filtering.
 
-  Usage: `/filter enable`
+Usage: `/filter <enable|disable>`
 
-- **Disable** \
-  Disables message filtering.
+## Add
 
-  Usage: `/filter disable`
+Adds a word to the filter list. You can alter how strictly it'll be filtered by providing one of three strictness levels:
 
-- **Add** \
-  Adds a word to the filter list. You can alter how strictly it'll be filtered by providing one of three options:
+- Soft
+  - This will only match full, exact words.
+  - e.g Filtering 'cat' will not trigger on 'cat**s**'.
+- Hard
+  - This will match even if a string is within another word.
+  - e.g Filtering 'ass` will trigger on 'cl**ass**ic'.
+- Strict
+  - This will remove whitespace and try substitutions.
+  - e.g Filtering "sex" will trigger on 's3x' and 'car**s ex**ploded'.
+  - The substitution list is:
+    - 0 : o
+    - 1 : i
+    - 4 : a
+    - 3 : e
+    - 5 : s
+    - 6 : g
+    - 7 : t
+    - 8 : b
+    - 9 : g
+    - @ : a
+    - ^ : a
+    - Д : a
+    - ß : b
+    - ¢ : c
+    - © : c
+    - < : c
+    - € : e
+    - ƒ : f
+    - ท : n
+    - И : n
+    - Ø : o
+    - Я : r
+    - ® : r
+    - $ : s
+    - § : s
+    - † : t
+    - บ : u
+    - พ : w
+    - ₩ : w
+    - × : x
+    - ¥ : y
 
-  - Soft - This will only match full words.
-    - e.g Filtering 'cat' will not trigger on 'cat**s**'.
-  - Hard - This will match even if a word is inside another word.
-    - e.g Filtering 'ass` will trigger on 'cl**ass**ic'.
-  - Strict - This will remove whitespace and try substitutions.
-    - e.g Filtering "sex" will trigger on 's3x' and 'car**s ex**ploded'.
+If no strictness is selected while adding a word, it'll default to hard.
 
-  If no strictness is selected, it'll default to hard.
+Usage: `/filter add [strictness] <word>`
 
-  Usage: `/filter add (strictness) [word]`
+## Remove
 
-- **Remove** \
-  Removes a word from the filter list.
+Removes a word from the filter list.
 
-  Usage: `/filter remove [word]`
+Usage: `/filter remove <word>`
 
-- **List** \
-  AutoMod will directly message you a list of all the filtered words and their strictness.
+## List
 
-  Usage: `/filter list`
+AutoMod will directly message you a list of all the filtered words and their strictness.
 
-- **Message** \
-  Lets you set the message that AutoMod will send if a message is caught by the filter.
+Usage: `/filter list`
 
-  Usage: `/filter message [chosen message]`
+## Message
 
-- **Action** \
-  Lets you configure how AutoMod will react if a message is caught by the filter. You can select one of three options:
+Lets you set the message that AutoMod will send if a message is caught by the filter.
 
-  - Log - The message will be logged in the mod action log channel.
-  - Delete - The message will be deleted _and_ logged.
-  - Warn - The message will be deleted, logged, and the user will receive a warn.
+Usage: `/filter message <string>`
 
-  Usage: `/filter action [log level]`
+## Action
 
-- **Test** \
-  Lets you check if a message matches the block list.
+Lets you configure how AutoMod will react if a message is caught by the filter. You can select one of three options:
 
-  Usage: `/filter test [word]`
+- Log: The message will be logged in the mod action log channel.
+- Delete: The message will be deleted _and_ logged.
+- Warn: The message will be deleted and logged, and the user will receive a warn.
+
+Usage: `/filter action <level>`
+
+## Test
+
+Lets you check if a message matches the block list.
+
+Usage: `/filter test <word>`
