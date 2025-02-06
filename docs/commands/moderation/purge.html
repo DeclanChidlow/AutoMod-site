@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Moderation | AutoMod</title>
-	<meta property="og:title" content="Moderation">
+	<title>Purge | AutoMod</title>
+	<meta property="og:title" content="Purge">
 
 	<link rel="icon" type="image/svg+xml" href="/assets/favicons/AutoMod_Favicon.svg">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/AutoMod_Favicon_x16.png">
@@ -64,20 +64,13 @@
 
 <main id="main">
 	<section data-pagefind-body>
-		<h1>Moderation</h1>
+		<h1>Purge</h1>
 	
 		<div>
-			<p>Moderation commands exist to help in enforcing server rules.</p>
-			<ul>
-			<li><a href="/docs/commands/moderation/avatar">Avatar</a></li>
-			<li><a href="/docs/commands/moderation/ban">Ban</a></li>
-			<li><a href="/docs/commands/moderation/unban">Unban</a></li>
-			<li><a href="/docs/commands/moderation/kick">Kick</a></li>
-			<li><a href="/docs/commands/moderation/nick">Nick</a></li>
-			<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
-			<li><a href="/docs/commands/moderation/warn">Warn</a></li>
-			<li><a href="/docs/commands/moderation/infractions">Infractions</a></li>
-			</ul>
+			<p>Allows for bulk deleting messages. You can purge messages from a specific user (or users) by specifying them in an argument.</p>
+			<p>The messages must have been sent within the past week.</p>
+			<p>Usage: <code>/purge &lt;number&gt; [user1,user2,...]</code></p>
+			<p>Aliases: <code>clear</code></p>
 		</div>
 	</section>
 	

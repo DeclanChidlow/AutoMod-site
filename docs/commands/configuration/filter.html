@@ -67,54 +67,85 @@
 		<h1>Filter</h1>
 	
 		<div>
-			<p>Allows for messages to be checked against a word list.</p>
-			<h2 id="actions">Actions</h2>
+			<p>Allows for messages to be checked against a word list and then action to be taken based on infractions.</p>
+			<h2 id="enabledisable">Enable/Disable</h2>
+			<p>Enables message filtering.</p>
+			<p>Usage: <code>/filter &lt;enable|disable&gt;</code></p>
+			<h2 id="add">Add</h2>
+			<p>Adds a word to the filter list. You can alter how strictly it&#8217;ll be filtered by providing one of three strictness levels:</p>
 			<ul>
-			<li><p><strong>Enable</strong> <br>Enables message filtering.</p>
-			<p>Usage: <code>/filter enable</code></p>
-			</li>
-			<li><p><strong>Disable</strong> <br>Disables message filtering.</p>
-			<p>Usage: <code>/filter disable</code></p>
-			</li>
-			<li><p><strong>Add</strong> <br>Adds a word to the filter list. You can alter how strictly it&#8217;ll be filtered by providing one of three options:</p>
-			<ul>
-			<li>Soft - This will only match full words.<ul>
+			<li>Soft<ul>
+			<li>This will only match full, exact words.</li>
 			<li>e.g Filtering &#8216;cat&#8217; will not trigger on &#8216;cat<strong>s</strong>&#8217;.</li>
 			</ul>
 			</li>
-			<li>Hard - This will match even if a word is inside another word.<ul>
+			<li>Hard<ul>
+			<li>This will match even if a string is within another word.</li>
 			<li>e.g Filtering &#8216;ass` will trigger on &#8216;cl<strong>ass</strong>ic&#8217;.</li>
 			</ul>
 			</li>
-			<li>Strict - This will remove whitespace and try substitutions.<ul>
+			<li>Strict<ul>
+			<li>This will remove whitespace and try substitutions.</li>
 			<li>e.g Filtering &#8220;sex&#8221; will trigger on &#8216;s3x&#8217; and &#8216;car<strong>s ex</strong>ploded&#8217;.</li>
+			<li>The substitution list is:<ul>
+			<li>0 : o</li>
+			<li>1 : i</li>
+			<li>4 : a</li>
+			<li>3 : e</li>
+			<li>5 : s</li>
+			<li>6 : g</li>
+			<li>7 : t</li>
+			<li>8 : b</li>
+			<li>9 : g</li>
+			<li>@ : a</li>
+			<li>^ : a</li>
+			<li>Д : a</li>
+			<li>ß : b</li>
+			<li>¢ : c</li>
+			<li>© : c</li>
+			<li>< : c</li>
+			<li>€ : e</li>
+			<li>ƒ : f</li>
+			<li>ท : n</li>
+			<li>И : n</li>
+			<li>Ø : o</li>
+			<li>Я : r</li>
+			<li>® : r</li>
+			<li>$ : s</li>
+			<li>§ : s</li>
+			<li>† : t</li>
+			<li>บ : u</li>
+			<li>พ : w</li>
+			<li>₩ : w</li>
+			<li>× : x</li>
+			<li>¥ : y</li>
 			</ul>
 			</li>
 			</ul>
-			<p>If no strictness is selected, it&#8217;ll default to hard.</p>
-			<p>Usage: <code>/filter add (strictness) [word]</code></p>
 			</li>
-			<li><p><strong>Remove</strong> <br>Removes a word from the filter list.</p>
-			<p>Usage: <code>/filter remove [word]</code></p>
-			</li>
-			<li><p><strong>List</strong> <br>AutoMod will directly message you a list of all the filtered words and their strictness.</p>
+			</ul>
+			<p>If no strictness is selected while adding a word, it&#8217;ll default to hard.</p>
+			<p>Usage: <code>/filter add [strictness] &lt;word&gt;</code></p>
+			<h2 id="remove">Remove</h2>
+			<p>Removes a word from the filter list.</p>
+			<p>Usage: <code>/filter remove &lt;word&gt;</code></p>
+			<h2 id="list">List</h2>
+			<p>AutoMod will directly message you a list of all the filtered words and their strictness.</p>
 			<p>Usage: <code>/filter list</code></p>
-			</li>
-			<li><p><strong>Message</strong> <br>Lets you set the message that AutoMod will send if a message is caught by the filter.</p>
-			<p>Usage: <code>/filter message [chosen message]</code></p>
-			</li>
-			<li><p><strong>Action</strong> <br>Lets you configure how AutoMod will react if a message is caught by the filter. You can select one of three options:</p>
+			<h2 id="message">Message</h2>
+			<p>Lets you set the message that AutoMod will send if a message is caught by the filter.</p>
+			<p>Usage: <code>/filter message &lt;string&gt;</code></p>
+			<h2 id="action">Action</h2>
+			<p>Lets you configure how AutoMod will react if a message is caught by the filter. You can select one of three options:</p>
 			<ul>
-			<li>Log - The message will be logged in the mod action log channel.</li>
-			<li>Delete - The message will be deleted <em>and</em> logged.</li>
-			<li>Warn - The message will be deleted, logged, and the user will receive a warn.</li>
+			<li>Log: The message will be logged in the mod action log channel.</li>
+			<li>Delete: The message will be deleted <em>and</em> logged.</li>
+			<li>Warn: The message will be deleted and logged, and the user will receive a warn.</li>
 			</ul>
-			<p>Usage: <code>/filter action [log level]</code></p>
-			</li>
-			<li><p><strong>Test</strong> <br>Lets you check if a message matches the block list.</p>
-			<p>Usage: <code>/filter test [word]</code></p>
-			</li>
-			</ul>
+			<p>Usage: <code>/filter action &lt;level&gt;</code></p>
+			<h2 id="test">Test</h2>
+			<p>Lets you check if a message matches the block list.</p>
+			<p>Usage: <code>/filter test &lt;word&gt;</code></p>
 		</div>
 	</section>
 	
@@ -133,6 +164,7 @@
 				<li><a href="/docs/commands/moderation/unban">Unban</a></li>
 				<li><a href="/docs/commands/moderation/kick">Kick</a></li>
 				<li><a href="/docs/commands/moderation/nick">Nick</a></li>
+				<li><a href="/docs/commands/moderation/purge">Purge</a></li>
 				<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
 				<li><a href="/docs/commands/moderation/warn">Warn</a></li>
 				<li><a href="/docs/commands/moderation/infractions">Infractions</a></li>
@@ -163,6 +195,7 @@
 			<ul>
 				<li><a href="/docs/commands/miscellaneous/help">Help</a></li>
 				<li><a href="/docs/commands/miscellaneous/web">Web</a></li>
+				<li><a href="/docs/commands/miscellaneous/info">Info</a></li>
 				<li><a href="/docs/commands/miscellaneous/ping">Ping</a></li>
 				<li><a href="/docs/commands/miscellaneous/support">Support</a></li>
 				<li><a href="/docs/commands/miscellaneous/test">Test</a></li>

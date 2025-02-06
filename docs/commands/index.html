@@ -68,18 +68,34 @@
 	
 		<div>
 			<p>These are the commands that AutoMod accepts. A command is triggered by posting a message containing a prefix (by default <code>/</code>) followed by the command&#8217;s name in a location AutoMod can access.</p>
-			<p>For example, you can run <code>/test</code> in a server with AutoMod and you should get a response.</p>
+			<p>For example, you can run <code>/test</code> in a server with AutoMod, and you should get a response.</p>
 			<p>This documentation site offers a detailed explanation of each available command. If you ever need a refresher, then you can come back here or use <code>/help</code>.</p>
-			<p>AutoMod&#8217;s commands are split into four catgeories. These are:</p>
+			<h2 id="categories">Categories</h2>
+			<p>AutoMod&#8217;s commands are split into four categories. These are:</p>
 			<ul>
 			<li><p><strong><a href="/docs/commands/moderation">Moderation</a></strong> <br> Commands for enforcing server rules.</p>
 			</li>
-			<li><p><strong><a href="/docs/commands/configuration">Configuration</a></strong> <br> Commands for setting up and customizing settings.</p>
+			<li><p><strong><a href="/docs/commands/configuration">Configuration</a></strong> <br> Commands for setting up and customising settings.</p>
 			</li>
 			<li><p><strong><a href="/docs/commands/owner">Owner</a></strong> <br> Exclusive commands for the bot owner to manage and control AutoMod.</p>
 			</li>
 			<li><p><strong><a href="/docs/commands/miscellaneous">Miscellaneous</a></strong> <br> Additional commands not covered by other categories.</p>
 			</li>
+			</ul>
+			<h2 id="syntax">Syntax</h2>
+			<p>Commands use the following notation:</p>
+			<ul>
+			<li><code>&lt;argument&gt;</code> indicates a required argument.</li>
+			<li><code>[argument]</code> indicates an optional argument.</li>
+			<li><code>[argument1|argument2]</code> indicates you must choose one of the options.</li>
+			<li><code>[argument,...]</code> indicates you can provide multiple values separated by commas.</li>
+			</ul>
+			<p>For example:
+			<code>/purge &lt;amount&gt; [user1,user2,...]</code></p>
+			<p>This means:</p>
+			<ul>
+			<li><code>amount</code> is required (eg, &#8217;100&#8217;).</li>
+			<li><code>user1,user2,...</code> is optional and can include multiple users.</li>
 			</ul>
 		</div>
 	</section>
@@ -99,6 +115,7 @@
 				<li><a href="/docs/commands/moderation/unban">Unban</a></li>
 				<li><a href="/docs/commands/moderation/kick">Kick</a></li>
 				<li><a href="/docs/commands/moderation/nick">Nick</a></li>
+				<li><a href="/docs/commands/moderation/purge">Purge</a></li>
 				<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
 				<li><a href="/docs/commands/moderation/warn">Warn</a></li>
 				<li><a href="/docs/commands/moderation/infractions">Infractions</a></li>
@@ -129,6 +146,7 @@
 			<ul>
 				<li><a href="/docs/commands/miscellaneous/help">Help</a></li>
 				<li><a href="/docs/commands/miscellaneous/web">Web</a></li>
+				<li><a href="/docs/commands/miscellaneous/info">Info</a></li>
 				<li><a href="/docs/commands/miscellaneous/ping">Ping</a></li>
 				<li><a href="/docs/commands/miscellaneous/support">Support</a></li>
 				<li><a href="/docs/commands/miscellaneous/test">Test</a></li>
