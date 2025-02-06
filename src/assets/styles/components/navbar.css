@@ -5,6 +5,7 @@
 	padding: 0 3rem;
 	background: light-dark(var(--white), var(--black));
 	z-index: 1000;
+	transition: 0.5s;
 
 	a {
 		text-decoration: none;
