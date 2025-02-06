@@ -30,11 +30,11 @@ body {
 	margin: 5rem 3rem;
 	color: light-dark(var(--black), var(--white));
 	background: light-dark(var(--white), var(--black));
-	transition: 0.25s;
+	transition: 0.5s;
 }
 
 @view-transition {
-  navigation: auto;
+	navigation: auto;
 }
 
 @media (max-width: 45rem) {
