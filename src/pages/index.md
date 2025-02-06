@@ -13,7 +13,7 @@ stylesheet: "pages/index.css"
     <a href="https://app.revolt.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
 </div>
 
-<img src="/assets/hero.png">
+<img src="/assets/hero.avif">
 
 </section>
 
@@ -24,7 +24,7 @@ stylesheet: "pages/index.css"
     <h2>Agile Actions</h2>
     <p>Ban, kick, warn, timeout, and otherwise swoop in to save the day with elegant ease at a moment's notice.</p>
 </div>
-<img src="/assets/images/actions_example.png" alt="The user executes the '/ban' command on a user for 'Trolling.' AutoMod confirms the ban, displaying an infraction count, user ID, and reason.">
+<img src="/assets/images/actions_example.avif" alt="The user executes the '/ban' command on a user for 'Trolling.' AutoMod confirms the ban, displaying an infraction count, user ID, and reason.">
 </div>
 
 <div class="feature-card filtering">
@@ -32,7 +32,7 @@ stylesheet: "pages/index.css"
     <h2>Fantastic Filtering</h2>
     <p>Don't be reactive; be proactive. AutoMod lets you filter out words or phrases with configurable strictness. Let it do the hard work for you.</p>
 </div>
-<img src="/assets/images/filter_example.png" alt="The user adds the word 'poo' to the filter list using '/filter add poo'. AutoMod confirms the addition with 'strictness HARD.'">
+<img src="/assets/images/filter_example.avif" alt="The user adds the word 'poo' to the filter list using '/filter add poo'. AutoMod confirms the addition with 'strictness HARD.'">
 </div>
 
 <div class="feature-card logging">
@@ -40,7 +40,7 @@ stylesheet: "pages/index.css"
     <h2>Limitless Logging</h2>
     <p>Keep an eye on what goes on, and let nothing slip past. You can configure comprehensive logging of messages and moderator actions. Keep your users and administrators in check with ease.</p>
 </div>
-<img src="/assets/images/logging_example.png" alt="The user sets up message update logs using '/logs messageupdate #Audit Log'. AutoMod confirms that message update logs are now bound to the '#Audit Log' channel.">
+<img src="/assets/images/logging_example.avif" alt="The user sets up message update logs using '/logs messageupdate #Audit Log'. AutoMod confirms that message update logs are now bound to the '#Audit Log' channel.">
 </div>
 
 <div class="feature-card utilities">
@@ -48,7 +48,7 @@ stylesheet: "pages/index.css"
     <h2>Useful Utilities</h2>
     <p>Want to get information about a user, channel, server, or message? AutoMod has you covered for that and just about anything else you can think of.</p>
 </div>
-<img src="/assets/images/utilities_example.png" alt="The user exceutes the command `/info` and AutoMod returns the UUIDs of the server, server context, channel, and user.">
+<img src="/assets/images/utilities_example.avif" alt="The user exceutes the command `/info` and AutoMod returns the UUIDs of the server, server context, channel, and user.">
 </div>
 
 <div class="feature-card documentation">
@@ -56,7 +56,7 @@ stylesheet: "pages/index.css"
     <h2>Detailed Documentation</h2>
     <p>Need a hand? AutoMod has comprehensive documentation on both <a href="/docs">this site</a> and in chat with <code>/help</code>.</p>
 </div>
-<img src="/assets/images/documentation_example.png" alt="The user executes the command `/help` and AutoMod returns a message with usage instructions.">
+<img src="/assets/images/documentation_example.avif" alt="The user executes the command `/help` and AutoMod returns a message with usage instructions.">
 </div>
 
 </div>
