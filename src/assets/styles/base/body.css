@@ -7,7 +7,7 @@ html {
 	color-scheme: light dark;
 
 	--black: oklch(13.3% 0.0392 254.4);
-	--grey: oklch(36% 0.003 17.3);
+	--grey: oklch(30.89% 0.0273 255.32);
 	--white: oklch(100% 0 360);
 
 	--red: oklch(70.52% 0.1865 24.6);

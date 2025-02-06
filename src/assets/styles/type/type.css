@@ -63,7 +63,14 @@ h6 {
 	line-height: 0.8rem;
 }
 
-blockquote,
+code {
+	font-family: "Fira Code", monospace;
+	border: 1px solid light-dark(var(--grey), var(--blue));
+	border-radius: 0.25rem;
+	padding: 0 0.2rem;
+	font-size: 0.9rem;
+}
+
 .markdown-alert {
 	padding: 0.5rem 1rem;
 	background: light-dark(oklch(76% 0.03 55 / 0.3), oklch(24% 0.006 17.6 / 0.3));
@@ -132,20 +139,6 @@ ol {
 
 li {
 	margin: 0.5rem 0;
-}
-
-sup,
-sub {
-	line-height: 100%;
-}
-
-abbr {
-	font-variant-caps: all-small-caps;
-	text-decoration: underline dotted 0.1rem;
-}
-
-kbd {
-	border-bottom-width: 5px;
 }
 
 hr {
