@@ -18,6 +18,14 @@ html {
 	--magenta: oklch(74.4% 0.0872 330.4);
 }
 
+.light {
+	color-scheme: light;
+}
+
+.dark {
+	color-scheme: dark;
+}
+
 body {
 	margin: 5rem 3rem;
 	color: light-dark(var(--black), var(--white));
