@@ -13,7 +13,7 @@ stylesheet: "pages/index.css"
     <a href="https://app.revolt.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
 </div>
 
-<img src="/assets/hero.avif" alt="A shield with a wave moving through the centre of it. Behind it is a rainbow gradient.">
+<img src="/assets/hero.svg" alt="A shield with a wave moving through the centre of it. Behind it is a rainbow gradient.">
 
 </section>
 
