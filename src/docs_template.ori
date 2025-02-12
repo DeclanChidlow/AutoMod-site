@@ -16,6 +16,7 @@
 
 	<ul>
 		<li><a href="/docs">Home</a></li>
+		<li><a href="/docs/setup">Setup</a></li>
 
 		<li><a href="/docs/commands">Commands</a></li>
 		<li>

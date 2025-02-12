@@ -6,7 +6,7 @@ og_description: AutoMod's usage documentation.
 
 Welcome to AutoMod's documentation! If you're looking for help using AutoMod, you're in the right place!
 
-Chances are you want to head over to the [commands page](/docs/commands) to learn all the various things you can do with the bot.
+Chances are you want to [set it up](/docs/setup) and then head over to the [commands page](/docs/commands) to learn all the various things you can do with the bot.
 
 If you're hosting your own Revolt instance, or are otherwise interested in hosting your own version of AutoMod, you'll want the [self-hosting](/docs/self-hosting) page.
 
