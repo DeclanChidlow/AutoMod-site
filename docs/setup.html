@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Logs | AutoMod</title>
-	<meta property="og:title" content="Logs">
+	<title>Setup | AutoMod</title>
+	<meta property="og:title" content="Setup">
 
 	<link rel="icon" type="image/svg+xml" href="/assets/favicons/AutoMod_Favicon.svg">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/AutoMod_Favicon_x16.png">
@@ -64,16 +64,34 @@
 
 <main id="main">
 	<section data-pagefind-body>
-		<h1>Logs</h1>
+		<h1>Setup</h1>
 	
 		<div>
-			<p>Configure log collection.</p>
-			<h2 id="message-update">Message Update</h2>
-			<p>Sets a channel to log message updates, such as messages being edited or deleted.</p>
-			<p>Usage: <code>/log messageupdate &lt;channel&gt;</code></p>
-			<h2 id="mod-action">Mod Action</h2>
-			<p>Sets a channel to log moderation actions, such as a user being kicked, warned, or banned.</p>
-			<p>Usage: <code>/log modaction &lt;channel&gt;</code></p>
+			<p>AutoMod is a pretty easy bot to get setup and ready to help moderate your server.</p>
+			<ol>
+			<li><p><strong>Add AutoMod to your server</strong><br>If you&#8217;re on the official Revolt instance, you can <a href="https://app.revolt.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY">directly invite it</a>. If you&#8217;re on another instance, you&#8217;ll have to <a href="/docs/self-hosting">self-host</a> it.</p>
+			</li>
+			<li><p><strong>Create a role and assign it required permissions</strong><br>AutoMod has lots of features, so it requires lots of permissions. It is usually easiest just to enable them all, but the specific required items to get the most out of AutoMod are:</p>
+			<ul>
+			<li>Kick Members</li>
+			<li>Ban Members</li>
+			<li>Timeout Members</li>
+			<li>Change Nickname</li>
+			<li>Manage Nickname</li>
+			<li>Change Avatar</li>
+			<li>Remove Avatars</li>
+			<li>View Channel</li>
+			<li>Send Messages</li>
+			<li>Send Embeds</li>
+			<li>Masquerade</li>
+			<li>Use Reactions</li>
+			</ul>
+			</li>
+			<li><p><strong>Assign the role to AutoMod</strong><br>Give AutoMod your newly made role and test that everything is working.</p>
+			</li>
+			</ol>
+			<p>If AutoMod isn&#8217;t working at all, check that you saved the permissions, assigned the role, and that nothing is being overwritten by channel-specific permissions.</p>
+			<p>If it is working but complains about lacking certain permissions, check you&#8217;ve permitted everything outlined in step two of this guide, and consult the bot&#8217;s in-chat resolution suggestions.</p>
 		</div>
 	</section>
 	
