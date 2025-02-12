@@ -18,50 +18,58 @@
 		<li><a href="/docs">Home</a></li>
 
 		<li><a href="/docs/commands">Commands</a></li>
-		<ul>
-			<li><a href="/docs/commands/moderation">Moderation</a></li>
+		<li>
 			<ul>
-				<li><a href="/docs/commands/moderation/avatar">Avatar</a></li>
-				<li><a href="/docs/commands/moderation/ban">Ban</a></li>
-				<li><a href="/docs/commands/moderation/unban">Unban</a></li>
-				<li><a href="/docs/commands/moderation/kick">Kick</a></li>
-				<li><a href="/docs/commands/moderation/nick">Nick</a></li>
-				<li><a href="/docs/commands/moderation/purge">Purge</a></li>
-				<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
-				<li><a href="/docs/commands/moderation/warn">Warn</a></li>
-				<li><a href="/docs/commands/moderation/infractions">Infractions</a></li>
+				<li><a href="/docs/commands/moderation">Moderation</a></li>
+				<li><ul>
+					<li><a href="/docs/commands/moderation/avatar">Avatar</a></li>
+					<li><a href="/docs/commands/moderation/ban">Ban</a></li>
+					<li><a href="/docs/commands/moderation/unban">Unban</a></li>
+					<li><a href="/docs/commands/moderation/kick">Kick</a></li>
+					<li><a href="/docs/commands/moderation/nick">Nick</a></li>
+					<li><a href="/docs/commands/moderation/purge">Purge</a></li>
+					<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
+					<li><a href="/docs/commands/moderation/warn">Warn</a></li>
+					<li><a href="/docs/commands/moderation/infractions">Infractions</a></li>
+				</ul></li>
 			</ul>
-		</ul>
+		</li>
 
-		<ul>
-			<li><a href="/docs/commands/configuration">Configuration</a></li>
+		<li>
 			<ul>
-				<li><a href="/docs/commands/configuration/filter">Filter</a></li>
-				<li><a href="/docs/commands/configuration/logs">Logs</a></li>
-				<li><a href="/docs/commands/configuration/prefix">Prefix</a></li>
-				<li><a href="/docs/commands/configuration/spam">Spam</a></li>
+				<li><a href="/docs/commands/configuration">Configuration</a></li>
+				<li><ul>
+					<li><a href="/docs/commands/configuration/filter">Filter</a></li>
+					<li><a href="/docs/commands/configuration/logs">Logs</a></li>
+					<li><a href="/docs/commands/configuration/prefix">Prefix</a></li>
+					<li><a href="/docs/commands/configuration/spam">Spam</a></li>
+				</ul></li>
 			</ul>
-		</ul>
+		</li>
 
-		<ul>
-			<li><a href="/docs/commands/owner">Owner</a></li>
+		<li>
 			<ul>
-				<li><a href="/docs/commands/owner/override">Override</a></li>
-				<li><a href="/docs/commands/owner/stats">Stats</a></li>
+				<li><a href="/docs/commands/owner">Owner</a></li>
+				<li><ul>
+					<li><a href="/docs/commands/owner/override">Override</a></li>
+					<li><a href="/docs/commands/owner/stats">Stats</a></li>
+				</ul></li>
 			</ul>
-		</ul>
+		</li>
 
-		<ul>
-			<li><a href="/docs/commands/miscellaneous">Miscellaneous</a></li>
+		<li>
 			<ul>
-				<li><a href="/docs/commands/miscellaneous/help">Help</a></li>
-				<li><a href="/docs/commands/miscellaneous/web">Web</a></li>
-				<li><a href="/docs/commands/miscellaneous/info">Info</a></li>
-				<li><a href="/docs/commands/miscellaneous/ping">Ping</a></li>
-				<li><a href="/docs/commands/miscellaneous/support">Support</a></li>
-				<li><a href="/docs/commands/miscellaneous/test">Test</a></li>
+				<li><a href="/docs/commands/miscellaneous">Miscellaneous</a></li>
+				<li><ul>
+					<li><a href="/docs/commands/miscellaneous/help">Help</a></li>
+					<li><a href="/docs/commands/miscellaneous/web">Web</a></li>
+					<li><a href="/docs/commands/miscellaneous/info">Info</a></li>
+					<li><a href="/docs/commands/miscellaneous/ping">Ping</a></li>
+					<li><a href="/docs/commands/miscellaneous/support">Support</a></li>
+					<li><a href="/docs/commands/miscellaneous/test">Test</a></li>
+				</ul></li>
 			</ul>
-		</ul>
+		</li>
 
 		<li><a href="/docs/self-hosting">Self-Hosting</a></li>
 	</ul>
