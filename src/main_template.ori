@@ -1,7 +1,7 @@
 (page) => indent`
 	<!DOCTYPE html>
 	<html lang="en">
-	<head profile="http://a9.com/-/spec/opensearch/1.1/">
+	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -51,7 +51,7 @@
 			<link rel="stylesheet" href="/assets/styles/${ page/stylesheet}">
 		` : '' }
 
-		<link rel="search" type="application/opensearchdescription+xml" title="AutoMod Search" href="https://automod.vale.rocks/opensearch.xml" />
+		<link rel="search" type="application/opensearchdescription+xml" title="AutoMod Search" href="https://automod.vale.rocks/opensearch.xml">
 	</head>
 
 	<body ${ page/area ? `class="${ page/area }"` : "" }>
