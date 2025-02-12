@@ -27,6 +27,14 @@ stylesheet: "pages/index.css"
 <img src="/assets/images/actions_example.avif" alt="The user executes the '/ban' command on a user for 'Trolling.' AutoMod confirms the ban, displaying an infraction count, user ID, and reason.">
 </div>
 
+<div class="feature-card utilities">
+<div>
+    <h2>Useful Utilities</h2>
+    <p>Want to get information about a user, channel, server, or message? AutoMod has you covered for that and just about anything else you can think of.</p>
+</div>
+<img src="/assets/images/utilities_example.avif" alt="The user exceutes the command `/info` and AutoMod returns the UUIDs of the server, server context, channel, and user.">
+</div>
+
 <div class="feature-card filtering">
 <div>
     <h2>Fantastic Filtering</h2>
@@ -41,14 +49,6 @@ stylesheet: "pages/index.css"
     <p>Keep an eye on what goes on, and let nothing slip past. You can configure comprehensive logging of messages and moderator actions. Keep your users and administrators in check with ease.</p>
 </div>
 <img src="/assets/images/logging_example.avif" alt="The user sets up message update logs using '/logs messageupdate #Audit Log'. AutoMod confirms that message update logs are now bound to the '#Audit Log' channel.">
-</div>
-
-<div class="feature-card utilities">
-<div>
-    <h2>Useful Utilities</h2>
-    <p>Want to get information about a user, channel, server, or message? AutoMod has you covered for that and just about anything else you can think of.</p>
-</div>
-<img src="/assets/images/utilities_example.avif" alt="The user exceutes the command `/info` and AutoMod returns the UUIDs of the server, server context, channel, and user.">
 </div>
 
 <div class="feature-card documentation">
@@ -68,7 +68,7 @@ Used in
 servers
 
 Trusted by  
-**99,500+**  
+**100,000+**  
 users
 
 </div>
