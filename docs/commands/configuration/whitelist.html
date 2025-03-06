@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Info | AutoMod</title>
-	<meta property="og:title" content="Info">
+	<title>Whitelist | AutoMod</title>
+	<meta property="og:title" content="Whitelist">
 
 	<link rel="icon" type="image/svg+xml" href="/assets/favicons/AutoMod_Favicon.svg">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/AutoMod_Favicon_x16.png">
@@ -67,13 +67,16 @@
 
 <main id="main">
 	<section data-pagefind-body>
-		<h1>Info</h1>
+		<h1>Whitelist</h1>
 	
 		<div>
-			<p>Provides information about a given UUID. It will automatically grab the UUID if you tag a channel or ping a user with this command.</p>
-			<p>If used without an argument, it will return details about your current context.</p>
-			<p>Usage: <code>/info (UUID)</code></p>
-			<p>Aliases: <code>debug</code></p>
+			<p>Permit users or roles to bypass AutoMod&#8217;s moderation rules.</p>
+			<h2 id="addremove-userrole">Add/Remove User/Role</h2>
+			<p>Adds a user or role to the whitelist.</p>
+			<p>Usage: <code>/whitelist &lt;add|remove&gt; &lt;user|role&gt;</code></p>
+			<h2 id="list">List</h2>
+			<p>AutoMod will post a list of whitelisted users and roles.</p>
+			<p>Usage: <code>/whitelist list</code></p>
 		</div>
 	</section>
 	
