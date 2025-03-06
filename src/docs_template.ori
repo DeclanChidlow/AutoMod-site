@@ -44,6 +44,7 @@
 					<li><a href="/docs/commands/configuration/logs">Logs</a></li>
 					<li><a href="/docs/commands/configuration/prefix">Prefix</a></li>
 					<li><a href="/docs/commands/configuration/spam">Spam</a></li>
+					<li><a href="/docs/commands/configuration/whitelist">Whitelist</a></li>
 				</ul></li>
 			</ul>
 		</li>
