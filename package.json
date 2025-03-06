@@ -2,8 +2,8 @@
 	"name": "automod-site",
 	"type": "module",
 	"dependencies": {
-		"@weborigami/origami": "^0.2.7",
-		"marked": "^15.0.6",
+		"@weborigami/origami": "^0.2.9",
+		"marked": "^15.0.7",
 		"marked-alert": "^2.1.2",
 		"marked-gfm-heading-id": "^4.1.1",
 		"marked-smartypants": "^1.1.9",
