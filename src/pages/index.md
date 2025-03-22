@@ -64,10 +64,10 @@ stylesheet: "pages/index.css"
 <div class="stats">
 
 Used in  
-**4,600+**  
+**4,800+**  
 servers
 
-Trusted by  
+Servicing  
 **100,000+**  
 users
 
