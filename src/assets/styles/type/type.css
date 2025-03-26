@@ -67,14 +67,13 @@ code {
 	font-family: "Fira Code", monospace;
 	border: 1px solid light-dark(var(--grey), var(--blue));
 	border-radius: 0.25rem;
+	background: light-dark(oklch(from var(--grey) l c h / 0.1), oklch(from var(--blue) l c h / 0.2));
 	padding: 0 0.2rem;
 	font-size: 0.9rem;
 }
 
 .markdown-alert {
 	padding: 1rem;
-	background: light-dark(var(--white), var(--black));
-	border-left: 0.3rem solid var(--grey);
 	border-radius: 1rem;
 }
 
@@ -82,50 +81,51 @@ code {
 	display: flex;
 	gap: 1ch;
 	align-items: center;
+	font-weight: bold;
 }
 
 .markdown-alert-note {
-	border-left-color: var(--blue);
+	background: oklch(from var(--blue) l c h / 0.2);
 
 	.markdown-alert-title {
-		color: var(--blue);
-		fill: var(--blue);
+		color: oklch(from var(--blue) l calc(c * 2) h / 1);
+		fill: oklch(from var(--blue) l calc(c * 2) h / 1);
 	}
 }
 
 .markdown-alert-tip {
-	border-left-color: var(--green);
+	background: oklch(from var(--green) l c h / 0.2);
 
 	.markdown-alert-title {
-		color: var(--green);
-		fill: var(--green);
+		color: oklch(from var(--green) l calc(c * 2) h / 1);
+		fill: oklch(from var(--green) l calc(c * 2) h / 1);
 	}
 }
 
 .markdown-alert-important {
-	border-left-color: var(--magenta);
+	background: oklch(from var(--magenta) l c h / 0.2);
 
 	.markdown-alert-title {
-		color: var(--magenta);
-		fill: var(--magenta);
+		color: oklch(from var(--magenta) l calc(c * 2) h / 1);
+		fill: oklch(from var(--magenta) l calc(c * 2) h / 1);
 	}
 }
 
 .markdown-alert-warning {
-	border-left-color: var(--orange);
+	background: oklch(from var(--orange) l c h / 0.2);
 
 	.markdown-alert-title {
-		color: var(--orange);
-		fill: var(--orange);
+		color: oklch(from var(--orange) l calc(c * 2) h / 1);
+		fill: oklch(from var(--orange) l calc(c * 2) h / 1);
 	}
 }
 
 .markdown-alert-caution {
-	border-left-color: var(--red);
+	background: oklch(from var(--red) l c h / 0.2);
 
 	.markdown-alert-title {
-		color: var(--red);
-		fill: var(--red);
+		color: oklch(from var(--red) l calc(c * 2) h / 1);
+		fill: oklch(from var(--red) l calc(c * 2) h / 1);
 	}
 }
 
