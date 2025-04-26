@@ -16,4 +16,6 @@
 			owner = map(owner_commands_data.ori, docs_template.ori)
 		}
 	}
+
+	pagefind = once(=package:@weborigami/pagefind({ docs }))
 }

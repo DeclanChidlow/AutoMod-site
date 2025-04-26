@@ -16,6 +16,11 @@
 	}
 }
 
+.pagefind-ui__search-input {
+	color: var(--black) !important;
+}
+
+
 .pagefind-ui--reset,
 .pagefind-ui__result-link {
 	color: inherit !important;
