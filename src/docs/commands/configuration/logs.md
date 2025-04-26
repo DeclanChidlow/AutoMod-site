@@ -10,10 +10,10 @@ Configure log collection.
 
 Sets a channel to log message updates, such as messages being edited or deleted.
 
-Usage: `/log messageupdate <channel>`
+Usage: `/logs messageupdate <channel>`
 
 ## Mod Action
 
 Sets a channel to log moderation actions, such as a user being kicked, warned, or banned.
 
-Usage: `/log modaction <channel>`
+Usage: `/logs modaction <channel>`

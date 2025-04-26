@@ -4,7 +4,7 @@
     "": {
       "name": "automod-site",
       "dependencies": {
-        "@weborigami/origami": "^0.2.9",
+        "@weborigami/origami": "^0.2.10",
         "marked": "^15.0.7",
         "marked-alert": "^2.1.2",
         "marked-gfm-heading-id": "^4.1.1",
