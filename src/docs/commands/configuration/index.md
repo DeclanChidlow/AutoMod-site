@@ -8,6 +8,6 @@ Configuration commands exist for setting up and customising AutoMod for your spe
 
 - [Filter](/docs/commands/configuration/filter)
 - [Logs](/docs/commands/configuration/logs)
-- [Moderator](/docs/commands/configuration/moderator)
 - [Prefix](/docs/commands/configuration/prefix)
 - [Spam](/docs/commands/configuration/spam)
+- [Whitelist](/docs/commands/configuration/whitelist)
