@@ -64,11 +64,11 @@ stylesheet: "pages/index.css"
 <div class="stats">
 
 Used in  
-**4,800+**  
+**5,000+**  
 servers
 
 Servicing  
-**100,000+**  
+**110,000+**  
 users
 
 </div>
