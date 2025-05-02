@@ -20,8 +20,11 @@
 	color: var(--black) !important;
 }
 
-
-.pagefind-ui--reset,
+.pagefind-ui,
 .pagefind-ui__result-link {
 	color: inherit !important;
+}
+
+.pagefind-ui__results {
+	margin: 0;
 }

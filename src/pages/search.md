@@ -10,71 +10,14 @@ stylesheet: "pages/search.css"
 <div id="search"></div>
 
 <noscript>
-<p>For full search functionality JavaScript is required. This is a fallback that will perform a site search using Google.</p>
+<p>For full search functionality JavaScript is required. This is a fallback that will perform a site search using DuckDuckGo.</p>
 
-<form class="no-js-search" role="search" action="https://google.com/search" method="GET">
-  <label for="search-for">Search with Google:</label>
+<form class="no-js-search" role="search" action="https://duckduckgo.com" method="GET">
+  <label for="search-for">Search with DuckDuckGo:</label>
   <input id="search-for" type="search" name="q" required>
-  <input type="hidden" name="q" value="site:automod.vale.rocks">
+  <input type="hidden" name="sites" value="automod.vale.rocks">
   <button type="submit">Search</button>
 </form>
 </noscript>
 
-<script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        const searchString = urlParams.get("q");
-
-        const pagefind = new PagefindUI({
-            element: "#search",
-            pageSize: 10,
-            showSubResults: true,
-            showImages: false,
-            excerptLength: 30,
-            autofocus: true
-        });
-
-        const updateUrlQuery = (query) => {
-            const newUrl = new URL(window.location);
-            if (query) {
-                newUrl.searchParams.set("q", query);
-            } else {
-                newUrl.searchParams.delete("q");
-            }
-            window.history.pushState({}, '', newUrl);
-        };
-
-        if (searchString) {
-            pagefind.triggerSearch(searchString);
-        }
-
-        const searchInput = document.querySelector('.pagefind-ui__search-input');
-            if (searchInput) {
-            searchInput.addEventListener('input', (e) => {
-                const query = e.target.value.trim();
-                updateUrlQuery(query);
-            });
-        }
-
-        const observer = new MutationObserver((mutations) => {
-            mutations.forEach((mutation) => {
-                if (mutation.addedNodes.length) {
-                    document.querySelectorAll('.pagefind-ui__result-link').forEach(link => {
-                        const url = new URL(link.href);
-                        if (url.pathname.includes('.html')) {
-                            url.pathname = url.pathname.replace('.html', '');
-                            link.href = url.toString();
-                        }
-                    });
-                }
-            });
-        });
-
-        const searchResults = document.querySelector('#search');
-        observer.observe(searchResults, {
-            childList: true,
-            subtree: true
-        });
-    });
-</script>
+<script src="/assets/scripts/search.js"></script>
