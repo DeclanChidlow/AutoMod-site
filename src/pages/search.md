@@ -20,4 +20,4 @@ stylesheet: "pages/search.css"
 </form>
 </noscript>
 
-<script src="/assets/scripts/search.js"></script>
+<script data-cfasync="false" src="/assets/scripts/search.js"></script>
