@@ -28,6 +28,7 @@
 					<li><a href="/docs/commands/moderation/unban">Unban</a></li>
 					<li><a href="/docs/commands/moderation/kick">Kick</a></li>
 					<li><a href="/docs/commands/moderation/nick">Nick</a></li>
+					<li><a href="/docs/commands/moderation/role">Role</a></li>
 					<li><a href="/docs/commands/moderation/purge">Purge</a></li>
 					<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
 					<li><a href="/docs/commands/moderation/warn">Warn</a></li>

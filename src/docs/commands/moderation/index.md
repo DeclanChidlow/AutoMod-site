@@ -11,6 +11,7 @@ Moderation commands exist to help in enforcing server rules.
 - [Unban](/docs/commands/moderation/unban)
 - [Kick](/docs/commands/moderation/kick)
 - [Nick](/docs/commands/moderation/nick)
+- [Role](/docs/commands/moderation/role)
 - [Purge](/docs/commands/moderation/purge)
 - [Timeout](/docs/commands/moderation/timeout)
 - [Warn](/docs/commands/moderation/warn)
