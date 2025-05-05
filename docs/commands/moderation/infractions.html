@@ -74,10 +74,14 @@
 		<h1>Infractions</h1>
 	
 		<div>
-			<p>Shows a user&#8217;s infractions. Using the command without specifying a user will return a list of the users with the most infractions in the current server.</p>
-			<p>Infractions are added to a user when they are <a href="/docs/commands/moderation/ban">banned</a>, <a href="/docs/commands/moderation/kick">kicked</a>, or <a href="/docs/commands/moderation/warn">warned</a>.</p>
-			<p>Usage: <code>/infractions [user]</code></p>
+			<p>Allows viewing and removing infractions. Infractions are applied to users when they are <a href="/docs/commands/moderation/ban">banned</a>, <a href="/docs/commands/moderation/kick">kicked</a>, or <a href="/docs/commands/moderation/warn">warned</a>.</p>
 			<p>Aliases: <code>warns</code>, <code>warnings</code></p>
+			<h2 id="view">View</h2>
+			<p>If a user is specified, then only that user&#8217;s infractions will be displayed. If a user isn&#8217;t specified, then a list of the users with the most infractions in the current server will be returned.</p>
+			<p>Usage: <code>/infractions [user]</code></p>
+			<h2 id="remove">Remove</h2>
+			<p>You can remove an infraction by specifying the ID. You can get the ID of the infraction by viewing it as detailed above.</p>
+			<p>Usage: <code>/infractions rm &lt;infraction ID&gt;</code></p>
 		</div>
 	</section>
 	
@@ -98,6 +102,7 @@
 					<li><a href="/docs/commands/moderation/unban">Unban</a></li>
 					<li><a href="/docs/commands/moderation/kick">Kick</a></li>
 					<li><a href="/docs/commands/moderation/nick">Nick</a></li>
+					<li><a href="/docs/commands/moderation/role">Role</a></li>
 					<li><a href="/docs/commands/moderation/purge">Purge</a></li>
 					<li><a href="/docs/commands/moderation/timeout">Timeout</a></li>
 					<li><a href="/docs/commands/moderation/warn">Warn</a></li>
