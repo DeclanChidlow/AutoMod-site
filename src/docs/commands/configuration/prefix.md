@@ -2,6 +2,7 @@
 title: Prefix
 description: Customize AutoMod's command prefix for your Revolt server. Set unique prefixes to avoid conflicts with other bots.
 og_description: AutoMod's prefix command usage documentation.
+canonical: /docs/commands/configuration/prefix
 ---
 
 Manage AutoMod's prefix. The default prefix is `/`. This is useful if you already have a bot in your server bound to the default prefix.

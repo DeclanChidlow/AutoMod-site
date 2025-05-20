@@ -2,6 +2,7 @@
 title: Whitelist
 description: Manage AutoMod's whitelist to permit users and/or roles to bypass AutoMod's moderation rules in your Revolt server.
 og_description: AutoMod's whitelist command usage documentation.
+canonical: /docs/commands/configuration/whitelist
 ---
 
 Permit users or roles to bypass AutoMod's moderation rules.

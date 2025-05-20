@@ -2,6 +2,7 @@
 title: Infractions
 description: View and manage user infractions in your Revolt server with AutoMod. Track warnings, timeouts, and bans for comprehensive moderation.
 og_description: AutoMod's infraction command usage documentation.
+canonical: /docs/commands/moderation/infractions
 ---
 
 Allows viewing and removing infractions. Infractions are applied to users when they are [banned](/docs/commands/moderation/ban), [kicked](/docs/commands/moderation/kick), or [warned](/docs/commands/moderation/warn).

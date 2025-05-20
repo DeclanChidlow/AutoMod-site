@@ -31,6 +31,11 @@
 		<meta property="og:image:height" content="495">
 		<meta property="og:image:alt" content="The AutoMod logo, featuring a shield with a strike in it and the text 'AutoMod' on a background of repeating icons in a rainbow gradient.">
 
+		${ page/canonical !== undefined ? `
+			<link rel="canonical" href="https://automod.vale.rocks${ page/canonical }">
+			<meta property="og:url" content="https://automod.vale.rocks${ page/canonical }">
+		` : '' }
+
 		<meta property="og:site_name" content="AutoMod">
 		<meta property="og:locale" content="en_AU">
 		<meta property="og:site" content="AutoMod">

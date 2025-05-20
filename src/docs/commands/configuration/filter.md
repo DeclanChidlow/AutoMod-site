@@ -2,6 +2,7 @@
 title: Filter
 description: Set up content filtering in your Revolt server with AutoMod. Block inappropriate content, spam, and unwanted messages automatically.
 og_description: AutoMod's filter command usage documentation.
+canonical: /docs/commands/configuration/filter
 ---
 
 Allows for messages to be checked against a word list and then action to be taken based on infractions.

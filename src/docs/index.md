@@ -2,6 +2,7 @@
 title: Documentation
 description: Documentation for AutoMod. A powerful moderation bot for Revolt chat. Features automatic content filtering, spam protection, and comprehensive moderation tools. Easy to set up and configure.
 og_description: AutoMod's usage documentation.
+canonical: /docs
 ---
 
 Welcome to AutoMod's documentation! If you're looking for help using AutoMod, you're in the right place!

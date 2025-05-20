@@ -2,6 +2,7 @@
 title: Commands
 description: Complete list of AutoMod commands for Revolt chat moderation. Access moderation, configuration, owner, and utility commands to manage your server effectively.
 og_description: AutoMod's command usage documentation.
+canonical: /docs/commands
 ---
 
 These are the commands that AutoMod accepts. A command is triggered by posting a message containing a prefix (by default `/`) followed by the command's name in a location AutoMod can access.

@@ -3,6 +3,7 @@ title: AutoMod
 description: AutoMod is the leading moderation bot for Revolt chat, designed to keep your server safe and well-managed with ease. Instantly ban, kick, warn, or timeout users with agile moderation actions. Proactively filter unwanted words or phrases with configurable strictness, and maintain control with comprehensive logging of messages and mod actions. Need information on users, channels, or servers? AutoMod’s utilities have you covered. Backed by detailed documentation and trusted by thousands of servers, AutoMod is the must-have bot for seamless server management.
 og_description: Revolt's premier moderation bot.
 stylesheet: "pages/index.css"
+canonical: ""
 ---
 
 <section class="hero">

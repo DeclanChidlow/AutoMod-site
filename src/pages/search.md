@@ -3,6 +3,7 @@ title: Search
 description: Search the AutoMod website and all of the documentation for details on usage.
 og_description: Search the AutoMod docs.
 stylesheet: "pages/search.css"
+canonical: /search
 ---
 
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">

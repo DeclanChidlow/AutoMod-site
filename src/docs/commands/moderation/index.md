@@ -2,6 +2,7 @@
 title: Moderation
 description: AutoMod moderation commands for Revolt. Ban, kick, timeout, warn users, manage avatars, and track infractions. Essential tools for server moderators.
 og_description: AutoMod's moderation command category documentation.
+canonical: /docs/commands/moderation
 ---
 
 Moderation commands exist to help in enforcing server rules.

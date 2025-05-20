@@ -2,6 +2,7 @@
 title: Setup
 description: Learn how to setup AutoMod for your Revolt server. Step-by-step guide for setting up the moderation bot to protect your community.
 og_description: AutoMod's setup documentation.
+canonical: /docs/setup
 ---
 
 AutoMod is a pretty easy bot to get setup and ready to help moderate your server.
