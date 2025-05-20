@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://automod.vale.rocks/404.html</loc>
+    <loc>https://automod.vale.rocks/404</loc>
   </url>
   <url>
     <loc>https://automod.vale.rocks/</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/search.html</loc>
+    <loc>https://automod.vale.rocks/search</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/</loc>
+    <loc>https://automod.vale.rocks/docs</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/self-hosting.html</loc>
+    <loc>https://automod.vale.rocks/docs/self-hosting</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/setup.html</loc>
+    <loc>https://automod.vale.rocks/docs/setup</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/</loc>
+    <loc>https://automod.vale.rocks/docs/commands</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/configuration/filter.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/configuration/filter</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/configuration/</loc>
+    <loc>https://automod.vale.rocks/docs/commands/configuration</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/configuration/logs.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/configuration/logs</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/configuration/prefix.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/configuration/prefix</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/configuration/spam.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/configuration/spam</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/configuration/whitelist.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/configuration/whitelist</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/help.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/help</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/</loc>
+    <loc>https://automod.vale.rocks/docs/commands/miscellaneous</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/info.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/info</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/ping.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/ping</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/support.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/support</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/test.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/test</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/web.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/miscellaneous/web</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/avatar.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/avatar</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/ban.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/ban</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/infractions.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/infractions</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/kick.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/kick</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/nick.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/nick</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/purge.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/purge</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/role.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/role</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/timeout.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/timeout</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/unban.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/unban</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/moderation/warn.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/moderation/warn</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/owner/</loc>
+    <loc>https://automod.vale.rocks/docs/commands/owner</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/owner/override.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/owner/override</loc>
   </url>
   <url>
-    <loc>https://automod.vale.rocks/docs/commands/owner/stats.html</loc>
+    <loc>https://automod.vale.rocks/docs/commands/owner/stats</loc>
   </url>
 </urlset>
