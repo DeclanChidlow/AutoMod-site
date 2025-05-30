@@ -61,13 +61,13 @@ Adds a word to the filter list. You can alter how strictly it'll be filtered by 
 
 If no strictness is selected while adding a word, it'll default to hard.
 
-Usage: `/filter add [strictness] <word>`
+Usage: `/filter add [strictness] <word1, word2, ...>`
 
 ## Remove
 
 Removes a word from the filter list.
 
-Usage: `/filter remove <word>`
+Usage: `/filter remove <word1, word2, ...>`
 
 ## List
 
