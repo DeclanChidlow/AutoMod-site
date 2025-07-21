@@ -33,7 +33,7 @@ canonical: ""
     <h2>Useful Utilities</h2>
     <p>Want to get information about a user, channel, server, or message? AutoMod has you covered for that and just about anything else you can think of.</p>
 </div>
-<img src="/assets/images/utilities_example.avif" alt="The user exceutes the command `/info` and AutoMod returns the UUIDs of the server, server context, channel, and user.">
+<img src="/assets/images/utilities_example.avif" alt="The user exceutes the command `/info` and AutoMod returns the ULIDs of the server, server context, channel, and user.">
 </div>
 
 <div class="feature-card filtering">
@@ -65,11 +65,11 @@ canonical: ""
 <div class="stats">
 
 Used in  
-**5,000+**  
+**5,500+**  
 servers
 
 Servicing  
-**135,000+**  
+**140,000+**  
 users
 
 </div>
