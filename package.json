@@ -2,12 +2,12 @@
 	"name": "automod-site",
 	"type": "module",
 	"dependencies": {
-		"@weborigami/origami": "^0.3.1",
+		"@weborigami/origami": "^0.3.3",
 		"@weborigami/pagefind": "^0.0.5",
-		"marked": "^15.0.11",
+		"marked": "^16.1.1",
 		"marked-alert": "^2.1.2",
-		"marked-gfm-heading-id": "^4.1.1",
-		"marked-smartypants": "^1.1.9"
+		"marked-gfm-heading-id": "^4.1.2",
+		"marked-smartypants": "^1.1.10"
 	},
 	"scripts": {
 		"dev": "ori serve watch src, =debug src/site.ori",
