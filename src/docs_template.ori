@@ -1,5 +1,7 @@
 (doc) => main_template.ori({
 	title: doc/title
+	description: doc/description
+	og_description: doc/og_description
 	stylesheet: "pages/docs.css"
 
 	@text: indent`

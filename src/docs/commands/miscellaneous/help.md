@@ -1,5 +1,6 @@
 ---
 title: Help
+description: Get in-chat assistance with using AutoMod's functionality for your Revolt server.
 og_description: AutoMod's help command usage documentation.
 canonical: /docs/commands/miscellaneous/help
 ---
