@@ -12,6 +12,8 @@ This blog will provide an opportunity to publish notes, updates, and reflections
 
 You can expect all sorts of stuff here. It'll serve as a changelog (a changeblog, if you will) detailing both new features and alterations to existing ones, as well as a place to document development miscellany such as engineering challenges and interesting observations.
 
+One of the goals of this blog is to make any technical posts accessible for non-technical folks. That isn't to say that technical posts will be lessened to the lowest common denominator, just that, where possible, they'll be written in such a way that everyone can benefit from them -- not just the nerds.
+
 While posts will be polished, they'll also be a tad informal and honest. The goal isn't generic PR speak but instead genuine and interesting updates that you'll hopefully be able to take something away from. Transparency is the goal.
 
 Posts will vary in both length and frequency, with new ones being released only when there is something to say -- no filler here!

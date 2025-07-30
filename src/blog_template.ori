@@ -10,8 +10,8 @@
 	template_image: "blog"
 
 @text:
-`<article class="h-entry">
-	<header data-pagefind-ignore>
+`<article class="h-entry" data-pagefind-filter="Content Type:Blog">>
+	<header>
 		<div>
 			<h1 class="p-name">${ blog/title }</h1>
 			<p>Written by ${ blog/author }</p>
@@ -24,7 +24,7 @@
 		</div>
 	</header>
 
-	<div class="readable e-content">
+	<div class="readable e-content" data-pagefind-body>
 		${ blog/@text }
 	</div>
 

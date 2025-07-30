@@ -5,10 +5,10 @@
 	stylesheet: "pages/docs.css"
 
 	@text: indent`
-	<section data-pagefind-body>
+	<section data-pagefind-filter="Content Type:Documentation">
 		<h1>${ doc/title }</h1>
 
-		<div>
+		<div data-pagefind-body>
 			${ doc/@text }
 		</div>
 	</section>

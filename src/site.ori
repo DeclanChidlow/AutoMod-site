@@ -24,5 +24,5 @@
 		feed.xml = rss(syndication.ori(blog_data.ori))
 	}
 
-	pagefind = once(=package:@weborigami/pagefind({ docs }))
+	pagefind = once(=package:@weborigami/pagefind({ docs, blog }))
 }
