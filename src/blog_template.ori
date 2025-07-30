@@ -10,7 +10,7 @@
 	template_image: "blog"
 
 @text:
-`<article class="h-entry" data-pagefind-filter="Content Type:Blog">>
+`<article class="h-entry" data-pagefind-filter="Content Type:Blog">
 	<header>
 		<div>
 			<h1 class="p-name">${ blog/title }</h1>
