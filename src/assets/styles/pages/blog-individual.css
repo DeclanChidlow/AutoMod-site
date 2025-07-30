@@ -54,7 +54,7 @@ article {
 			margin-inline: auto;
 
 			& > * {
-				filter: drop-shadow(0 0 2rem light-dark(var(--white), var(--grey)));
+				filter: drop-shadow(0 0 1.5rem light-dark(var(--white), var(--grey)));
 			}
 		}
 

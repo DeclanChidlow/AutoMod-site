@@ -1,13 +1,20 @@
 /* Fonts preloaded in head */
+/* https://clagnut.com/blog/2433 */
 
 @font-face {
 	font-family: "Roboto";
-	src: url("/assets/typefaces/Roboto/Roboto-VariableFont_wdth,wght.woff2");
+	src: url("/assets/typefaces/Roboto.woff2");
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+	font-display: fallback;
 }
 
 @font-face {
 	font-family: "Fira Code";
-	src: url("/assets/typefaces/Fira_Code/FiraCode-VariableFont_wght.woff2");
+	src: url("/assets/typefaces/FiraCode.woff2");
+	font-weight: 300 700;
+	font-display: fallback;
+	size-adjust: 90%;
 }
 
 @font-face {
