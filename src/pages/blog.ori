@@ -1,0 +1,24 @@
+(blogs_data) => main_template.ori({
+	title: "Blog"
+	description: "Updates, changes, product launches, and assorted musings related to everything under the AutoMod umbrella."
+	og_description: "The latest and greatest in AutoMod web logging."
+	stylesheet: "pages/blog.css"
+	canonical: "/blogs"
+	template_image: "blog"
+
+@text: 
+`<div class="readable">
+	<h1 data-pagefind-filter="Content Type:Page">Blog</h1>
+	<p>If you're looking to learn about the latest in the world of AutoMod, you're in the right place.</p> 
+
+	<div data-pagefind-ignore="all">
+		<div id="blogs">
+			${ map(blogs_data,
+			(blog, key) =>
+			`<a class="blog" href="/blog/${ basename(key) }">
+				<h2>${ blog/title }</h2>
+				<time datetime="${ blog/pub_time }" title="Date of first publication.">${ functions/pretty-date.js(blog/pub_time) }</time>
+			</a>`)}
+		</div>
+	</div>
+</div>`})

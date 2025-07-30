@@ -1,0 +1,77 @@
+#navbar {
+	background: light-dark(oklch(from var(--white) l c h / 0.5), oklch(from var(--black) l c h / 0.3));
+	animation: navbar-switch linear forwards;
+	animation-timeline: scroll();
+	animation-range: 0 20rem;
+
+	border-radius: 0.5rem;
+	padding-block-start: 1rem;
+	padding-inline: 1.5rem;
+	margin-block-start: 0.5rem;
+	margin-inline: 1.5rem;
+
+	@media (max-width: 45rem) {
+		padding-inline: 0.5rem;
+		margin-inline: 0.5rem;
+	}
+}
+
+@keyframes navbar-switch {
+	to {
+		background: inherit;
+		border-radius: 0;
+		padding-block-start: 1.5rem;
+		padding-block-end: 1rem;
+		padding-inline: 3rem;
+		margin: 0;
+	}
+}
+
+article {
+	header {
+		margin-block-start: -10rem;
+		margin-inline: -3rem;
+		padding-block-start: 19rem;
+		padding-block-end: 8rem;
+		padding-inline: 5rem;
+		font-variant-numeric: lining-nums;
+		font-variant-caps: titling-caps;
+		background-image: radial-gradient(at 19% 13%, hsla(1, 100%, 69%, 1) 0px, transparent 50%), radial-gradient(at 56% 7%, hsla(34, 100%, 62%, 1) 0px, transparent 50%),
+			radial-gradient(at 18% 47%, hsla(60, 96%, 79%, 1) 0px, transparent 50%), radial-gradient(at 80% 28%, hsla(118, 52%, 74%, 1) 0px, transparent 50%),
+			radial-gradient(at 29% 58%, hsla(196, 32%, 71%, 1) 0px, transparent 50%), radial-gradient(at 71% 54%, hsla(307, 33%, 70%, 1) 0px, transparent 50%);
+
+		@media (max-width: 45rem) {
+			margin-inline: -0.8rem;
+			padding-inline: 0.8rem;
+		}
+
+		h1 {
+			margin-block-end: 0.5rem;
+		}
+
+		div {
+			max-width: 90ch;
+			margin-inline: auto;
+
+			& > * {
+				filter: drop-shadow(0 0 2rem light-dark(var(--white), var(--grey)));
+			}
+		}
+
+		ul {
+			margin-inline-start: 0;
+
+			li {
+				display: inline;
+			}
+		}
+	}
+
+	.readable {
+		margin-inline: auto;
+	}
+
+	.giscus {
+		margin-block-start: 8rem;
+	}
+}

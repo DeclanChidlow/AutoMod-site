@@ -17,5 +17,12 @@
 		}
 	}
 
+	blog.html = pages/blog.ori(blog_data.ori)
+	blog = {
+		...map(blog_data.ori, blog_template.ori)
+		feed.json = json(syndication.ori(blog_data.ori))
+		feed.xml = rss(syndication.ori(blog_data.ori))
+	}
+
 	pagefind = once(=package:@weborigami/pagefind({ docs }))
 }

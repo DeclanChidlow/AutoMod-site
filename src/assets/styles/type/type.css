@@ -63,13 +63,30 @@ h6 {
 	line-height: 0.8rem;
 }
 
-code {
-	font-family: "Fira Code", monospace;
-	border: 1px solid light-dark(var(--grey), var(--blue));
-	border-radius: 0.25rem;
-	background: light-dark(oklch(from var(--grey) l c h / 0.1), oklch(from var(--blue) l c h / 0.2));
-	padding: 0 0.2rem;
-	font-size: 0.9rem;
+.readable,
+blockquote {
+	max-width: 80ch;
+	text-wrap: pretty;
+
+	* + h2,
+	* + h3,
+	* + h4,
+	* + h5,
+	* + h6 {
+		margin-block-start: 2rem;
+	}
+
+	* + hr {
+		margin-block: 2rem;
+	}
+
+	> * + * {
+		margin-block-start: 1rem;
+	}
+}
+
+.markdown-alert > * + * {
+	margin-block-start: 0.5rem;
 }
 
 .markdown-alert {
@@ -127,6 +144,15 @@ code {
 		color: oklch(from var(--red) l calc(c * 2) h / 1);
 		fill: oklch(from var(--red) l calc(c * 2) h / 1);
 	}
+}
+
+code {
+	font-family: "Fira Code", monospace;
+	border: 1px solid light-dark(var(--grey), var(--blue));
+	border-radius: 0.25rem;
+	background: light-dark(oklch(from var(--grey) l c h / 0.1), oklch(from var(--blue) l c h / 0.2));
+	padding: 0 0.2rem;
+	font-size: 0.9rem;
 }
 
 ul,

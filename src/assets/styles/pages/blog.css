@@ -1,0 +1,20 @@
+.readable {
+	margin-inline: auto;
+	margin-block-start: 2rem;
+}
+
+#blogs {
+	display: flex;
+	margin-block-start: 2rem;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.blog {
+	display: block;
+	padding: 1rem 2rem;
+	background: light-dark(var(--blue), var(--grey));
+	text-decoration: none;
+	width: 100%;
+	border-radius: 1rem;
+}

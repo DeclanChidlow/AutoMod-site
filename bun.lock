@@ -8,6 +8,7 @@
         "@weborigami/pagefind": "^0.0.5",
         "marked": "^16.1.1",
         "marked-alert": "^2.1.2",
+        "marked-base-url": "^1.1.7",
         "marked-gfm-heading-id": "^4.1.2",
         "marked-smartypants": "^1.1.10",
       },
@@ -145,6 +146,8 @@
     "marked": ["marked@16.1.1", "", { "bin": { "marked": "bin/marked.js" } }, "sha512-ij/2lXfCRT71L6u0M29tJPhP0bM5shLL3u5BePhFwPELj2blMJ6GDtD7PfJhRLhJ/c2UwrK17ySVcDzy2YHjHQ=="],
 
     "marked-alert": ["marked-alert@2.1.2", "", { "peerDependencies": { "marked": ">=7.0.0" } }, "sha512-EFNRZ08d8L/iEIPLTlQMDjvwIsj03gxWCczYTht6DCiHJIZhMk4NK5gtPY9UqAYb09eV5VGT+jD4lp396E0I+w=="],
+
+    "marked-base-url": ["marked-base-url@1.1.7", "", { "peerDependencies": { "marked": ">= 4 < 17" } }, "sha512-CJOfpG2/XOEp8UuI5H0tbELxuS1v8Ud705jamEIpWBQDdkda1i+LrafxLn41rlxhGEeJqo27b/hBFVYHWOYccw=="],
 
     "marked-gfm-heading-id": ["marked-gfm-heading-id@4.1.2", "", { "dependencies": { "github-slugger": "^2.0.0" }, "peerDependencies": { "marked": ">=13 <17" } }, "sha512-EQ1WiEGHJh0C8viU+hbXbhHyWTDgEia2i96fiSemm2wdYER6YBw/9QI5TB6YFTqFfmMOxBFXPcPJtlgD0fVV2w=="],
 

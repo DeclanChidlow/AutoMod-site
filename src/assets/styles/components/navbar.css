@@ -1,8 +1,9 @@
 #navbar {
 	position: fixed;
 	inset: 0 0 auto 0;
-	height: 5rem;
-	padding: 0 3rem;
+	padding-block-start: 1.5rem;
+	padding-block-end: 1rem;
+	padding-inline: 3rem;
 	background: light-dark(var(--white), var(--black));
 	z-index: 1000;
 	transition: 0.5s;
@@ -32,7 +33,7 @@
 		ul {
 			display: flex;
 			gap: 1rem;
-			font-weight: 700;
+			font-weight: 500;
 		}
 
 		ul,
@@ -59,7 +60,7 @@
 		padding: 0.5rem;
 		margin: 1rem;
 		background: light-dark(var(--white), var(--grey));
-		transform: translateY(calc(-100% - 1rem));
+		transform: translateY(calc(-100% - 1.5rem));
 		transition: transform 0.1s;
 		border-radius: 0.5rem;
 
@@ -69,7 +70,6 @@
 	}
 
 	@media (max-width: 45rem) {
-		height: 4rem;
-		padding: 0 2rem;
+		padding-inline: 1rem;
 	}
 }

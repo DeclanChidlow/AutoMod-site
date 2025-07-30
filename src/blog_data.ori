@@ -1,0 +1,12 @@
+blogs
+→ =map(_, (blog, fileName, @text) => {
+	...blog
+	type: "blog"
+	file_name: basename(fileName)
+})
+→ =sort(_, (blog) => blog/pub_time)
+→ =map(_, {
+	extension: ".md->.html"
+	value: (blog) => functions/parse-markdown.js(blog)
+})
+→ reverse
