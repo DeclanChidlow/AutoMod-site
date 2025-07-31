@@ -7,7 +7,7 @@
 	author: blog/author
 	article: true
 	stylesheet: "pages/blog-individual.css"
-	canonical: `/blogs/${ blog/file_name }`
+	canonical: `/blog/${ blog/file_name }`
 	template_image: "blog"
 
 @text:
