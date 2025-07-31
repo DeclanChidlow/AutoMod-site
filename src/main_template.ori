@@ -90,7 +90,6 @@
 				<ul>
 					<li><a href="/docs">Documentation</a></li>
 					<li><a href="/blog">Blog</a></li>
-					<li><button id="palette-switch" class="icons">routine</button></li>
 					<li><a href="/search" class="icons">search</a></li>
 				</ul>
 			</nav>
@@ -123,7 +122,6 @@
 			</ul>
 		</nav>
 	</footer>
-	<script src="/assets/scripts/light-dark.js"></script>
     </body>
   </html>
 `
