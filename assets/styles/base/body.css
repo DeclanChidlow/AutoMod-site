@@ -26,10 +26,17 @@ html {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	margin: 5rem 3rem;
 	color: light-dark(var(--black), var(--white));
 	background: light-dark(var(--white), var(--black));
 	transition: 0.5s;
+}
+
+main {
+	display: grid;
+	flex-grow: 1;
 }
 
 @view-transition {

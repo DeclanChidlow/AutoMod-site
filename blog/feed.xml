@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AutoMod Blog</title>
+    <description>Posts regarding anything and everything under the AutoMod umbrella.</description>
+    <link>https://automod.vale.rocks/blog</link>
+    <atom:link href="https://automod.vale.rocks/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <pubDate>Thu, 31 Jul 2025 01:43:00 GMT</pubDate>
+      <title>Introducing The AutoMod Blog</title>
+      <link>https://automod.vale.rocks/blog/introducing-the-automod-blog</link>
+      <guid>https://automod.vale.rocks/blog/introducing-the-automod-blog</guid>
+      <description>An introduction to the new AutoMod blog and a description of its purpose as a central source for updates, changes, product launches, and assorted AutoMod-related musings.</description>
+      <content:encoded><![CDATA[<p>Welcome to the first instalment of the AutoMod blog &#8211; or, if you will, AutoBlog. You won&#8217;t? Well, that&#8217;s too bad.</p>
+<p>This blog will provide an opportunity to publish notes, updates, and reflections on the ongoing development of AutoMod. The intent is to allow communities to remain up-to-date with all things under the AutoMod umbrella at their own pace and in the form they choose.</p>
+<p>You can expect all sorts of stuff here. It&#8217;ll serve as a changelog &#8211; a changeblog, if you might so humour me &#8211; detailing both new features and alterations to existing ones, as well as a place to document development miscellany such as engineering challenges and interesting observations.</p>
+<p>Previously, musings like this have been announcements or discussions in the AutoMod Revolt server. This isn&#8217;t necessarily a bad thing, but does come with some disadvantages that this blog alleviates.</p>
+<p>Revolt messages are limited in character count, difficult to syndicate, and locked behind a Revolt login. They&#8217;re also inaccessible to users who are banned from the AutoMod Revolt server, which is inconvenient for those who are still allowed to use the bot but can&#8217;t access the server.</p>
+<p>One of the goals of this blog is to make any technical posts accessible for non-technical folks. That isn&#8217;t to say that technical posts will be lessened to the lowest common denominator, just that, where possible, they&#8217;ll be written in such a way that everyone can benefit from them &#8211; not just the nerds.</p>
+<p>While posts will be polished, they&#8217;ll also be a tad informal and honest. The goal isn&#8217;t generic PR speak but instead genuine and interesting updates that you&#8217;ll hopefully be able to take something away from. Transparency is the intent.</p>
+<p>Posts will vary in both length and frequency, with new ones being released only when there is something to say &#8211; no filler here!</p>
+<p>If you&#8217;d like to follow this blog, the site has syndication feeds:</p>
+<ul>
+<li>RSS feed: <a href="https://automod.vale.rocks/blog/feed.xml">https://automod.vale.rocks/blog/feed.xml</a></li>
+<li>JSON feed: <a href="https://automod.vale.rocks/blog/feed.json">https://automod.vale.rocks/blog/feed.json</a></li>
+</ul>
+<p>If there&#8217;s something you&#8217;d like to see covered, get in touch through <a href="https://rvlt.gg/automod">the AutoMod server</a>, <a href="https://vale.rocks/contact">my personal contact page</a>, or the comments below. Looking forward to hearing from you!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
