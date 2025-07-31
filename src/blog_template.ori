@@ -4,6 +4,7 @@
 	og_description: blog/og_description
 	pub_time: blog/pub_time
 	mod_time: blog/mod_time
+	author: blog/author
 	article: true
 	stylesheet: "pages/blog-individual.css"
 	canonical: `/blogs/${ blog/file_name }`
