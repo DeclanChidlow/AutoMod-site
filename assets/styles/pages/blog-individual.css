@@ -13,6 +13,7 @@
 	@media (max-width: 45rem) {
 		padding-inline: 0.5rem;
 		margin-inline: 0.5rem;
+		--navbar-padding-inline: 1rem;
 	}
 }
 
@@ -22,8 +23,8 @@
 		border-radius: 0;
 		padding-block-start: 1.5rem;
 		padding-block-end: 1rem;
-		padding-inline: 3rem;
 		margin: 0;
+		padding-inline: var(--navbar-padding-inline, 3rem);
 	}
 }
 
