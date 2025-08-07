@@ -1,5 +1,0 @@
-docs/commands/owner
-→ =map(_, {
-	extension: ".md->.html"
-	value: functions/parse-markdown.js
-})

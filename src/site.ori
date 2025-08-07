@@ -3,28 +3,15 @@
 	CNAME
 	opensearch.xml
 
-	(markdown_pages): {
-		index: pages/index.md
-		search: pages/search.md
-		404: pages/404.md
-	}
-
-	...map(markdown_pages, {
-		extension: "→.html"
+	...map(pages, {
+		extension: ".md→.html"
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
-	docs = {
-		...map(data.ori, docs_template.ori)
-		
-		commands = {
-			...map(commands_data.ori, docs_template.ori)
-			configuration = map(configuration_commands_data.ori, docs_template.ori)
-			miscellaneous = map(miscellaneous_commands_data.ori, docs_template.ori)
-			moderation = map(moderation_commands_data.ori, docs_template.ori)
-			owner = map(owner_commands_data.ori, docs_template.ori)
-		}
-	}
+	docs = deepMap(docs, {
+		extension: ".md→.html"
+		value: (path) => docs_template.ori(functions/parse-markdown.js(path))
+	})
 
 	blog.html = pages/blog.ori(blog_data.ori)
 	blog = {
