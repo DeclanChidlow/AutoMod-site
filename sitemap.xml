@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://automod.vale.rocks/404</loc>
+  </url>
+  <url>
     <loc>https://automod.vale.rocks/</loc>
   </url>
   <url>
     <loc>https://automod.vale.rocks/search</loc>
-  </url>
-  <url>
-    <loc>https://automod.vale.rocks/404</loc>
-  </url>
-  <url>
-    <loc>https://automod.vale.rocks/docs</loc>
-  </url>
-  <url>
-    <loc>https://automod.vale.rocks/docs/self-hosting</loc>
-  </url>
-  <url>
-    <loc>https://automod.vale.rocks/docs/setup</loc>
-  </url>
-  <url>
-    <loc>https://automod.vale.rocks/docs/commands</loc>
   </url>
   <url>
     <loc>https://automod.vale.rocks/docs/commands/configuration/filter</loc>
@@ -38,6 +26,9 @@
   </url>
   <url>
     <loc>https://automod.vale.rocks/docs/commands/configuration/whitelist</loc>
+  </url>
+  <url>
+    <loc>https://automod.vale.rocks/docs/commands</loc>
   </url>
   <url>
     <loc>https://automod.vale.rocks/docs/commands/miscellaneous/help</loc>
@@ -101,6 +92,15 @@
   </url>
   <url>
     <loc>https://automod.vale.rocks/docs/commands/owner/stats</loc>
+  </url>
+  <url>
+    <loc>https://automod.vale.rocks/docs</loc>
+  </url>
+  <url>
+    <loc>https://automod.vale.rocks/docs/self-hosting</loc>
+  </url>
+  <url>
+    <loc>https://automod.vale.rocks/docs/setup</loc>
   </url>
   <url>
     <loc>https://automod.vale.rocks/blog</loc>
