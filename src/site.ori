@@ -3,7 +3,16 @@
 	CNAME
 	opensearch.xml
 
-	...map(pages, mdHtml) → =map(_, main_template.ori)
+	(markdown_pages): {
+		index: pages/index.md
+		search: pages/search.md
+		404: pages/404.md
+	}
+
+	...map(markdown_pages, {
+		extension: "→.html"
+		value: (path) => main_template.ori(functions/parse-markdown.js(path))
+	})
 
 	docs = {
 		...map(data.ori, docs_template.ori)
