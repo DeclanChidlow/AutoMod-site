@@ -1,6 +1,6 @@
 ---
 title: Override
-description: Use AutoMod's override command to manage exceptional cases in your Revolt server. Bypass restrictions for server owners.
+description: Use AutoMod's override command to manage exceptional cases in your Stoat server. Bypass restrictions for server owners.
 og_description: AutoMod's override command usage documentation.
 canonical: /docs/commands/owner/override
 ---

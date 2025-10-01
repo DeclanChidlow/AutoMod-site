@@ -1,6 +1,6 @@
 ---
 title: Ban
-description: Effectively ban users from your Revolt server using AutoMod's ban command. Set ban duration, add reasons, and manage server security easily.
+description: Effectively ban users from your Stoat server using AutoMod's ban command. Set ban duration, add reasons, and manage server security easily.
 og_description: AutoMod's ban command usage documentation.
 canonical: /docs/commands/moderation/ban
 ---

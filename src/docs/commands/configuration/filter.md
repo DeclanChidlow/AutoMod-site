@@ -1,6 +1,6 @@
 ---
 title: Filter
-description: Set up content filtering in your Revolt server with AutoMod. Block inappropriate content, spam, and unwanted messages automatically.
+description: Set up content filtering in your Stoat server with AutoMod. Block inappropriate content, spam, and unwanted messages automatically.
 og_description: AutoMod's filter command usage documentation.
 canonical: /docs/commands/configuration/filter
 ---

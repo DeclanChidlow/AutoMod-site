@@ -1,6 +1,6 @@
 ---
 title: Web
-description: Access AutoMod's web interface for your Revolt server. Manage settings and view statistics through a user-friendly dashboard.
+description: Access AutoMod's web interface for your Stoat server. Manage settings and view statistics through a user-friendly dashboard.
 og_description: AutoMod's web command usage documentation.
 canonical: /docs/commands/miscellaneous/web
 ---

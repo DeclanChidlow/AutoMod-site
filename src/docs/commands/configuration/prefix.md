@@ -1,6 +1,6 @@
 ---
 title: Prefix
-description: Customize AutoMod's command prefix for your Revolt server. Set unique prefixes to avoid conflicts with other bots.
+description: Customize AutoMod's command prefix for your Stoat server. Set unique prefixes to avoid conflicts with other bots.
 og_description: AutoMod's prefix command usage documentation.
 canonical: /docs/commands/configuration/prefix
 ---

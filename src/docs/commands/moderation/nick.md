@@ -1,6 +1,6 @@
 ---
 title: Nick
-description: Manage user nicknames in your Revolt server with AutoMod's nick command. Control inappropriate names and maintain server professionalism.
+description: Manage user nicknames in your Stoat server with AutoMod's nick command. Control inappropriate names and maintain server professionalism.
 og_description: AutoMod's nick command usage documentation.
 canonical: /docs/commands/moderation/nick
 ---

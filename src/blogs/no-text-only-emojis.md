@@ -37,6 +37,6 @@ Thus, I'm happy to announce that with the publication of this post, the bot now 
 
 If you're interested in inspecting the bot's code, you can do so [on GitHub](https://github.com/DeclanChidlow/emoji-enforcer).
 
-If you want to get in on the emoji action, [join the server](https://rvlt.gg/Dm4F4ctA).
+If you want to get in on the emoji action, [join the server](https://stt.gg/Dm4F4ctA).
 
 Now go forth and express yourselves! 🎨🔤🚫

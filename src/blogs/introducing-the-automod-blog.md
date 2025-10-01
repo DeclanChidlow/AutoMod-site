@@ -27,4 +27,4 @@ If you'd like to follow this blog, the site has syndication feeds:
 - RSS feed: <https://automod.vale.rocks/blog/feed.xml>
 - JSON feed: <https://automod.vale.rocks/blog/feed.json>
 
-If there's something you'd like to see covered, get in touch through [the AutoMod server](https://rvlt.gg/automod), [my personal contact page](https://vale.rocks/contact), or the comments below. Looking forward to hearing from you!
+If there's something you'd like to see covered, get in touch through [the AutoMod server](https://stt.gg/automod), [my personal contact page](https://vale.rocks/contact), or the comments below. Looking forward to hearing from you!

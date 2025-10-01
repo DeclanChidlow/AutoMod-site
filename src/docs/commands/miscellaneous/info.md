@@ -1,6 +1,6 @@
 ---
 title: Info
-description: Use AutoMod to provide information about users, servers, channels and more on Revolt when given their ULID.
+description: Use AutoMod to provide information about users, servers, channels and more on Stoat when given their ULID.
 og_description: AutoMod's info command usage documentation.
 canonical: /docs/commands/miscellaneous/info
 ---

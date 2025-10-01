@@ -1,7 +1,7 @@
 ---
 title: AutoMod
-description: AutoMod is the leading moderation bot for Revolt chat, designed to keep your server safe and well-managed with ease. Instantly ban, kick, warn, or timeout users with agile moderation actions. Proactively filter unwanted words or phrases with configurable strictness, and maintain control with comprehensive logging of messages and mod actions. Need information on users, channels, or servers? AutoMod’s utilities have you covered. Backed by detailed documentation and trusted by thousands of servers, AutoMod is the must-have bot for seamless server management.
-og_description: Revolt's premier moderation bot.
+description: AutoMod is the leading moderation bot for Stoat chat, designed to keep your server safe and well-managed with ease. Instantly ban, kick, warn, or timeout users with agile moderation actions. Proactively filter unwanted words or phrases with configurable strictness, and maintain control with comprehensive logging of messages and mod actions. Need information on users, channels, or servers? AutoMod’s utilities have you covered. Backed by detailed documentation and trusted by thousands of servers, AutoMod is the must-have bot for seamless server management.
+og_description: Stoat's premier moderation bot.
 stylesheet: "pages/index.css"
 canonical: ""
 ---
@@ -10,8 +10,8 @@ canonical: ""
 
 <div>
     <h1>AutoMod</h1>
-    <p class="subtitle">Revolt's premier moderation bot</p>
-    <a href="https://app.revolt.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
+    <p class="subtitle">Stoat's premier moderation bot</p>
+    <a href="https://app.stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
 </div>
 
 <img src="/assets/hero.svg" alt="A shield with a wave moving through the centre of it. Behind it is a rainbow gradient.">

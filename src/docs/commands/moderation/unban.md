@@ -1,6 +1,6 @@
 ---
 title: Unban
-description: Remove bans and restore user access to your Revolt server with AutoMod's unban command. Simple user management for server moderators.
+description: Remove bans and restore user access to your Stoat server with AutoMod's unban command. Simple user management for server moderators.
 og_description: AutoMod's unban command usage documentation.
 canonical: /docs/commands/moderation/unban
 ---

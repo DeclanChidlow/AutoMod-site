@@ -1,6 +1,6 @@
 ---
 title: Timeout
-description: Temporarily restrict user activity in your Revolt server with AutoMod's timeout command. Set duration and manage disruptive behavior.
+description: Temporarily restrict user activity in your Stoat server with AutoMod's timeout command. Set duration and manage disruptive behavior.
 og_description: AutoMod's timeout command usage documentation.
 canonical: /docs/commands/moderation/timeout
 ---

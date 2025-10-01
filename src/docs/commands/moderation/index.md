@@ -1,6 +1,6 @@
 ---
 title: Moderation
-description: AutoMod moderation commands for Revolt. Ban, kick, timeout, warn users, manage avatars, and track infractions. Essential tools for server moderators.
+description: AutoMod moderation commands for Stoat. Ban, kick, timeout, warn users, manage avatars, and track infractions. Essential tools for server moderators.
 og_description: AutoMod's moderation command category documentation.
 canonical: /docs/commands/moderation
 ---

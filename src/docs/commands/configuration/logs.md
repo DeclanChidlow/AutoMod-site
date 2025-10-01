@@ -1,6 +1,6 @@
 ---
 title: Logs
-description: Configure AutoMod's logging system for your Revolt server. Track moderation actions, user infractions, and server events.
+description: Configure AutoMod's logging system for your Stoat server. Track moderation actions, user infractions, and server events.
 og_description: AutoMod's logs command usage documentation.
 canonical: /docs/commands/configuration/logs
 ---

@@ -1,6 +1,6 @@
 ---
 title: Kick
-description: Remove users temporarily from your Revolt server using AutoMod's kick command. Maintain server order without permanent restrictions.
+description: Remove users temporarily from your Stoat server using AutoMod's kick command. Maintain server order without permanent restrictions.
 og_description: AutoMod's kick command usage documentation.
 canonical: /docs/commands/moderation/kick
 ---

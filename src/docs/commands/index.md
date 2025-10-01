@@ -1,6 +1,6 @@
 ---
 title: Commands
-description: Complete list of AutoMod commands for Revolt chat moderation. Access moderation, configuration, owner, and utility commands to manage your server effectively.
+description: Complete list of AutoMod commands for Stoat chat moderation. Access moderation, configuration, owner, and utility commands to manage your server effectively.
 og_description: AutoMod's command usage documentation.
 canonical: /docs/commands
 ---

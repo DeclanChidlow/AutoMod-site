@@ -1,6 +1,6 @@
 ---
 title: Whitelist
-description: Manage AutoMod's whitelist to permit users and/or roles to bypass AutoMod's moderation rules in your Revolt server.
+description: Manage AutoMod's whitelist to permit users and/or roles to bypass AutoMod's moderation rules in your Stoat server.
 og_description: AutoMod's whitelist command usage documentation.
 canonical: /docs/commands/configuration/whitelist
 ---

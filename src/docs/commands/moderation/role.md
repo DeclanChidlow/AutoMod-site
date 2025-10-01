@@ -1,6 +1,6 @@
 ---
 title: Role
-description: Manage the roles of a user in your Revolt server with AutoMod's role command. Apply roles without needing to use the interface with ease.
+description: Manage the roles of a user in your Stoat server with AutoMod's role command. Apply roles without needing to use the interface with ease.
 og_description: AutoMod's role command usage documentation.
 canonical: /docs/commands/moderation/role
 ---

@@ -1,6 +1,6 @@
 ---
 title: Self-Hosting
-description: Learn how to self-host AutoMod for Revolt. Step-by-step guide for setting up and maintaining your own instance of the moderation bot.
+description: Learn how to self-host AutoMod for Stoat. Step-by-step guide for setting up and maintaining your own instance of the moderation bot.
 og_description: AutoMod's self-hosting documentation.
 canonical: /docs/self-hosting
 ---
@@ -11,7 +11,7 @@ If you are hosting your own instance, or wish to run a modified version of the b
 > Due to limited time and resources, I can _not_ offer free self-hosting support. If you'd like paid assistance, or to have AutoMod hosted on your behalf in a paid capacity, please [contact Vale](https://vale.rocks/contact).
 
 > [!IMPORTANT]
-> This is a technical guide intended for people who wish to setup their own Revolt instance.
+> This is a technical guide intended for people who wish to setup their own Stoat instance.
 >
 > It is _not_ for the average end user. If you wish to add AutoMod to your server, you can [invite it](/invite).
 
