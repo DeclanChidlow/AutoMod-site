@@ -77,7 +77,7 @@
 		<link rel="alternate" type="application/json" title="JSON feed of AutoMod blog posts." href="/blog/feed.json">
 		<link rel="search" type="application/opensearchdescription+xml" title="AutoMod Search" href="https://automod.vale.rocks/opensearch.xml">
 
-		<meta http-equiv="Content-Security-Policy" content="script-src 'wasm-unsafe-eval' 'self' https://gc.zgo.at https://giscus.app; connect-src 'self' https://automod.goatcounter.com/count; object-src 'none'; base-uri 'none'">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'wasm-unsafe-eval' 'self' https://gc.zgo.at; connect-src 'self' https://automod.goatcounter.com/count; object-src 'none'; base-uri 'none'">
 
 		<script data-goatcounter="https://automod.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 	</head>

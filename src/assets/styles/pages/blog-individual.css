@@ -71,8 +71,4 @@ article {
 	.readable {
 		margin-inline: auto;
 	}
-
-	.giscus {
-		margin-block-start: 8rem;
-	}
 }

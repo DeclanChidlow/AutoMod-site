@@ -28,25 +28,5 @@
 	<div class="readable e-content" data-pagefind-body>
 		${ blog/@text }
 	</div>
-
-	<section class="giscus readable"></section>
 </article>
-
-
-<script
-	src="https://giscus.app/client.js"
-	data-repo="DeclanChidlow/AutoMod-site"
-	data-repo-id="R_kgDON0w4gg"
-	data-category="Comments"
-	data-category-id="DIC_kwDON0w4gs4CtkqA"
-	data-mapping="og:title"
-	data-strict="1"
-	data-reactions-enabled="1"
-	data-emit-metadata="1"
-	data-input-position="top"
-	data-theme="preferred_color_scheme"
-	data-lang="en"
-	data-loading="lazy"
-	crossorigin="anonymous"
-	async></script>
 `})
