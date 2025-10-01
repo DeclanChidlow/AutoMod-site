@@ -1,12 +1,12 @@
 blogs
-→ =map(_, (blog, fileName, @text) => {
+→ (_) => Tree.map(_, (blog, fileName, _body) => {
 	...blog
 	type: "blog"
-	file_name: basename(fileName)
+	file_name: Origami.basename(fileName)
 })
-→ =sort(_, (blog) => blog/pub_time)
-→ =map(_, {
+→ (_) => Tree.sort(_, (blog) => blog.pub_time)
+→ (_) => Tree.map(_, {
 	extension: ".md->.html"
 	value: (blog) => functions/parse-markdown.js(blog)
 })
-→ reverse
+→ Tree.reverse

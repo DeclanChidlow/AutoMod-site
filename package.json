@@ -2,9 +2,9 @@
 	"name": "automod-site",
 	"type": "module",
 	"dependencies": {
-		"@weborigami/origami": "^0.3.3",
-		"@weborigami/pagefind": "^0.0.5",
-		"marked": "^16.1.1",
+		"@weborigami/origami": "^0.5.5",
+		"@weborigami/pagefind": "0.0.13",
+		"marked": "^16.3.0",
 		"marked-alert": "^2.1.2",
 		"marked-base-url": "^1.1.7",
 		"marked-gfm-heading-id": "^4.1.2",
@@ -12,7 +12,6 @@
 	},
 	"scripts": {
 		"dev": "ori serve watch src, =debug src/site.ori",
-		"build": "ori copy src/site.ori, clear files:build && bun run sitemap",
-		"sitemap": "ori sitemap src/site.ori, \"'https://automod.vale.rocks'\" > build/sitemap.xml && bun sitemap-cleanup.js build/sitemap.xml"
+		"build": "ori copy src/site.ori, clear files:build"
 	}
 }

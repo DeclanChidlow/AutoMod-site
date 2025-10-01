@@ -7,11 +7,11 @@
 	icon: "https://automod.vale.rocks/assets/favicons/AutoMod_Favicon.svg"
 	favicon: "https://automod.vale.rocks/assets/favicons/AutoMod_Favicon.svg"
 
-	items: values(map(blogs, (blog, fileName) => {
-		id: `https://automod.vale.rocks/blog/${ basename(fileName) }`
-		url: `https://automod.vale.rocks/blog/${ basename(fileName) }`
+	items: Tree.values(Tree.map(blogs, (blog, fileName) => {
+		id: `https://automod.vale.rocks/blog/${ Origami.basename(fileName) }`
+		url: `https://automod.vale.rocks/blog/${ Origami.basename(fileName) }`
 		title: blog/title
-		content_html: `${ blog/@text }`
+		content_html: `${ blog/_body }`
 		summary: blog/description
 		date_published: blog/pub_time
 		date_modified: blog/mod_time

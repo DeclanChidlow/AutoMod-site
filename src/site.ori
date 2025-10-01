@@ -1,24 +1,27 @@
 {
 	assets
-	CNAME
 	opensearch.xml
 
-	...map(pages, {
+	...Tree.map(pages, {
 		extension: ".md→.html"
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
-	docs = deepMap(docs, {
+	docs/ = Tree.deepMap(docs, {
 		extension: ".md→.html"
 		value: (path) => docs_template.ori(functions/parse-markdown.js(path))
 	})
 
 	blog.html = pages/blog.ori(blog_data.ori)
-	blog = {
-		...map(blog_data.ori, blog_template.ori)
-		feed.json = json(syndication.ori(blog_data.ori))
-		feed.xml = rss(syndication.ori(blog_data.ori))
+	blog/ = {
+		...Tree.map(blog_data.ori, blog_template.ori)
+		feed.json = Origami.json(syndication.ori(blog_data.ori))
+		feed.xml = Origami.rss(syndication.ori(blog_data.ori))
 	}
+}
 
-	pagefind = once(=package:@weborigami/pagefind({ docs, blog }))
+→ (site) => {
+    ...site
+    pagefind = Origami.once(() => package:@weborigami/pagefind(site))
+    sitemap.xml = sitemap-improver.js(Origami.sitemap(site, { base: "https://automod.vale.rocks", assumeSlashes: true }))
 }

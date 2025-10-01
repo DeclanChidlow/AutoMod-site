@@ -5,9 +5,7 @@ import { gfmHeadingId as markedGfmHeadingId } from "marked-gfm-heading-id";
 import { markedSmartypants } from "marked-smartypants";
 import markedAlert from "marked-alert";
 import { baseUrl as markedBaseUrl } from "marked-base-url";
-import documentObject from "@weborigami/origami/src/common/documentObject.js";
-import { toString } from "@weborigami/origami/src/common/utilities.js";
-import origamiHighlightDefinition from "@weborigami/origami/src/text/origamiHighlightDefinition.js";
+import { documentObject, origamiHighlightDefinition, toString } from "@weborigami/origami";
 
 highlight.registerLanguage("ori", origamiHighlightDefinition);
 
@@ -15,9 +13,7 @@ marked.use(
 	markedGfmHeadingId(),
 	markedSmartypants(),
 	{
-		gfm: true, // Use GitHub-flavored markdown.
-		// @ts-ignore
-		mangle: false,
+		gfm: true,
 	},
 	markedAlert(),
 	markedBaseUrl("https://automod.vale.rocks"),
@@ -41,7 +37,7 @@ export default async function mdHtml(input) {
 	if (isUnpackable(input)) {
 		input = await input.unpack();
 	}
-	const inputIsDocument = input["@text"] !== undefined;
+	const inputIsDocument = input["_body"] !== undefined;
 	const markdown = toString(input);
 	if (markdown === null) {
 		throw new Error("mdHtml: The provided input couldn't be treated as text.");
