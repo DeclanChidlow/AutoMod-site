@@ -37,9 +37,14 @@ article {
 		padding-inline: 5rem;
 		font-variant-numeric: lining-nums;
 		font-variant-caps: titling-caps;
-		background-image: radial-gradient(at 19% 13%, hsla(1, 100%, 69%, 1) 0px, transparent 50%), radial-gradient(at 56% 7%, hsla(34, 100%, 62%, 1) 0px, transparent 50%),
+		background-image:
+			radial-gradient(at 19% 13%, hsla(1, 100%, 69%, 1) 0px, transparent 50%), radial-gradient(at 56% 7%, hsla(34, 100%, 62%, 1) 0px, transparent 50%),
 			radial-gradient(at 18% 47%, hsla(60, 96%, 79%, 1) 0px, transparent 50%), radial-gradient(at 80% 28%, hsla(118, 52%, 74%, 1) 0px, transparent 50%),
 			radial-gradient(at 29% 58%, hsla(196, 32%, 71%, 1) 0px, transparent 50%), radial-gradient(at 71% 54%, hsla(307, 33%, 70%, 1) 0px, transparent 50%);
+
+		@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+			filter: contrast(1.3);
+		}
 
 		@media (max-width: 45rem) {
 			margin-inline: -0.8rem;
@@ -53,10 +58,8 @@ article {
 		div {
 			max-width: 90ch;
 			margin-inline: auto;
-
-			& > * {
-				filter: drop-shadow(0 0 1.5rem light-dark(var(--white), var(--grey)));
-			}
+			mix-blend-mode: difference;
+			color: #6995ff;
 		}
 
 		ul {

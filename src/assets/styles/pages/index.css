@@ -3,12 +3,20 @@
 	gap: 2rem;
 	justify-content: space-around;
 	align-items: center;
-	min-height: calc(90vh - 5rem);
+	min-height: calc(95vh - 5rem);
 
-	div p {
-		font-size: 1.5rem;
+	h1 {
+		font-size: 4rem;
 		line-height: initial;
-		margin: 1rem 0;
+	}
+
+	p {
+		padding-block-end: 3rem;
+		font-size: 1.3rem;
+	}
+
+	.button {
+		font-weight: bold;
 	}
 
 	img {
@@ -43,15 +51,22 @@ main {
 	color: var(--black);
 	display: flex;
 	align-items: center;
-	gap: 3rem;
+	gap: 4rem;
+	max-height: 32rem;
 
 	div {
 		width: 50%;
+		mix-blend-mode: difference;
 	}
 
 	img {
 		width: 50%;
 		border-radius: 1rem;
+		background: #010817;
+		color: var(--white);
+		padding: 0.75rem;
+		max-height: 100%;
+		object-fit: contain;
 	}
 
 	h2 {
@@ -62,41 +77,56 @@ main {
 		margin: 0 -0.8rem;
 		padding: 3rem 3rem;
 		flex-direction: column;
+		gap: 2rem;
 
 		div,
 		img {
-			width: auto;
+			width: 100%;
+		}
+
+		img {
+			height: 100%;
 		}
 	}
 }
 
 .actions {
+	color: #c3b2ff;
 	background-color: #ff99c2;
-	background-image: radial-gradient(at 93% 62%, hsla(136, 84%, 77%, 1) 0px, transparent 50%), radial-gradient(at 75% 8%, hsla(216, 89%, 67%, 1) 0px, transparent 50%),
+	background-image:
+		radial-gradient(at 93% 62%, hsla(136, 84%, 77%, 1) 0px, transparent 50%), radial-gradient(at 75% 8%, hsla(216, 89%, 67%, 1) 0px, transparent 50%),
 		radial-gradient(at 95% 65%, hsla(28, 71%, 71%, 1) 0px, transparent 50%), radial-gradient(at 12% 99%, hsla(192, 73%, 68%, 1) 0px, transparent 50%);
 }
 
+.utilities {
+	color: #fff0f0;
+	background-color: #ff99c0;
+	background-image:
+		radial-gradient(at 4% 97%, hsla(34, 75%, 64%, 1) 0px, transparent 50%), radial-gradient(at 6% 22%, hsla(37, 87%, 79%, 1) 0px, transparent 50%),
+		radial-gradient(at 7% 86%, hsla(50, 68%, 64%, 1) 0px, transparent 50%), radial-gradient(at 29% 81%, hsla(208, 92%, 65%, 1) 0px, transparent 50%);
+}
+
 .filtering {
+	color: #ff6b6b;
 	background-color: #ac99ff;
-	background-image: radial-gradient(at 85% 22%, hsla(223, 83%, 78%, 1) 0px, transparent 50%), radial-gradient(at 27% 43%, hsla(314, 75%, 64%, 1) 0px, transparent 50%),
+	background-image:
+		radial-gradient(at 85% 22%, hsla(223, 83%, 78%, 1) 0px, transparent 50%), radial-gradient(at 27% 43%, hsla(314, 75%, 64%, 1) 0px, transparent 50%),
 		radial-gradient(at 80% 68%, hsla(352, 97%, 71%, 1) 0px, transparent 50%), radial-gradient(at 22% 45%, hsla(71, 75%, 71%, 1) 0px, transparent 50%);
 }
 
 .logging {
+	color: #ffa2a2;
 	background-color: #fff099;
-	background-image: radial-gradient(at 15% 92%, hsla(152, 97%, 77%, 1) 0px, transparent 50%), radial-gradient(at 78% 54%, hsla(106, 82%, 70%, 1) 0px, transparent 50%),
+	background-image:
+		radial-gradient(at 15% 92%, hsla(152, 97%, 77%, 1) 0px, transparent 50%), radial-gradient(at 78% 54%, hsla(106, 82%, 70%, 1) 0px, transparent 50%),
 		radial-gradient(at 97% 8%, hsla(89, 84%, 79%, 1) 0px, transparent 50%), radial-gradient(at 84% 50%, hsla(193, 88%, 69%, 1) 0px, transparent 50%);
 }
 
-.utilities {
-	background-color: #ff99c0;
-	background-image: radial-gradient(at 4% 97%, hsla(34, 75%, 64%, 1) 0px, transparent 50%), radial-gradient(at 6% 22%, hsla(37, 87%, 79%, 1) 0px, transparent 50%),
-		radial-gradient(at 7% 86%, hsla(50, 68%, 64%, 1) 0px, transparent 50%), radial-gradient(at 29% 81%, hsla(208, 92%, 65%, 1) 0px, transparent 50%);
-}
-
 .documentation {
+	color: #e8ff44;
 	background-color: #ff999e;
-	background-image: radial-gradient(at 11% 94%, hsla(56, 85%, 63%, 1) 0px, transparent 50%), radial-gradient(at 37% 64%, hsla(79, 91%, 78%, 1) 0px, transparent 50%),
+	background-image:
+		radial-gradient(at 11% 94%, hsla(56, 85%, 63%, 1) 0px, transparent 50%), radial-gradient(at 37% 64%, hsla(79, 91%, 78%, 1) 0px, transparent 50%),
 		radial-gradient(at 87% 15%, hsla(175, 92%, 60%, 1) 0px, transparent 50%), radial-gradient(at 97% 54%, hsla(141, 75%, 62%, 1) 0px, transparent 50%);
 }
 
@@ -118,9 +148,12 @@ main {
 	}
 
 	@media (max-width: 45rem) {
-		flex-direction: column;
 		gap: 1rem;
 		margin: 3rem 0;
+	}
+
+	@media (max-width: 26rem) {
+		flex-direction: column;
 	}
 }
 
