@@ -2,14 +2,13 @@
 	assets
 	opensearch.xml
 
-	...Tree.map(pages, {
-		extension: ".md→.html"
+	...Tree.mapExtension(pages, ".md->.html", {
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
-	docs/ = Tree.deepMap(docs, {
-		extension: ".md→.html"
+	docs/ = Tree.mapExtension(docs, ".md→.html", {
 		value: (path) => docs_template.ori(functions/parse-markdown.js(path))
+		deep: true
 	})
 
 	blog.html = pages/blog.ori(blog_data.ori)

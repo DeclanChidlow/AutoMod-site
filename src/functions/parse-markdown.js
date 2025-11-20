@@ -1,11 +1,11 @@
-import { extension, isUnpackable } from "@weborigami/async-tree";
+import { extension, isUnpackable, toString } from "@weborigami/async-tree";
 import highlight from "highlight.js";
 import { marked } from "marked";
 import { gfmHeadingId as markedGfmHeadingId } from "marked-gfm-heading-id";
 import { markedSmartypants } from "marked-smartypants";
 import markedAlert from "marked-alert";
 import { baseUrl as markedBaseUrl } from "marked-base-url";
-import { documentObject, origamiHighlightDefinition, toString } from "@weborigami/origami";
+import { documentObject, origamiHighlightDefinition } from "@weborigami/origami";
 
 highlight.registerLanguage("ori", origamiHighlightDefinition);
 
@@ -38,7 +38,7 @@ export default async function mdHtml(input) {
 		input = await input.unpack();
 	}
 	const inputIsDocument = input["_body"] !== undefined;
-	const markdown = toString(input);
+	const markdown = inputIsDocument ? input._body : toString(input);
 	if (markdown === null) {
 		throw new Error("mdHtml: The provided input couldn't be treated as text.");
 	}
