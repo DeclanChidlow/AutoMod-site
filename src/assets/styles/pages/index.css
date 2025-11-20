@@ -23,6 +23,7 @@
 		max-width: 50%;
 		max-height: 20rem;
 		border-radius: 2rem;
+		background: var(--yellow);
 	}
 
 	@media (max-width: 40rem) {
