@@ -13,7 +13,7 @@ If you are hosting your own instance, or wish to run a modified version of the b
 > [!IMPORTANT]
 > This is a technical guide intended for people who wish to setup their own Stoat instance.
 >
-> It is _not_ for the average end user. If you wish to add AutoMod to your server, you can [invite it](/invite).
+> It is _not_ for the average end user. If you wish to add AutoMod to your server, you can [invite it](https://stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY).
 
 ## Prerequisites
 

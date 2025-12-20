@@ -11,7 +11,7 @@ canonical: ""
 <div>
     <h1>AutoMod</h1>
     <p class="subtitle">Stoat's premier moderation bot</p>
-    <a href="https://app.stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
+    <a href="https://stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
 </div>
 
 <img src="/assets/hero.svg" alt="A shield with a wave moving through the centre of it. Behind it is a rainbow gradient.">
@@ -69,7 +69,7 @@ Used in
 servers
 
 Servicing  
-**165,000+**  
+**165,000+**
 users
 
 </div>
