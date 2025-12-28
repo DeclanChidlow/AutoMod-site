@@ -8,6 +8,8 @@ author: Declan Chidlow (Vale)
 
 Another year has come and gone, and AutoMod perseveres. It has been a big year for the wider Stoat platform, what with [the rebrand](/blog/revolt-is-stoat-now), launching of new apps, and assorted new features.
 
+I'd have liked to have done more work on the bot over the year, but commitments and circumstances out of my control limited me somewhat. That isn't to say nothing got done though, and the bot is now in a much better place than it was at 2024's conclusion.
+
 ## Reviewing Changes
 
 The year started with a reintroduction of [the purge command](/docs/commands/moderation/purge), which had previously been removed due to a breakage upstream in Stoat itself.
@@ -38,8 +40,8 @@ In return, I received a total of $54.40 AUD in AutoMod-directed user support, wh
 
 ## Looking Forward
 
-As it stands at present, AutoMod is protecting almost 6,000 servers containing some 65,000 channels and over 179,000 users. At the start of the year, these numbers were roughly 4,600 servers containing 47,000 channels and less than 100,000 users. Those are some significant numbers, and I'm grateful for everyone who uses and trusts AutoMod to protect their communities.
+As it stands at present, AutoMod is protecting almost 6,000 servers containing some 65,000 channels and over 179,000 users. At the start of the year, these numbers were roughly 4,600 servers containing 47,000 channels and less than 100,000 users. This year has been a boom for AutoMod, and the current counts are pretty significant. I'm grateful for everyone who uses and trusts AutoMod to protect their communities.
 
-Back in August, I [created a project roadmap for AutoMod](https://github.com/users/DeclanChidlow/projects/1) to enable more focused, deliberate development and to ensure that efforts align with community expectations.
+Back in August, I [created a project roadmap for AutoMod](https://github.com/users/DeclanChidlow/projects/1) to enable more focused, deliberate development and to ensure that efforts align with community expectations. I'll be adhering to this roadmap into 2026 and updating it with further items as they occur to me or are requested. Beyond the roadmap, I also intend to get AutoFeeds into a full production state ready for general usage.
 
-Goals for next year include getting AutoFeeds into a full production state and addressing points on the roadmap. I look forward to it.
+I look forward to continuing my efforts to refine the bot, adding the features that you request, and making Stoat a more stable and secure place for all.
