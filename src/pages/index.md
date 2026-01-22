@@ -65,11 +65,11 @@ canonical: ""
 <div class="stats">
 
 Used in  
-**5,900+**
+**6,000+**
 servers
 
 Servicing  
-**175,000+**
+**180,000+**
 users
 
 </div>
