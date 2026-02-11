@@ -8,7 +8,7 @@ author: Declan Chidlow (Vale)
 
 AutoFeeds is a new syndication feed bot for Stoat that supports RSS, Atom, and JSON feeds. If you don't know what any of that means, hold on -- I'll explain it in a moment.
 
-The main thing is that AutoFeeds lets you subscribe to all sorts of web content, such as Reddit posts, YouTube videos, blog articles, and so much more in your server. Whenever new content is posted, the bot sends a message in your server. It is a great way to keep up with happenings all over the web from the comfort of your Stoat community.
+The main thing is that AutoFeeds lets you subscribe to all sorts of web content, such as Reddit posts, YouTube videos, blog articles, and so much more in your server. Whenever new content is posted, the bot sends a message in a channel of your choice. It is a great way to keep up with happenings all over the web from the comfort of your Stoat community.
 
 ## What are syndication feeds?
 
@@ -43,9 +43,9 @@ AutoFeeds works with a huge number of sites. Some platforms that provide RSS, At
 - Flickr
 - The Stoat Blog
 
-That isn't to say AutoFeeds only works with these platforms. AutoFeeds will accept any valid RSS, Atom, or JSON feed. In many cases AutoFeeds will still be able to detect feeds associated with a site by just providing it a link to that site. It is worth noting that this does require that the site [has everything configured correctly](https://blog.jim-nielsen.com/2021/automatically-discoverable-rss-feeds/) so it doesn't work all of the time.
+That isn't to say AutoFeeds only works with these platforms. AutoFeeds will accept any valid RSS, Atom, or JSON feed. In many cases AutoFeeds will still be able to detect feeds associated with a site by just providing it a link to that site. It is worth noting that this does require that the site [has everything configured correctly](https://blog.jim-nielsen.com/2021/automatically-discoverable-rss-feeds/), so it doesn't work all of the time.
 
-If a feed can't be auto-discovered, you can try to find it yourself. Keep an eye out for an orange wireless symbol (), which is the universal icon for RSS. You can also often find feed links in site footers. If you can't find feeds those ways, you can also try to perform a search for '<site name> RSS feeds' in your favourite web browser.
+If a feed can't be auto-discovered, you can try to find it yourself. Keep an eye out for an orange wireless symbol (), which is the universal icon for RSS. You can also often find feed links in site footers. If you can't find feeds those ways, you can also try to perform a search for '{site name} RSS feeds' in your favourite search engine.
 
 ## Subscribing to this blog with AutoFeeds
 
@@ -59,7 +59,7 @@ As an example of how AutoFeeds works, I'll show you how you'd subscribe to this 
 
 4. As you'll see from the output of the help command, there is a command to add a feed. To add the feed of this blog, we'll need to provide it as an argument, like so: `@AutoFeeds add https://automod.vale.rocks/blog/feed.xml`. AutoFeeds should then tell us the feed has been added to our current channel.
 
-Assuming there were no issues or errors during the process, everything should now be set up. The next time a post is published on this blog, AutoFeeds will make a post notifying you about it in the channel. Handy! To remove the feed, you'd run the removal command: `@AutoFeeds remove https://automod.vale.rocks/blog/feed.xml`
+Assuming there were no issues or errors during the process, everything should now be set up. The next time a post is published on this blog, AutoFeeds will send a message notifying you about it in the channel. Handy! To remove the feed, you'd run the removal command: `@AutoFeeds remove https://automod.vale.rocks/blog/feed.xml`
 
 To get a list of all feeds currently subscribed to in the current channel, you can use `@AutoFeeds list`. To manually fetch new items from a specific feed, you can use `@AutoFeeds check <feed_url>`.
 
