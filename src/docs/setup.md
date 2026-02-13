@@ -8,7 +8,7 @@ canonical: /docs/setup
 AutoMod is a pretty easy bot to get setup and ready to help moderate your server.
 
 1. **Add AutoMod to your server**\
-   If you're on the official Stoat instance, you can [directly invite it](https://app.stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY). If you're on another instance, you'll have to [self-host](/docs/self-hosting) it.
+   If you're on the official Stoat instance, you can [directly invite it](https://stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY). If you're on another instance, you'll have to [self-host](/docs/self-hosting) it.
 
 2. **Create a role and assign it required permissions**\
    AutoMod has lots of features, so it requires lots of permissions. It is usually easiest just to enable them all, but the specific required items to get the most out of AutoMod are:
