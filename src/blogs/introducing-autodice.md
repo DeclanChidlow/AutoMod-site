@@ -18,9 +18,11 @@ AutoDice intends to cover most of the cases that tabletop role-playing games nee
 
 Let's take a simple roll to start with. Say you want to roll a six-sided die; you'd run: `@AutoDice d6`.
 
-If you wanted to roll a six-sided die ten times, you'd run: `@AutoDice 10d6`.
+If you wanted to roll ten six-sided die, you'd run: `@AutoDice 10d6`.
 
-If you wanted to add 5 to each of those rolls, you can do some addition: `@AutoDice 10d6 + 5`. AutoDice also supports subtraction (`-`), multiplication (`*` or `x`), and division (`/`).
+Say you wanted to roll ten six-sided die, five times, you'd run: `@AutoDice 5 10d6`.
+
+If you wanted to add 5 to the result of the rolls, you can do some addition: `@AutoDice 10d6 + 5`. AutoDice also supports subtraction (`-`), multiplication (`*` or `x`), and division (`/`).
 
 Rolling a dice multiple times and want to sort the results? Suffix `s` or `sa` to sort by ascending, or suffix `sd` to sort by descending. For example, `@AutoDice 10d6sd` to do 10 rolls of a six-sided die and sort the results by descending.
 

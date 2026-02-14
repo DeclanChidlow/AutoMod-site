@@ -158,6 +158,47 @@ main {
 	}
 }
 
+.other-bots {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 1rem;
+	max-inline-size: 60rem;
+	margin-block: 3rem;
+	margin-inline: auto;
+	padding: 1rem;
+	background: var(--white);
+	border-radius: 2.5rem;
+
+	div {
+		padding: 3rem;
+		text-align: center;
+		line-height: initial;
+		inline-size: 100%;
+		border-radius: 2rem;
+
+		p {
+			font-size: 1.2rem;
+		}
+
+		&:nth-child(1) {
+			color: oklch(from var(--orange) calc(l - 0.5) c h);
+			background: var(--orange);
+		}
+
+		&:nth-child(2) {
+			color: oklch(from var(--magenta) calc(l - 0.5) c h);
+			background: var(--magenta);
+		}
+	}
+
+	@media (max-width: 45rem) {
+		gap: 1rem;
+		margin-block: 3rem;
+		margin-inline: 0;
+	}
+}
+
 .donate {
 	margin: 3rem;
 	padding: 3rem;

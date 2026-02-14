@@ -65,20 +65,42 @@ canonical: ""
 <div class="stats">
 
 Used in  
-**6,000+**
+**6,500+**  
 servers
 
 Servicing  
-**180,000+**
+**190,000+**  
 users
+
+</div>
+
+<div class="other-bots">
+
+<div>
+
+## AutoFeeds
+
+A syndication feed bot that supports RSS, Atom, and JSON  
+[Learn More ➞](/blog/introducing-autofeeds)
+
+</div>
+
+<div>
+
+## AutoDice
+
+A fully-featured dice bot perfect for TTRPGs  
+[Learn More ➞](/blog/introducing-autodice)
+
+</div>
 
 </div>
 
 <div class="donate">
 
-## Support AutoMod
+## Support Development & Hosting
 
-AutoMod costs me money to host and time to develop. If you're able, consider chipping in to help support me.
+These bots costs me money to host and time to develop and [operates at a financial deficit](/blog/end-of-year-2025#financials). If you're able, consider chipping in to help support me.
 
 <a href="https://vale.rocks/support" class="button">Donate</a>
 
