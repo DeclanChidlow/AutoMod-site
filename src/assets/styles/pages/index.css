@@ -167,7 +167,7 @@ main {
 	margin-block: 3rem;
 	margin-inline: auto;
 	padding: 1rem;
-	background: var(--white);
+	background: light-dark(var(--black), var(--white));
 	border-radius: 2.5rem;
 
 	div {
