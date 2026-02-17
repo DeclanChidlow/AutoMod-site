@@ -7,7 +7,7 @@ canonical: /docs/autodice
 
 Welcome to the documentation for the AutoDice bot! If you're looking for help using AutoDice, you're in the right place!
 
-Chances are you want to [set it up](/docs/autodice/setup) and then head over to the [commands page](/docs/autodice/commands) to learn all the various things you can do with the bot.
+Chances are you want to [set it up](/docs/autodice/setup) and then head over to the [rolling page](/docs/autodice/rolling) to start tempting fate and risking a smiting.
 
 If you're hosting your own Stoat instance, or are otherwise interested in hosting your own version of AutoDice, you'll want the [self-hosting](/docs/autodice/self-hosting) page.
 
