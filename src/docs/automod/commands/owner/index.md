@@ -1,0 +1,11 @@
+---
+title: Owner
+description: Access AutoMod's owner-only commands for Stoat server management. View statistics and override moderation actions.
+og_description: AutoMod's owner command category documentation.
+canonical: /docs/automod/commands/owner
+---
+
+Owner commands are exclusively available for the bot owner to manage and control AutoMod. Only users specified as bot owners in AutoMod's hosting configuration can use these commands.
+
+- [Override](/docs/automod/commands/owner/override)
+- [Stats](/docs/automod/commands/owner/stats)

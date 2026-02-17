@@ -6,10 +6,24 @@
 		value: (path) => main_template.ori(functions/parse-markdown.js(path))
 	})
 
-	docs/ = Tree.mapExtension(docs, ".md→.html", {
-		value: (path) => docs_template.ori(functions/parse-markdown.js(path))
-		deep: true
-	})
+	docs/ = {
+		index.html = docs_automod_template.ori(functions/parse-markdown.js(docs/index.md))
+
+		automod/ = Tree.mapExtension(docs/automod, ".md→.html", {
+			value: (path) => docs_automod_template.ori(functions/parse-markdown.js(path))
+			deep: true
+		})
+
+		autofeeds/ = Tree.mapExtension(docs/autofeeds, ".md→.html", {
+			value: (path) => docs_autofeeds_template.ori(functions/parse-markdown.js(path))
+			deep: true
+		})
+
+		autodice/ = Tree.mapExtension(docs/autodice, ".md→.html", {
+			value: (path) => docs_autodice_template.ori(functions/parse-markdown.js(path))
+			deep: true
+		})
+	}
 
 	blog.html = pages/blog.ori(blog_data.ori)
 	blog/ = {

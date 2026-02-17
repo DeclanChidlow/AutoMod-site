@@ -12,13 +12,13 @@ I'd have liked to have done more work on the bot over the year, but commitments 
 
 ## Reviewing Changes
 
-The year started with a reintroduction of [the purge command](/docs/commands/moderation/purge), which had previously been removed due to a breakage upstream in Stoat itself.
+The year started with a reintroduction of [the purge command](/docs/automod/commands/moderation/purge), which had previously been removed due to a breakage upstream in Stoat itself.
 
-In February, I launched this site complete with a full set of documentation. Several commands, including [the logging command](/docs/commands/configuration/logs), got full overhauls. We also hit 100K users in AutoMod's cache!
+In February, I launched this site complete with a full set of documentation. Several commands, including [the logging command](/docs/automod/commands/configuration/logs), got full overhauls. We also hit 100K users in AutoMod's cache!
 
-In May, [the role command](/docs/commands/moderation/role) was added, the filter functionality got some significant fixes, and the ability to bulk add items to and remove items from the filter was added. May also brought about AutoFeeds, a syndication feed bot that supports RSS, Atom, and JSON feeds, which I proceeded to test off and on throughout the year.
+In May, [the role command](/docs/automod/commands/moderation/role) was added, the filter functionality got some significant fixes, and the ability to bulk add items to and remove items from the filter was added. May also brought about AutoFeeds, a syndication feed bot that supports RSS, Atom, and JSON feeds, which I proceeded to test off and on throughout the year.
 
-In July, I [launched this AutoMod blog](https://automod.vale.rocks/blog/introducing-the-automod-blog), hugely improved [the infraction command](/docs/commands/moderation/infractions)'s output, and overhauled [the nickname command](docs/commands/moderation/nick).
+In July, I [launched this AutoMod blog](https://automod.vale.rocks/blog/introducing-the-automod-blog), hugely improved [the infraction command](/docs/automod/commands/moderation/infractions)'s output, and overhauled [the nickname command](docs/commands/moderation/nick).
 
 In August, AutoMod's cache hit a significant 150K users.
 

@@ -6,7 +6,7 @@ pub_time: 2025-08-26T03:00Z
 author: Declan Chidlow (Vale)
 ---
 
-Working on AutoMod is a fair effort, and while rewarding, not exactly the most joyous experience of my life. While working on AutoMod's [filter functionality](/docs/commands/configuration/filter), I found myself thinking of fun filter possibilities.
+Working on AutoMod is a fair effort, and while rewarding, not exactly the most joyous experience of my life. While working on AutoMod's [filter functionality](/docs/automod/commands/configuration/filter), I found myself thinking of fun filter possibilities.
 
 Thus, the idea for a server that only permits emoji was born. But how to enforce it? AutoMod isn't quite tailored for this sort of filtering unless I were to manually add every single potential allowed emoji, so I decided to spin the concept off into something separate. Chucking it together over the course of an hour or so, I made a quick little bot which I dubbed 'Emoji Enforcer' and an associated server titled 'Emoji Only'.
 

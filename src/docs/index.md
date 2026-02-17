@@ -1,14 +1,16 @@
 ---
 title: Documentation
-description: Documentation for AutoMod. A powerful moderation bot for Stoat chat. Features automatic content filtering, spam protection, and comprehensive moderation tools. Easy to set up and configure.
-og_description: AutoMod's usage documentation.
+description: Meta page linking to all the documentation for the Stoat bots under the AutoMod umbrella, including AutoMod, AutoFeeds, and AutoDice.
+og_description: Documentation for all of the bots provided under the AutoMod umbrella.
 canonical: /docs
 ---
 
-Welcome to AutoMod's documentation! If you're looking for help using AutoMod, you're in the right place!
+<h2 class="select-header">Which bot's documentation are you looking for?</h2>
 
-Chances are you want to [set it up](/docs/setup) and then head over to the [commands page](/docs/commands) to learn all the various things you can do with the bot.
+<ul class="docs-selectors">
+    <li class="automod-docs-selector"><a href="/docs/automod">AutoMod</a></li>
+    <li class="autofeeds-docs-selector"><a href="/docs/autofeeds">AutoFeeds</a></li>
+    <li class="autodice-docs-selector"><a href="/docs/autodice">AutoDice</a></li>
+</ul>
 
-If you're hosting your own Stoat instance, or are otherwise interested in hosting your own version of AutoMod, you'll want the [self-hosting](/docs/self-hosting) page.
-
-If you need some help using AutoMod, you can get some over in the support channel on [the AutoMod Stoat server](https://stt.gg/automod).
+<style>aside { display: none } section div {max-width: none}</style>

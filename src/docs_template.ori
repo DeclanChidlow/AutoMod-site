@@ -16,6 +16,13 @@
 	<aside>
 	<h2>Index</h2>
 
+	<details class="docs-section">
+		<summary>Switch Docs</summary>
+		<a href="/docs/automod" class="automod-docs-selector">AutoMod</a>
+		<a href="/docs/autofeeds" class="autofeeds-docs-selector">AutoFeeds</a>
+		<a href="/docs/autodice" class="autodice-docs-selector">AutoDice</a>
+	</details>
+
 	<ul>
 		<li><a href="/docs">Home</a></li>
 		<li><a href="/docs/setup">Setup</a></li>

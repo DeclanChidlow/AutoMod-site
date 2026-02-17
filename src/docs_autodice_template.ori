@@ -1,0 +1,32 @@
+(doc) => main_template.ori({
+	title: doc/title
+	description: doc/description
+	og_description: doc/og_description
+	stylesheet: "pages/docs.css"
+
+	_body: `
+	<section data-pagefind-filter="Content Type:Documentation">
+		<h1>${ doc/title }</h1>
+
+		<div data-pagefind-body>
+			${ doc/_body }
+		</div>
+	</section>
+
+	<aside>
+	<h2>Index</h2>
+
+	<details class="docs-section">
+		<summary class="autodice-docs-selector">AutoDice</summary>
+		<a href="/docs/automod" class="automod-docs-selector">AutoMod</a>
+		<a href="/docs/autofeeds" class="autofeeds-docs-selector">AutoFeeds</a>
+	</details>
+
+	<ul>
+		<li><a href="/docs/autodice">Home</a></li>
+		<li><a href="/docs/autodice/setup">Setup</a></li>
+
+		<li><a href="/docs/autodice/self-hosting">Self-Hosting</a></li>
+	</ul>
+	</aside>
+` })
