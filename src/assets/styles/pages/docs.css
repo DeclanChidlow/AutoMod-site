@@ -64,6 +64,10 @@ aside {
 
 		ul {
 			border-left: 2px var(--grey) solid;
+
+			@media (max-width: 45rem) {
+				border-left-color: var(--blue);
+			}
 		}
 
 		li {
@@ -73,16 +77,6 @@ aside {
 
 	> ul {
 		padding-left: 0;
-	}
-
-	@media (max-width: 45rem) {
-		border-top: 2px solid var(--blue);
-		width: 100%;
-		padding: 2rem 0;
-
-		ul ul ul li {
-			display: none;
-		}
 	}
 
 	a {
@@ -163,4 +157,70 @@ section div {
 .autodice-docs-selector {
 	color: oklch(from var(--magenta) calc(l - 0.5) c h);
 	background: var(--magenta);
+}
+
+#contents-button,
+.close-sidebar {
+	display: none; /* Set to block dynamically */
+}
+
+@media (max-width: 45rem) {
+	#contents-button {
+		inline-size: fit-content;
+		block-size: 2.5rem;
+		margin-left: -0.8rem;
+		padding-left: 1.5rem;
+		border: transparent;
+		border-radius: 0.25rem;
+		border-start-start-radius: 0;
+		border-end-start-radius: 0;
+		background: var(--grey);
+
+		svg {
+			display: inline;
+			block-size: 2.5rem;
+			fill: var(--white);
+		}
+
+		span {
+			margin-block: auto;
+			margin-inline: 0.5rem;
+		}
+	}
+
+	aside[popover] {
+		background: var(--grey);
+		color: var(--white);
+		inline-size: 17rem;
+		max-inline-size: 90vw;
+		height: 100vh;
+		padding: 1rem;
+		border: none;
+		border-start-end-radius: 0.5rem;
+		border-end-end-radius: 0.5rem;
+
+		&:not(:popover-open) {
+			display: none;
+		}
+
+		.docs-section::details-content {
+			background: var(--grey);
+		}
+
+		.close-sidebar {
+			display: block;
+			margin-block-end: 1rem;
+			padding: 0.5rem;
+			cursor: pointer;
+			width: 100%;
+			color: var(--white);
+			border: transparent;
+			background: none;
+			text-align: right;
+		}
+	}
+
+	aside:popover-open::backdrop {
+		background-color: rgb(0, 0, 0, 0.5);
+	}
 }

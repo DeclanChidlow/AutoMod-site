@@ -5,6 +5,11 @@
 	stylesheet: "pages/docs.css"
 
 	_body: `
+	<button id="contents-button" popovertarget="sidebar-menu">
+		<svg aria-hidden="true" viewBox="0 -960 960 960"><path d="M500-640v320l160-160zM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120zm120-80v-560H200v560zm80 0h360v-560H400zm-80 0H200z"/></svg>
+		<span>Open Sidebar</span>
+	</button>
+
 	<section data-pagefind-filter="Content Type:Documentation">
 		<h1>${ doc/title }</h1>
 
@@ -13,20 +18,24 @@
 		</div>
 	</section>
 
-	<aside>
-	<h2>Index</h2>
+	<aside id="sidebar-menu">
+		<button class="close-sidebar" popovertarget="sidebar-menu" aria-label="Close menu">&times; Close</button>
 
-	<details class="docs-section">
-		<summary class="autodice-docs-selector">AutoDice</summary>
-		<a href="/docs/automod" class="automod-docs-selector">AutoMod</a>
-		<a href="/docs/autofeeds" class="autofeeds-docs-selector">AutoFeeds</a>
-	</details>
+		<h2>Index</h2>
 
-	<ul>
-		<li><a href="/docs/autodice">Home</a></li>
-		<li><a href="/docs/autodice/setup">Setup</a></li>
-		<li><a href="/docs/autodice/rolling">Rolling</a></li>
-		<li><a href="/docs/autodice/self-hosting">Self-Hosting</a></li>
-	</ul>
+		<details class="docs-section">
+			<summary class="autodice-docs-selector">AutoDice</summary>
+			<a href="/docs/automod" class="automod-docs-selector">AutoMod</a>
+			<a href="/docs/autofeeds" class="autofeeds-docs-selector">AutoFeeds</a>
+		</details>
+
+		<ul>
+			<li><a href="/docs/autodice">Home</a></li>
+			<li><a href="/docs/autodice/setup">Setup</a></li>
+			<li><a href="/docs/autodice/rolling">Rolling</a></li>
+			<li><a href="/docs/autodice/self-hosting">Self-Hosting</a></li>
+		</ul>
 	</aside>
+
+<script src="/assets/scripts/docs-sidebar.js"></script>
 ` })
