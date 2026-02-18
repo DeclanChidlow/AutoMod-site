@@ -1,6 +1,6 @@
 const sidebar = document.getElementById("sidebar-menu");
 const contentsButton = document.getElementById("contents-button");
-const mediaQuery = window.matchMedia("(max-width: 45rem)");
+const mediaQuery = window.matchMedia("(max-inline-size: 45rem)");
 
 function handleDisplaySize(e) {
 	if (e.matches) {

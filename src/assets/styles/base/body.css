@@ -44,6 +44,10 @@ main {
 	navigation: auto;
 }
 
+.translated-rtl {
+	direction: rtl;
+}
+
 @media (max-width: 45rem) {
 	html {
 		scroll-padding-top: 4rem;

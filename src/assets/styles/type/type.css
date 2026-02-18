@@ -56,10 +56,6 @@ h3 {
 	line-height: 1.4rem;
 }
 
-h4 {
-	font-size: 1rem;
-}
-
 h5 {
 	font-size: 0.8rem;
 	line-height: 1rem;
@@ -72,7 +68,7 @@ h6 {
 
 .readable,
 blockquote {
-	max-width: 70ch;
+	max-inline-size: 70ch;
 	text-wrap: pretty;
 
 	* + h2,
@@ -97,8 +93,10 @@ blockquote {
 }
 
 .markdown-alert {
+	--alert-accent: var(--grey);
 	padding: 1rem;
 	border-radius: 1rem;
+	background: oklch(from var(--alert-accent) l c h / 0.2);
 }
 
 .markdown-alert-title {
@@ -106,78 +104,55 @@ blockquote {
 	gap: 1ch;
 	align-items: center;
 	font-weight: bold;
+	color: oklch(from var(--alert-accent) l calc(c * 2) h / 1);
+	fill: oklch(from var(--alert-accent) l calc(c * 2) h / 1);
 }
 
 .markdown-alert-note {
-	background: oklch(from var(--blue) l c h / 0.2);
-
-	.markdown-alert-title {
-		color: oklch(from var(--blue) l calc(c * 2) h / 1);
-		fill: oklch(from var(--blue) l calc(c * 2) h / 1);
-	}
+	--alert-accent: var(--blue);
 }
 
 .markdown-alert-tip {
-	background: oklch(from var(--green) l c h / 0.2);
-
-	.markdown-alert-title {
-		color: oklch(from var(--green) l calc(c * 2) h / 1);
-		fill: oklch(from var(--green) l calc(c * 2) h / 1);
-	}
+	--alert-accent: var(--green);
 }
 
 .markdown-alert-important {
-	background: oklch(from var(--magenta) l c h / 0.2);
-
-	.markdown-alert-title {
-		color: oklch(from var(--magenta) l calc(c * 2) h / 1);
-		fill: oklch(from var(--magenta) l calc(c * 2) h / 1);
-	}
+	--alert-accent: var(--magenta);
 }
 
 .markdown-alert-warning {
-	background: oklch(from var(--orange) l c h / 0.2);
-
-	.markdown-alert-title {
-		color: oklch(from var(--orange) l calc(c * 2) h / 1);
-		fill: oklch(from var(--orange) l calc(c * 2) h / 1);
-	}
+	--alert-accent: var(--orange);
 }
 
 .markdown-alert-caution {
-	background: oklch(from var(--red) l c h / 0.2);
-
-	.markdown-alert-title {
-		color: oklch(from var(--red) l calc(c * 2) h / 1);
-		fill: oklch(from var(--red) l calc(c * 2) h / 1);
-	}
+	--alert-accent: var(--red);
 }
 
 code {
 	font-family: "Fira Code", monospace;
 	border: 1px solid light-dark(var(--grey), var(--blue));
-	border-radius: 0.25rem;
+	border-radius: 0.2rem;
 	background: light-dark(oklch(from var(--grey) l c h / 0.1), oklch(from var(--blue) l c h / 0.2));
-	padding: 0 0.2rem;
+	padding-inline: 0.2rem;
 	font-size: 0.9rem;
 }
 
 ul,
 ol {
 	line-height: 1.4rem;
-	margin-left: 2rem;
+	margin-inline-start: 2rem;
 }
 
 li {
-	margin: 0.5rem 0;
+	margin-block: 0.5rem;
 }
 
 hr {
 	all: unset;
 	display: block;
-	height: 2px;
+	block-size: 2px;
 	background: var(--grey);
-	margin-bottom: 1rem;
+	margin-block-end: 1rem;
 }
 
 mark {
@@ -187,7 +162,8 @@ mark {
 .button {
 	background: var(--red);
 	color: var(--white);
-	padding: 0.75rem 1.5rem;
+	padding-block: 0.75rem;
+	padding-inline: 1.5rem;
 	border-radius: 100rem;
 	display: inline-block;
 	text-decoration: none;

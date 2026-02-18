@@ -56,7 +56,7 @@ article {
 		}
 
 		div {
-			max-width: 90ch;
+			max-inline-size: 90ch;
 			margin-inline: auto;
 			mix-blend-mode: difference;
 			color: #6995ff;

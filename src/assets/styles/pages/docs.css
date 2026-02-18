@@ -9,7 +9,7 @@ main {
 }
 
 section {
-	width: 100%;
+	inline-size: 100%;
 	padding-block: 3rem;
 	padding-inline: 2rem;
 	border-radius: 2rem;
@@ -19,8 +19,8 @@ section {
 aside {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	min-width: 5rem;
+	inline-size: 30%;
+	min-inline-size: 5rem;
 
 	h2 {
 		font-size: 1.2rem;
@@ -45,7 +45,7 @@ aside {
 			display: flex;
 			flex-direction: column;
 			gap: 0.5rem;
-			width: 100%;
+			inline-size: 100%;
 			background: light-dark(var(--white), var(--black));
 		}
 
@@ -59,14 +59,14 @@ aside {
 	}
 
 	ul {
-		margin-left: 0;
-		padding-left: 0.8rem;
+		margin-inline-start: 0;
+		padding-inline-start: 0.8rem;
 
 		ul {
-			border-left: 2px var(--grey) solid;
+			border-inline-start: 2px var(--grey) solid;
 
 			@media (max-width: 45rem) {
-				border-left-color: var(--blue);
+				border-inline-start-color: var(--blue);
 			}
 		}
 
@@ -76,7 +76,7 @@ aside {
 	}
 
 	> ul {
-		padding-left: 0;
+		padding-inline-start: 0;
 	}
 
 	a {
@@ -85,22 +85,22 @@ aside {
 }
 
 h1 {
-	margin-bottom: 2rem;
+	margin-block-end: 2rem;
 }
 
 section div {
-	max-width: 80ch;
+	max-inline-size: 80ch;
 
 	* + h2,
 	* + h3,
 	* + h4,
 	* + h5,
 	* + h6 {
-		margin-top: 2rem;
+		margin-block-start: 2rem;
 	}
 
 	> * + * {
-		margin-top: 1rem;
+		margin-block-start: 1rem;
 	}
 }
 
@@ -168,8 +168,8 @@ section div {
 	#contents-button {
 		inline-size: fit-content;
 		block-size: 2.5rem;
-		margin-left: -0.8rem;
-		padding-left: 1.5rem;
+		margin-inline-start: -0.8rem;
+		padding-inline-start: 1.5rem;
 		border: transparent;
 		border-radius: 0.25rem;
 		border-start-start-radius: 0;
@@ -191,9 +191,9 @@ section div {
 	aside[popover] {
 		background: var(--grey);
 		color: var(--white);
+		block-size: 100vh;
 		inline-size: 17rem;
 		max-inline-size: 90vw;
-		height: 100vh;
 		padding: 1rem;
 		border: none;
 		border-start-end-radius: 0.5rem;
@@ -212,7 +212,7 @@ section div {
 			margin-block-end: 1rem;
 			padding: 0.5rem;
 			cursor: pointer;
-			width: 100%;
+			inline-size: 100%;
 			color: var(--white);
 			border: transparent;
 			background: none;

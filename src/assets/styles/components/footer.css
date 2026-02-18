@@ -1,6 +1,7 @@
 footer {
-	margin: 0 -3rem 0;
-	padding: 5rem 3rem;
+	margin-inline: -3rem;
+	padding-block: 5rem;
+	padding-inline: 3rem;
 	color: light-dark(var(--black), var(--white));
 	font-size: 0.9rem;
 	line-height: 1.4rem;
@@ -10,11 +11,11 @@ footer {
 	align-items: center;
 
 	svg {
-		padding-bottom: 1rem;
+		padding-block-end: 1rem;
 	}
 
 	nav {
-		height: 100%;
+		block-size: 100%;
 	}
 
 	ul {
@@ -33,7 +34,7 @@ footer {
 
 		&:has(.button) {
 			display: block;
-			width: fit-content;
+			inline-size: fit-content;
 			margin: 0;
 			margin-inline-start: auto;
 			margin-block-end: 2rem;
@@ -41,9 +42,11 @@ footer {
 	}
 
 	@media (max-width: 45rem) {
-		padding: 5rem 0.8rem 3rem;
+		padding-block-start: 5rem;
+		padding-block-end: 3rem;
+		padding-inline: 0.8rem;
 		flex-direction: column;
-		margin: 0 -0.8rem 0;
+		margin-inline: -0.8rem;
 
 		img {
 			margin: auto;

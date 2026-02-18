@@ -1,10 +1,10 @@
 .no-js-search {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 2rem;
+	margin-block-start: 2rem;
 
 	label {
-		width: 100%;
+		inline-size: 100%;
 	}
 
 	input {
