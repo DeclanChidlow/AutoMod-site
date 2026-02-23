@@ -33,11 +33,23 @@ Tumblr blogs have RSS feeds for all posts. They're found by appending `/rss`.
 
 ## GitHub
 
-GitHub provides an Atom feed for releases. For example, the feed for releases of the Stoat backend is `https://github.com/stoatchat/stoatchat/releases.atom`
+GitHub provides an Atom feed for releases. You must append `.atom` to a releases page. For example, the feed for releases of the Stoat backend is `https://github.com/stoatchat/stoatchat/releases.atom`
 
 ## Letterboxd
 
 Letterboxd provides an Atom feed for user activities. For example, the feed for CharliXCX's latest watches is `https://letterboxd.com/itscharlibb/rss`.
+
+## Behance
+
+Behance has an RSS for users. You must add the user's handle to the end of this URL: `https://www.behance.net/feeds/user?username=`.
+
+## DeviantArt
+
+DeviantArt fully documents their RSS feeds: <https://www.deviantart.com/developers/rss>
+
+## Pinterest
+
+Pinterest provides an RSS feed for user posts. You must add `/feed.rss` after their username in the URL. For example, the feed for the official Pinterest account is: `https://www.pinterest.com/pinterest/feed.rss`
 
 ## AutoMod Blog
 

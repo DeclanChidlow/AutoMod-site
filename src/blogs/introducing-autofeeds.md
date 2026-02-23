@@ -33,7 +33,6 @@ AutoFeeds works with a huge number of sites. Some platforms that provide RSS, At
 - Letterboxd
 - Goodreads
 - DeviantArt
-- Ko-Fi
 - Behance
 - Substack
 - Vimeo
