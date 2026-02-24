@@ -34,6 +34,7 @@
 			<li><a href="/docs/autofeeds/setup">Setup</a></li>
 			<li><a href="/docs/autofeeds/commands">Commands</a></li>
 			<li><a href="/docs/autofeeds/finding-feeds">Finding Feeds</a></li>
+			<li><a href="/docs/autofeeds/fetching-behaviour">Fetching Behaviour</a></li>
 			<li><a href="/docs/autofeeds/self-hosting">Self-Hosting</a></li>
 		</ul>
 	</aside>

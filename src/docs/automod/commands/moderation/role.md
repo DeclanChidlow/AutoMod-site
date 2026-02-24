@@ -13,13 +13,13 @@ Aliases: `roles`
 
 Grants a role to a server member.
 
-Usage: `/role add <user> <role ID>`
+Usage: `/role add <user> <role>`
 
 ## Remove
 
 Revokes a role from a server member.
 
-Usage: `/role remove <user> <role ID>`
+Usage: `/role remove <user> <role>`
 
 ## Reaction Roles
 

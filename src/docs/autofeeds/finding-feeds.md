@@ -23,7 +23,7 @@ YouTube channels have RSS feeds. They're a tad tricky to retrieve, so it can be 
 
 ## Steam
 
-Steam games have RSS feeds for updates and news. You must add `/feed` after `store.steampowered.com` but before `/news`. For example, the feed for the news page for Terraria is `https://store.steampowered.com/news/app/105600`,
+Steam games have RSS feeds for updates and news. You must add `/feeds` after `store.steampowered.com` but before `/news`. For example, the feed for the news page for Terraria is `https://store.steampowered.com/feeds/news/app/105600`,
 
 Steam groups also have RSS feeds. You must add `/rss` to the end of the URL.
 
