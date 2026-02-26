@@ -5,7 +5,7 @@ og_description: Documentation of AutoFeeds' fetching of feeds for new content.
 canonical: /docs/autofeeds/fetching-behaviour
 ---
 
-> [!INFO]
+> [!NOTE]
 > This page details technical information intended for feed operators who wish to understand how AutoFeeds fetches content. It is not relevant to usual end-user usage of the bot.
 
 AutoFeeds is a bot on the chat platform Stoat, which fetches syndication feeds and posts new items as specified by users.

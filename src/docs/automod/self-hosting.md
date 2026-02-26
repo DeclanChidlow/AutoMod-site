@@ -36,7 +36,7 @@ Ensure you have the following:
     `cp compose.yml.example compose.yml` \
     `cp .env.example .env`
 
-    You will need to edit `.env` to populate it with the relevant details. While the default `compose.yml` will work out of the box in most situations, you might need to tweak it depending on your specific configuration.
+    While the default `compose.yml` will work out of the box in most situations, you might need to tweak it depending on your specific configuration. You will need to edit `.env` to populate it with the relevant details.
 
 4.  **Build AutoMod** \
     `docker compose build`
