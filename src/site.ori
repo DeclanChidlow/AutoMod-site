@@ -1,5 +1,6 @@
 {
 	assets
+	.well-known
 	opensearch.xml
 
 	...Tree.mapExtension(pages, ".md->.html", {

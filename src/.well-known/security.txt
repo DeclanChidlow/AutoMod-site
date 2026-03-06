@@ -1,0 +1,3 @@
+Contact: https://vale.rocks/contact
+Preferred-Languages: en
+Canonical: https://automod.vale.rocks/.well-known/security.txt

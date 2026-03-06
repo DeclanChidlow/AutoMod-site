@@ -60,7 +60,7 @@
 						<li><a href="/docs/automod/commands/configuration/logs">Logs</a></li>
 						<li><a href="/docs/automod/commands/configuration/prefix">Prefix</a></li>
 						<li><a href="/docs/automod/commands/configuration/spam">Spam</a></li>
-						<li><a href="/docs/automod/commands/configuration/whitelist">Whitelist</a></li>
+						<li><a href="/docs/automod/commands/configuration/allowlist">Allowlist</a></li>
 					</ul></li>
 				</ul>
 			</li>
