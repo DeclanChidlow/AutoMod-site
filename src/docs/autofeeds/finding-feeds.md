@@ -13,9 +13,7 @@ Bluesky provides RSS feeds for user posts. All you need to do is add `/rss` to t
 
 ## Reddit
 
-Subreddits have RSS feeds. You must add `.rss` to the end of a link to the subreddit. For example, the feed for r/StoatChat is `https://reddit.com/r/stoatchat.rss`.
-
-Reddit users also have RSS feeds. You must add `/submitted.rss` to the end of a link to their profile. For example, the feed for u/ValenceTheHuman is `https://www.reddit.com/user/ValenceTheHuman/submitted.rss`.
+Reddit has very robust RSS feed functionality which can best be referenced here: <https://old.reddit.com/wiki/rss>
 
 ## YouTube
 

@@ -65,7 +65,7 @@ canonical: ""
 <div class="stats">
 
 Used in  
-**7,500+**  
+**8000+**  
 servers
 
 Servicing  
