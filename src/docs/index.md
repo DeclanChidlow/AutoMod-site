@@ -13,4 +13,4 @@ canonical: /docs
     <li class="autodice-docs-selector"><a href="/docs/autodice">AutoDice</a></li>
 </ul>
 
-<style>aside { display: none } section div {max-width: none}</style>
+<style>section div {max-width: none}</style>

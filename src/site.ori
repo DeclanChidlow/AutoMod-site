@@ -8,7 +8,7 @@
 	})
 
 	docs/ = {
-		index.html = docs_automod_template.ori(functions/parse-markdown.js(docs/index.md))
+		index.html = docs_template.ori(functions/parse-markdown.js(docs/index.md))
 
 		automod/ = Tree.mapExtension(docs/automod, ".md→.html", {
 			value: (path) => docs_automod_template.ori(functions/parse-markdown.js(path))

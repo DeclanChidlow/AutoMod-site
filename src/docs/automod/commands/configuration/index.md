@@ -11,4 +11,4 @@ Configuration commands exist for setting up and customising AutoMod for your spe
 - [Logs](/docs/automod/commands/configuration/logs)
 - [Prefix](/docs/automod/commands/configuration/prefix)
 - [Spam](/docs/automod/commands/configuration/spam)
-- [Whitelist](/docs/automod/commands/configuration/whitelist)
+- [Allowlist](/docs/automod/commands/configuration/allowlist)

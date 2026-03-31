@@ -53,6 +53,16 @@ Pinterest provides an RSS feed for user posts. You must add `/feed.rss` after th
 
 Like many blogs, the AutoMod blog provides feeds. The RSS feed is `https://automod.vale.rocks/blog/feed.xml` and the JSON Feed is `https://automod.vale.rocks/blog/feed.json`.
 
+## Hacker News
+
+Hacker News has a solid variety of feeds availiable. Notable are: the front-page (`https://news.ycombinator.com/rss`), newest (`https://news.ycombinator.com/newest.rss`), Ask HN (`https://news.ycombinator.com/ask.rss`), and Show HN (`https://news.ycombinator.com/show.rss`).
+
+You can also use external services, such as [Hacker News RSS](https://hnrss.github.io) to create a wider, more tailored variety of feeds.
+
+## Lobsters
+
+Lobsters has a feed of all stories (`https://lobste.rs/rss`) and all comments (`https://lobste.rs/comments.rss`). Specific [tags](https://lobste.rs/tags) also have their own feeds, for example: `https://lobste.rs/t/retrocomputing.rss`.
+
 ## Other Sites
 
 If you've gone looking and can't find a feed for a site, look into [Open RSS](https://openrss.org) which goes looking for you and will generate a feed for sites that don't have them.
