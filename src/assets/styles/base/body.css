@@ -17,14 +17,6 @@ html {
 	--magenta: oklch(74.4% 0.0872 330.4);
 }
 
-.light {
-	color-scheme: light;
-}
-
-.dark {
-	color-scheme: dark;
-}
-
 body {
 	display: flex;
 	flex-direction: column;

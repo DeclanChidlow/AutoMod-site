@@ -16,15 +16,36 @@
 	}
 }
 
-.pagefind-ui__search-input {
+main {
+	--pf-text: light-dark(var(--black), var(--white));
+	--pf-text-secondary: light-dark(var(--black), var(--white));
+	--pf-text-muted: light-dark(var(--black), var(--white));
+	--pf-background: light-dark(var(--white), var(--black));
+	--pf-mark: light-dark(var(--black), var(--orange));
+}
+
+.search {
+	inline-size: 100%;
+	max-inline-size: calc(100vw - 8rem);
+	margin-inline: auto;
+	background: var(--pf-background);
+	border-radius: var(--pf-border-radius);
+
+	span {
+		display: flex;
+		padding: 1rem;
+		padding-block-end: 0;
+		gap: 1rem;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+pagefind-results {
+	padding-block: 1rem !important;
+	padding-inline: 1rem !important;
+}
+
+.pf-keyboard-key {
 	color: var(--black) !important;
-}
-
-.pagefind-ui,
-.pagefind-ui__result-link {
-	color: inherit !important;
-}
-
-.pagefind-ui__results {
-	margin: 0;
 }

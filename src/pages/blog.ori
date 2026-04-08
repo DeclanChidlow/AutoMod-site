@@ -11,7 +11,7 @@ _body:
 	<h1 data-pagefind-filter="Content Type:Page">Blog</h1>
 	<p>If you're looking to learn about the latest in the world of AutoMod, you're in the right place.</p> 
 
-	<div data-pagefind-ignore="all">
+	<div data-pagefind-ignore>
 		<div id="blogs">
 			${ Tree.map(blogs_data,
 			(blog, key) =>
