@@ -33,6 +33,12 @@ Tumblr blogs have RSS feeds for all posts. They're found by appending `/rss`.
 
 GitHub provides an Atom feed for releases. You must append `.atom` to a releases page. For example, the feed for releases of the Stoat backend is `https://github.com/stoatchat/stoatchat/releases.atom`
 
+## Tangled
+
+Tangled provides an Atom feed for releases. Append `/feed.atom` to a user's profile page. For example, `https://tangled.org/vale.rocks/feed.atom`.
+
+An Atom feed is also provided on a per-repository basis. It can be accessed by appending `/feed.atom` to a repositories page. By default this feed will include issues, pull requests, commits, and tags, but you can filter this with the `include` query parameter. For example, to get just the commits and issues: `https://tangled.org/vale.rocks/AutoMod/feed.atom?include=issues,commits`. The possible includes are `issues`, `pulls`, `commits`, and `tags`.
+
 ## Letterboxd
 
 Letterboxd provides an Atom feed for user activities. For example, the feed for CharliXCX's latest watches is `https://letterboxd.com/itscharlibb/rss`.

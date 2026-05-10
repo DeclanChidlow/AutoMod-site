@@ -26,7 +26,7 @@ Ensure you have the following:
 ## Installation
 
 1.  **Clone the AutoMod repository** \
-    `git clone https://github.com/DeclanChidlow/AutoMod`
+    `git clone https://tangled.org/vale.rocks/AutoMod`
 
 2.  **Enter the AutoMod directory** \
     `cd AutoMod`
@@ -46,18 +46,23 @@ Ensure you have the following:
 
 ## Updating
 
-1. **Ensure you are in the AutoMod directory** \
+1. **Ensure you are in the AutoMod directory**\
    `cd AutoMod`
 
-2. **Stop AutoMod** \
+2. **Stop AutoMod**\
    `docker compose stop`
 
-3. **Pull the latest changes** \
-   This will copy the latest changes from GitHub to your local machine. \
-   `git pull`
+3. **Pull the latest changes**\
 
-4. **Build AutoMod** \
+   > [!IMPORTANT]
+   > If you originally cloned AutoMod from GitHub, run the following command once to switch to Tangled then continue with the guide. There is no harm in running this command again if you're unsure if you cloned from GitHub.
+   > `git remote set-url origin https://tangled.org/vale.rocks/AutoMod`
+
+   This will copy the latest changes from Tangled to your local machine.\
+    `git pull`
+
+4. **Build AutoMod**\
    `docker compose build`
 
-5. **Start AutoMod** \
+5. **Start AutoMod**\
    Start AutoMod with `docker compose up` and consult the logs. Assuming it runs without issues and nothing seems amiss, you can stop it, and restart it to run in the background (detached mode) with `docker compose up -d`.

@@ -25,39 +25,44 @@ Ensure you have the following:
 
 ## Installation
 
-1.  **Clone the AutoDice repository** \
-    `git clone https://github.com/DeclanChidlow/AutoDice`
+1.  **Clone the AutoDice repository**\
+    `git clone https://tangled.org/vale.rocks/AutoDice`
 
-2.  **Enter the AutoDice directory** \
+2.  **Enter the AutoDice directory**\
     `cd AutoDice`
 
-3.  **Setup configurations** \
-    Copy the example configuration files to create the actual configuration files: \
-    `cp compose.yml.example compose.yml` \
+3.  **Setup configurations**\
+    Copy the example configuration files to create the actual configuration files:\
+    `cp compose.yml.example compose.yml`\
     `cp .env.example .env`
 
     You will need to edit `.env` to populate it with the relevant details. While the default `compose.yml` will work out of the box in most situations, you might need to tweak it depending on your specific configuration.
 
-4.  **Build AutoDice** \
+4.  **Build AutoDice**\
     `docker compose build`
 
-5.  **Run it with Docker** \
+5.  **Run it with Docker**\
     Start AutoDice with `docker compose up` and consult the logs. Assuming it runs without issues and nothing seems amiss, you can stop it, and restart it to run in the background (detached mode) with `docker compose up -d`.
 
 ## Updating
 
-1. **Ensure you are in the AutoDice directory** \
+1. **Ensure you are in the AutoDice directory**\
    `cd AutoDice`
 
-2. **Stop AutoDice** \
+2. **Stop AutoDice**\
    `docker compose stop`
 
-3. **Pull the latest changes** \
-   This will copy the latest changes from GitHub to your local machine. \
-   `git pull`
+3. **Pull the latest changes**\
 
-4. **Build AutoDice** \
+   > [!IMPORTANT]
+   > If you originally cloned AutoDice from GitHub, run the following command once to switch to Tangled then continue with the guide. There is no harm in running this command again if you're unsure if you cloned from GitHub.
+   > `git remote set-url origin https://tangled.org/vale.rocks/AutoDice`
+
+   This will copy the latest changes from Tangled to your local machine.\
+    `git pull`
+
+4. **Build AutoDice**\
    `docker compose build`
 
-5. **Start AutoDice** \
+5. **Start AutoDice**\
    Start AutoDice with `docker compose up` and consult the logs. Assuming it runs without issues and nothing seems amiss, you can stop it, and restart it to run in the background (detached mode) with `docker compose up -d`.
