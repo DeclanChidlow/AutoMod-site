@@ -52,7 +52,7 @@ Ensure you have the following:
 2. **Stop AutoFeeds**\
    `docker compose stop`
 
-3. **Pull the latest changes**\
+3. **Pull the latest changes**
 
    > [!IMPORTANT]
    > If you originally cloned AutoFeeds from GitHub, run the following command once to switch to Tangled then continue with the guide. There is no harm in running this command again if you're unsure if you cloned from GitHub.
