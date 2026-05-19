@@ -23,7 +23,7 @@ Usage: `/role remove <user> <role>`
 
 ## Reaction Roles
 
-Configure a message with reactions that, when reacted to, assign a user a server role.
+Configure a message with reactions that, when reacted to, assign a user a server role. You must use these commands in the channel which contains the message you're managing the reaction roles of.
 
 ### Add
 

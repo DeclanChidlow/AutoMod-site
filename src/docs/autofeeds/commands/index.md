@@ -37,6 +37,12 @@ Manually check an added feed for new items. The bot will automatically fetch new
 
 Usage: `@AutoFeeds check <url>`
 
+### Ping
+
+Checks AutoFeeds' latency and uptime.
+
+Usage: `@AutoFeeds ping`
+
 ### Help
 
 Sends a message providing information about how to use the bot.
