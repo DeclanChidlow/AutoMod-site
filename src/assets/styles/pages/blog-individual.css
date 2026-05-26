@@ -73,5 +73,9 @@ article {
 
 	.readable {
 		margin-inline: auto;
+
+		@media (max-width: 45rem) {
+			max-width: calc(100vw - 1.6rem);
+		}
 	}
 }
