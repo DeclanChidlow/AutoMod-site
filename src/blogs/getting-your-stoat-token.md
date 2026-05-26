@@ -15,7 +15,7 @@ On Stoat, authentication is done with a token. There are plenty of reasons you m
 
 Every time you log in to Stoat, your account is assigned an authentication token. One token is generated per sign-in, and it grants full access to your account. You can have multiple active sessions, and thus multiple user account tokens, active simultaneously.
 
-I've developed [a simple tool to allow you to create arbitrary sessions and get an account token](https://tools.vale.rocks/stoat-token). You provide the email and password associated with your Stoat account and in return receive an account token. If you have multi-factor authentication (MFA), as you should, it will also ask you to input your timed one time password (TOTP) or a recovery code. Then, you will be presented with a user account token for your freshly created session, which looks like this: ``
+I've developed [a simple tool to allow you to create arbitrary sessions and get an account token](https://tools.vale.rocks/stoat-token). You provide the email and password associated with your Stoat account and in return receive an account token. If you have multi-factor authentication (MFA), as you should, it will also ask you to input your timed one time password (TOTP) or a recovery code. Then, you will be presented with a user account token for your freshly created session, which looks like this: `7_9_HoKveczIuqUorOpsEiI8-WWr5RVA-phGmPRCYxeSc4AHNZ9EaX1eCiUTdBt7`
 
 Alternatively, if you're using For Legacy Web (Revite), you can open your browser developer tools and run this command in the console to return your current session token: `window.state.auth.sessions.get(controllers.client.getReadyClient().user._id).session.token`
 
