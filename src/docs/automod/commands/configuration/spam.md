@@ -7,6 +7,8 @@ canonical: /docs/automod/commands/configuration/spam
 
 Enable or disable anti-spam features. Note that anti-spam is enabled by default for servers enrolled in Discover as per [Stoat's Discover Guidelines](https://support.stoat.chat/kb/safety/discover-guidelines).
 
+The anti-spam rules can only be configured [in the dashboard](/docs/automod/dashboard).
+
 Usage: `/spam <enable|disable>`
 
 Aliases: `antispam`

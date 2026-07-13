@@ -28,6 +28,14 @@ canonical: ""
 <img src="/assets/images/actions_example.avif" alt="The user executes the '/ban' command on a user for 'Trolling.' AutoMod confirms the ban, displaying an infraction count, user ID, and reason.">
 </div>
 
+<div class="feature-card dashboard">
+<div>
+    <h2>Delightful Dashboard</h2>
+    <p>Graphically manage AutoMod's presense in your server at any time on the web.</p>
+</div>
+<img src="/assets/images/dashboard_home.avif" alt="A modern Material 3-styled dashboard showing a range of servers.">
+</div>
+
 <div class="feature-card utilities">
 <div>
     <h2>Useful Utilities</h2>
@@ -65,11 +73,11 @@ canonical: ""
 <div class="stats">
 
 Used in  
-**8000+**  
+**8900+**  
 servers
 
 Servicing  
-**220,000+**  
+**230,000+**  
 users
 
 </div>

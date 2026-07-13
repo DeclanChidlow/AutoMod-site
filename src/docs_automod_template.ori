@@ -32,6 +32,7 @@
 		<ul>
 			<li><a href="/docs/automod">Home</a></li>
 			<li><a href="/docs/automod/setup">Setup</a></li>
+			<li><a href="/docs/automod/dashboard">Dashboard</a></li>
 
 			<li><a href="/docs/automod/commands">Commands</a></li>
 			<li>

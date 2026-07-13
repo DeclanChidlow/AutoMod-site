@@ -99,6 +99,14 @@ main {
 		radial-gradient(at 95% 65%, hsla(28, 71%, 71%, 1) 0px, transparent 50%), radial-gradient(at 12% 99%, hsla(192, 73%, 68%, 1) 0px, transparent 50%);
 }
 
+.dashboard {
+	color: #fff099;
+	background-color: #ffa2a2;
+	background-image:
+		radial-gradient(at 15% 92%, hsla(152, 97%, 77%, 1) 0px, transparent 50%), radial-gradient(at 78% 54%, hsla(106, 82%, 70%, 1) 0px, transparent 50%),
+		radial-gradient(at 97% 8%, hsla(89, 84%, 79%, 1) 0px, transparent 50%), radial-gradient(at 84% 50%, hsla(193, 88%, 69%, 1) 0px, transparent 50%);
+}
+
 .utilities {
 	color: #fff0f0;
 	background-color: #ff99c0;
