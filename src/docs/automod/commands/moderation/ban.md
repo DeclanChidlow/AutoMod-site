@@ -5,10 +5,14 @@ og_description: AutoMod's ban command usage documentation.
 canonical: /docs/automod/commands/moderation/ban
 ---
 
-Removes a user from the server and prevents them from rejoining.This command can be undone with [unban](/docs/automod/commands/moderation/unban).
+Removes a user from the server and prevents them from rejoining. If no duration is given, the ban is permanent. This command can be undone with [unban](/docs/automod/commands/moderation/unban).
 
-You can provide a length for the ban, such as 1h (one hour) or 30s (thirty seconds).
+You can provide a length for the ban, such as `1h` (one hour) or `30s` (thirty seconds). Temporary bans expire automatically.
 
-Usage: `/ban <user> [period] [reason]`
+To also delete recent messages from the user, include the `p` or `purge` flag with a duration (eg `p 7d` purges messages from the last 7 days).
+
+Multiple users can be banned at once by replying to one or more messages, or by providing a comma-separated list of usernames.
+
+Usage: `/ban <user> [duration] [purge <purge_duration>] [reason]`
 
 Aliases: `eject`
