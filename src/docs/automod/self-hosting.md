@@ -25,24 +25,27 @@ Ensure you have the following:
 
 ## Installation
 
-1.  **Clone the AutoMod repository** \
+1.  **Clone the AutoMod repository**\
     `git clone https://tangled.org/vale.rocks/AutoMod`
 
-2.  **Enter the AutoMod directory** \
+2.  **Enter the AutoMod directory**\
     `cd AutoMod`
 
-3.  **Setup configurations** \
-    Copy the example configuration files to create the actual configuration files: \
-    `cp compose.yml.example compose.yml` \
+3.  **Setup configurations**\
+    Copy the example configuration files to create the actual configuration files:\
+    `cp compose.yml.example compose.yml`\
     `cp .env.example .env`
 
     While the default `compose.yml` will work out of the box in most situations, you might need to tweak it depending on your specific configuration. You will need to edit `.env` to populate it with the relevant details.
 
-4.  **Build AutoMod** \
+4.  **Build AutoMod**\
     `docker compose build`
 
-5.  **Run it with Docker** \
+5.  **Run it with Docker**\
     Start AutoMod with `docker compose up` and consult the logs. Assuming it runs without issues and nothing seems amiss, you can stop it, and restart it to run in the background (detached mode) with `docker compose up -d`.
+
+6.  **Expose the web dashboard**\
+    If you wish to make the web dashboard publicly accessible, you'll need to reverse proxy or port forward it. Instructions on how to do so are outside the scope of this documentation, but can be achieved with services such as [Caddy](https://caddyserver.com) and [Nginx](https://nginx.org).
 
 ## Updating
 
