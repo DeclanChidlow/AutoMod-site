@@ -1,6 +1,6 @@
 ---
 title: Test
-description: Test AutoMod's functionality and avaliablity.
+description: Test AutoMod's functionality and availability.
 og_description: AutoMod's test command usage documentation.
 canonical: /docs/automod/commands/miscellaneous/test
 ---

@@ -66,7 +66,8 @@ article {
 			margin-inline-start: 0;
 
 			li {
-				display: inline;
+				list-style: none;
+				margin-block: 0;
 			}
 		}
 	}

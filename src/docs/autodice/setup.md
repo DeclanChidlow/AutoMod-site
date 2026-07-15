@@ -1,6 +1,6 @@
 ---
 title: AutoDice Setup
-description: Learn how to setup AutoDice for your Stoat server. Step-by-step guide for setting up the moderation bot to protect your community.
+description: Learn how to setup AutoDice for your Stoat server. Step-by-step guide for setting up the dice bot to enhance your community.
 og_description: AutoDice's setup documentation.
 canonical: /docs/autodice/setup
 ---

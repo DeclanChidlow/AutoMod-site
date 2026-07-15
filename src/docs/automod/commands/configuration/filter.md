@@ -19,13 +19,13 @@ Adds a word to the filter list. You can alter how strictly it'll be filtered by 
 
 - Soft
   - This will only match full, exact words.
-  - e.g Filtering 'cat' will not trigger on 'cat**s**'.
+  - eg Filtering 'cat' will not trigger on 'cat**s**'.
 - Hard
   - This will match even if a string is within another word.
-  - e.g Filtering 'ass` will trigger on 'cl**ass**ic'.
+  - eg Filtering 'ass' will trigger on 'cl**ass**ic'.
 - Strict
   - This will remove whitespace and try substitutions.
-  - e.g Filtering "sex" will trigger on 's3x' and 'car**s ex**ploded'.
+  - eg Filtering "sex" will trigger on 's3x' and 'car**s ex**ploded'.
   - The substitution list is:
     - 0 : o
     - 1 : i

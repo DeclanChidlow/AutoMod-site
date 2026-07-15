@@ -1,15 +1,15 @@
 (doc) => main_template.ori({
-	title: doc/title
-	description: doc/description
-	og_description: doc/og_description
+	title: doc.title
+	description: doc.description
+	og_description: doc.og_description
 	stylesheet: "pages/docs.css"
 
 	_body: `
-	<section data-pagefind-filter="Content Type:Documentation">
-		<h1>${ doc/title }</h1>
+    <section data-pagefind-filter="Content Type:Documentation">
+      <h1>${ doc.title }</h1>
 
-		<div data-pagefind-body>
-			${ doc/_body }
-		</div>
-	</section>
-` })
+      <div data-pagefind-body>
+        ${ doc._body }
+      </div>
+    </section>
+`})

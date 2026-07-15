@@ -16,6 +16,6 @@ In the days following the rebrand and publication of this post, you might encoun
 
 Most bot features and functionality will continue to work and operate exactly as they have in the past. If there are any major changes, you'll be the first to know.
 
-Things will certainly be shaky, but we'll work through it. If you have any questions, feel welcome to swing by the [AutoMod Stoat server](http://stt.gg/automod), and I'll do my best to assist you.
+Things will certainly be shaky, but we'll work through it. If you have any questions, feel welcome to swing by the [AutoMod Stoat server](https://stt.gg/automod), and I'll do my best to assist you.
 
 Thanks for sticking with us as I work through this.

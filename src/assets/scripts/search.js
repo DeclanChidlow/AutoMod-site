@@ -1,4 +1,5 @@
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("DOMContentLoaded", async () => {
+	await customElements.whenDefined("pagefind-input");
 	const searchInput = document.querySelector(".pf-input");
 	const clearButton = document.querySelector(".pf-input-clear");
 

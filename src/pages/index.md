@@ -108,7 +108,7 @@ A fully-featured dice bot perfect for TTRPGs
 
 ## Support Development & Hosting
 
-These bots costs me money to host and time to develop and [operates at a financial deficit](/blog/end-of-year-2025#financials). If you're able, consider chipping in to help support me.
+These bots cost me money to host and time to develop and [operates at a financial deficit](/blog/end-of-year-2025#financials). If you're able, consider chipping in to help support me.
 
 <a href="https://vale.rocks/support" class="button">Donate</a>
 

@@ -61,7 +61,7 @@ Like many blogs, the AutoMod blog provides feeds. The RSS feed is `https://autom
 
 ## Hacker News
 
-Hacker News has a solid variety of feeds availiable. Notable are: the front-page (`https://news.ycombinator.com/rss`), newest (`https://news.ycombinator.com/newest.rss`), Ask HN (`https://news.ycombinator.com/ask.rss`), and Show HN (`https://news.ycombinator.com/show.rss`).
+Hacker News has a solid variety of feeds available. Notable are: the front-page (`https://news.ycombinator.com/rss`), newest (`https://news.ycombinator.com/newest.rss`), Ask HN (`https://news.ycombinator.com/ask.rss`), and Show HN (`https://news.ycombinator.com/show.rss`).
 
 You can also use external services, such as [Hacker News RSS](https://hnrss.github.io) to create a wider, more tailored variety of feeds.
 

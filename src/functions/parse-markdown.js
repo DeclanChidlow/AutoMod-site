@@ -42,7 +42,7 @@ export default async function mdHtml(input) {
 	if (markdown === null) {
 		throw new Error("mdHtml: The provided input couldn't be treated as text.");
 	}
-	const html = marked(markdown);
+	const html = await marked(markdown);
 	return inputIsDocument ? documentObject(html, input) : html;
 }
 

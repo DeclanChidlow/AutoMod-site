@@ -1,6 +1,6 @@
 ---
 title: Hello Tangled, Goodbye GitHub
-description: The plans and processess for AutoMod, AutoFeeds, AutoDice, and future bots to move from GitHub to a new Git forge, Tangled. Addresses migration and information about why the move is necessary the decision behind choosing Tangled over alternatives.
+description: The plans and processes for AutoMod, AutoFeeds, AutoDice, and future bots to move from GitHub to a new Git forge, Tangled. Addresses migration and information about why the move is necessary the decision behind choosing Tangled over alternatives.
 og_description: Entangled in a new Git forge.
 pub_time: 2026-05-10T04:00Z
 author: Declan Chidlow (Vale)

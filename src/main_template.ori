@@ -1,112 +1,110 @@
-(page) =>
-`<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>${ page.title}${ page.title !== 'AutoMod' ? ' | AutoMod' : ''}</title>
+(page) => `
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${ page.title}${ page.title !== 'AutoMod' ? ' | AutoMod' : ''}</title>
 
-	<script data-goatcounter="https://automod.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script data-goatcounter="https://automod.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
-	<link rel="stylesheet" href="/assets/styles/base/reset.css">
-	<link rel="stylesheet" href="/assets/styles/base/body.css">
-	<link rel="stylesheet" href="/assets/styles/type/links.css">
-	<link rel="stylesheet" href="/assets/styles/type/type.css">
-	<link rel="stylesheet" href="/assets/styles/components/navbar.css">
-	<link rel="stylesheet" href="/assets/styles/components/footer.css">
-	${ page.stylesheet ? `
-		<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">
-	` : '' }
+    <link rel="stylesheet" href="/assets/styles/base/reset.css">
+    <link rel="stylesheet" href="/assets/styles/base/body.css">
+    <link rel="stylesheet" href="/assets/styles/type/links.css">
+    <link rel="stylesheet" href="/assets/styles/type/type.css">
+    <link rel="stylesheet" href="/assets/styles/components/navbar.css">
+    <link rel="stylesheet" href="/assets/styles/components/footer.css">
+    ${ page.stylesheet ? `<link rel="stylesheet" href="/assets/styles/${ page.stylesheet}">` : '' }
 
-	<link rel="preload" href="/assets/typefaces/Outfit.woff2" as="font" type="font/woff2">
-	<link rel="preload" href="/assets/typefaces/FiraCode.woff2" as="font" type="font/woff2">
-	<link rel="preload" href="/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/assets/typefaces/Outfit.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/assets/typefaces/FiraCode.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="/assets/typefaces/Material_Symbols_Rounded/MaterialSymbolsRounded-Regular.woff2" as="font" type="font/woff2">
 
-	<meta property="og:title" content="${ page.title }">
-	${ page.description ? `
-		<meta name="description" content="${ page.description}">
-		<meta property="og:description" content="${ page.og_description || page.description }">
-	` : '' }
+    <meta property="og:title" content="${ page.title }">
+    ${ page.description ? `
+      <meta name="description" content="${ page.description}">
+      <meta property="og:description" content="${ page.og_description || page.description }">
+    ` : '' }
 
-	${ page.article ? `
-		<meta property="og:type" content="article">
-		<meta property="article:author" content="${ page.author }">
+    ${ page.article ? `
+      <meta property="og:type" content="article">
+      <meta property="article:author" content="${ page.author }">
 
-		<meta property="article:published_time" content="${ page.pub_time }">
+      <meta property="article:published_time" content="${ page.pub_time }">
 
-		${ page.mod_time ? `
-			<meta property="article:modified_time" content="${ page.mod_time }">
-		` : '' }
-	` : '<meta property="og:type" content="website">' }
+      ${ page.mod_time ? `
+        <meta property="article:modified_time" content="${ page.mod_time }">
+      ` : '' }
+    ` : '<meta property="og:type" content="website">' }
 
-	<link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
 
-	<link rel="apple-touch-icon" sizes="512x512" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/assets/favicons/apple-touch-icon.png">
 
-	<meta property="og:image" content="https://automod.vale.rocks/assets/og_image.webp">
-	<meta property="og:image:type" content="image/webp">
-	<meta property="og:image:width" content="1000">
-	<meta property="og:image:height" content="495">
-	<meta property="og:image:alt" content="The AutoMod logo, featuring a shield with a strike in it and the text 'AutoMod' on a background of repeating icons in a rainbow gradient.">
+    <meta property="og:image" content="https://automod.vale.rocks/assets/og_image.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="495">
+    <meta property="og:image:alt" content="The AutoMod logo, featuring a shield with a strike in it and the text 'AutoMod' on a background of repeating icons in a rainbow gradient.">
 
-	${ page.canonical !== undefined ? `
-		<link rel="canonical" href="https://automod.vale.rocks${ page.canonical }">
-		<meta property="og:url" content="https://automod.vale.rocks${ page.canonical }">
-	` : '' }
+    ${ page.canonical !== undefined ? `
+      <link rel="canonical" href="https://automod.vale.rocks${ page.canonical }">
+      <meta property="og:url" content="https://automod.vale.rocks${ page.canonical }">
+    ` : '' }
 
-	<meta property="og:site_name" content="AutoMod">
-	<meta property="og:locale" content="en_AU">
+    <meta property="og:site_name" content="AutoMod">
+    <meta property="og:locale" content="en_AU">
 
-	<meta name="creator" content="vale.rocks">
-	<meta name="contact" content="https://vale.rocks/contact">
-	<meta property="og:site" content="AutoMod">
-	<meta property="og:type" content="website">
+    <meta name="creator" content="vale.rocks">
+    <meta name="contact" content="https://vale.rocks/contact">
+    <meta property="og:site" content="AutoMod">
 
-	<meta name="color-scheme" content="light dark">
-	<meta name="theme-color" content="oklch(100% 0 360)" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="oklch(13.3% 0.0392 254.4)" media="(prefers-color-scheme: dark)">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="oklch(100% 0 360)" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="oklch(13.3% 0.0392 254.4)" media="(prefers-color-scheme: dark)">
 
-	<link rel="alternate" type="application/rss+xml" title="RSS feed of AutoMod blog posts." href="/blog/feed.xml">
-	<link rel="alternate" type="application/json" title="JSON feed of AutoMod blog posts." href="/blog/feed.json">
-	<link rel="search" type="application/opensearchdescription+xml" title="AutoMod Search" href="https://automod.vale.rocks/opensearch.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS feed of AutoMod blog posts." href="/blog/feed.xml">
+    <link rel="alternate" type="application/json" title="JSON feed of AutoMod blog posts." href="/blog/feed.json">
+    <link rel="search" type="application/opensearchdescription+xml" title="AutoMod Search" href="https://automod.vale.rocks/opensearch.xml">
 
-</head>
+  </head>
 
-<body ${ page.area ? `class="${ page.area }"` : "" }>
-	<header id="navbar">
-		<div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
-		<nav>
-			<a href="/" id="navlanding">AutoMod</a>
-			<ul>
-				<li><a href="/docs">Documentation</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/search" class="icons">search</a></li>
-			</ul>
-		</nav>
-	</header>
+  <body ${ page.area ? `class="${ page.area }"` : "" }>
+    <header id="navbar">
+      <div class="skip-link">Skip to <a href="#main">content</a>, <a href="#footer">footer</a></div>
+      <nav>
+        <a href="/" id="navlanding">AutoMod</a>
+        <ul>
+          <li><a href="/docs">Documentation</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/search" class="icons">search</a></li>
+        </ul>
+      </nav>
+    </header>
 
-	<main id="main">
-		${ page._body }
-	</main>
+    <main id="main">
+      ${ page._body }
+    </main>
 
-	<footer id="footer">
-		<div>
-			<svg viewBox="0 0 404 109" fill="light-dark(var(--black), var(--white))">
-			  <path d="M58.7 62.6c-8.4-8-13.3-12.2-17.4-15.5Q37 43.4 33 39.6c-1.6-1.4-3.4-3-5.6-3.7q-.9-.3-1.9-.3t-1.8.2v16A44 44 0 0 0 33 79.1c4.6 5.5 9.7 8.4 15.3 11.6q5.4 3 8.5 4.2a95 95 0 0 0 14-7.3q2.7-1.7 3.4-4.8c.7-3.3-1.4-6.6-15.6-20.2Zm13.7-40.2Q64 19.3 57 15.9a198 198 0 0 1-15.8 6.5l-2.6.9 2.8 6.8a166 166 0 0 0 6.7 14q3.4 5.9 8.5 10.5a61 61 0 0 0 23 13.3 20 20 0 0 1 6.4 3 43 43 0 0 0 4.3-19V27.6q-8.3-1.9-17.8-5.3Z"/>
-			  <text font-family="Outfit" font-size="60" font-weight="800" transform="translate(115.5 78.6)"><tspan x="0" y="0">A</tspan><tspan x="44.2" y="0">u</tspan><tspan x="77.7" y="0">t</tspan><tspan x="102.6" y="0" letter-spacing="0">o</tspan><tspan x="137.8" y="0" letter-spacing="0">M</tspan><tspan x="190.4" y="0" letter-spacing="0">o</tspan><tspan x="225.6" y="0">d</tspan></text>
-			</svg>
-			<p>Developed and maintained by <a href="https://vale.rocks">Declan Chidlow</a>.</p>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="https://vale.rocks/support" class="button">Donate</a></li>
-				<li><a href="/docs">Documentation</a></li>
-        <li><a href="/dashboard">Dashboard</a></li>
-				<li><a href="https://tangled.org/vale.rocks/AutoMod">Source Code</a></li>
-				<li><a href="https://github.com/users/DeclanChidlow/projects/1">Roadmap</a></li>
-				<li><a href="/sitemap.xml">Sitemap</a></li>
-			</ul>
-		</nav>
-	</footer>
-</body>
-</html>`
+    <footer id="footer">
+      <div>
+        <svg viewBox="0 0 404 109" fill="light-dark(var(--black), var(--white))">
+          <path d="M58.7 62.6c-8.4-8-13.3-12.2-17.4-15.5Q37 43.4 33 39.6c-1.6-1.4-3.4-3-5.6-3.7q-.9-.3-1.9-.3t-1.8.2v16A44 44 0 0 0 33 79.1c4.6 5.5 9.7 8.4 15.3 11.6q5.4 3 8.5 4.2a95 95 0 0 0 14-7.3q2.7-1.7 3.4-4.8c.7-3.3-1.4-6.6-15.6-20.2Zm13.7-40.2Q64 19.3 57 15.9a198 198 0 0 1-15.8 6.5l-2.6.9 2.8 6.8a166 166 0 0 0 6.7 14q3.4 5.9 8.5 10.5a61 61 0 0 0 23 13.3 20 20 0 0 1 6.4 3 43 43 0 0 0 4.3-19V27.6q-8.3-1.9-17.8-5.3Z"/>
+          <text font-family="Outfit" font-size="60" font-weight="800" transform="translate(115.5 78.6)"><tspan x="0" y="0">A</tspan><tspan x="44.2" y="0">u</tspan><tspan x="77.7" y="0">t</tspan><tspan x="102.6" y="0" letter-spacing="0">o</tspan><tspan x="137.8" y="0" letter-spacing="0">M</tspan><tspan x="190.4" y="0" letter-spacing="0">o</tspan><tspan x="225.6" y="0">d</tspan></text>
+        </svg>
+        <p>Developed and maintained by <a href="https://vale.rocks">Declan Chidlow</a>.</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="https://vale.rocks/support" class="button">Donate</a></li>
+          <li><a href="/docs">Documentation</a></li>
+          <li><a href="/dashboard">Dashboard</a></li>
+          <li><a href="https://tangled.org/vale.rocks/AutoMod">Source Code</a></li>
+          <li><a href="https://github.com/users/DeclanChidlow/projects/1">Roadmap</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  </html>
+`

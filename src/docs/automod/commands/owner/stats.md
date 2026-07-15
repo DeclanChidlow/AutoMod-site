@@ -1,6 +1,6 @@
 ---
 title: Stats
-description: View detailed AutoMod statistics. Track the cache, connections, details, and dependancies.
+description: View detailed AutoMod statistics. Track the cache, connections, details, and dependencies.
 og_description: AutoMod's stats command usage documentation.
 canonical: /docs/automod/commands/owner/stats
 ---

@@ -3,22 +3,22 @@
 	description: "Updates, changes, product launches, and assorted musings related to everything under the AutoMod umbrella."
 	og_description: "The latest and greatest in AutoMod web logging."
 	stylesheet: "pages/blog.css"
-	canonical: "/blogs"
-	template_image: "blog"
+	canonical: "/blog"
 
-_body: 
-`<div class="readable">
-	<h1 data-pagefind-filter="Content Type:Page">Blog</h1>
-	<p>If you're looking to learn about the latest in the world of AutoMod, you're in the right place.</p> 
+_body: `
+  <div class="readable">
+    <h1 data-pagefind-filter="Content Type:Page">Blog</h1>
+    <p>If you're looking to learn about the latest in the world of AutoMod, you're in the right place. Posts about development, new features, changes, and Stoat at large.</p>
 
-	<div data-pagefind-ignore>
-		<div id="blogs">
-			${ Tree.map(blogs_data,
-			(blog, key) =>
-			`<a class="blog" href="/blog/${ Origami.basename(key) }">
-				<h2>${ blog.title }</h2>
-				<time datetime="${ blog.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(blog.pub_time) }</time>
-			</a>`)}
-		</div>
-	</div>
-</div>`})
+    <div data-pagefind-ignore>
+      <div id="blogs">
+        ${ Tree.map(blogs_data, (blog, key) => `
+          <a class="blog" href="/blog/${ Origami.basename(key) }">
+            <h2>${ blog.title }</h2>
+            <time datetime="${ blog.pub_time }" title="Date of first publication.">${ functions/pretty-date.js(blog.pub_time) }</time>
+          </a>
+        `)}
+      </div>
+    </div>
+  </div>
+`})

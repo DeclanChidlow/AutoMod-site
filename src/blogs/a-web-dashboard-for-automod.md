@@ -26,7 +26,7 @@ The dashboard also allows features that are too complex or finicky to manage via
 
 As part of the new dashboard, there are improved anti-spam tools. You can create rules that trigger based on the number of messages being sent in a timeframe of your choosing and what happens when messages exceeding this limit are sent. You can have a message be sent in chat, you can have the spam messages deleted, and you can warn users, kick them, or even ban them. You're able to configure multiple rules to tailor it exactly to your needs.
 
-Pair this with AutoMod's filtering functionality, and you're looking pretty good. You'll be looking even better when further goodness makes it's way off the conveyor belt and into your hands.
+Pair this with AutoMod's filtering functionality, and you're looking pretty good. You'll be looking even better when further goodness makes its way off the conveyor belt and into your hands.
 
 ## Behind The Scenes
 

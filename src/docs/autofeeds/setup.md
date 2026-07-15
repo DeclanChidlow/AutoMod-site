@@ -16,7 +16,6 @@ AutoFeeds is a pretty easy bot to get setup and ready to start posting in your s
    - Send Messages
    - Send Embeds
    - Masquerade
-   - Mention Everyone
    - Bypass Slowmode
    - Mention Everyone
    - Mention Roles

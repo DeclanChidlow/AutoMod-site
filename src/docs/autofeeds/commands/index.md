@@ -51,17 +51,6 @@ Usage: `@AutoFeeds help`
 
 ## Syntax
 
-Commands use the following notation:
+`<argument>` indicates a required argument.
 
-- `<argument>` indicates a required argument.
-- `[argument]` indicates an optional argument.
-- `[argument1|argument2]` indicates you must choose one of the options.
-- `[argument,...]` indicates you can provide multiple values separated by commas.
-
-For example:
-`/purge <amount> [user1,user2,...]`
-
-This means:
-
-- `amount` is required (eg, '100').
-- `user1,user2,...` is optional and can include multiple users.
+For example, `<url>` in `@AutoFeeds add <url>` indicates that `<url>` is required.

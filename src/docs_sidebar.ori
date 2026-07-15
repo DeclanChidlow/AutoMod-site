@@ -1,0 +1,12 @@
+(section, links) => `
+  <details class="docs-section">
+    <summary class="${section}-docs-selector">${section === 'automod' ? 'AutoMod' : section === 'autofeeds' ? 'AutoFeeds' : 'AutoDice'}</summary>
+    ${section !== 'automod' ? '<a href="/docs/automod" class="automod-docs-selector">AutoMod</a>' : ''}
+    ${section !== 'autofeeds' ? '<a href="/docs/autofeeds" class="autofeeds-docs-selector">AutoFeeds</a>' : ''}
+    ${section !== 'autodice' ? '<a href="/docs/autodice" class="autodice-docs-selector">AutoDice</a>' : ''}
+  </details>
+
+  <ul>
+    ${links}
+  </ul>
+`

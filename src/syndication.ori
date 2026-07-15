@@ -4,16 +4,16 @@
 	description: "Posts regarding anything and everything under the AutoMod umbrella."
 	home_page_url: "https://automod.vale.rocks/blog"
 	feed_url: "https://automod.vale.rocks/blog/feed.json"
-	icon: "https://automod.vale.rocks/assets/favicons/AutoMod_Favicon.svg"
-	favicon: "https://automod.vale.rocks/assets/favicons/AutoMod_Favicon.svg"
+	icon: "https://automod.vale.rocks/assets/favicons/favicon.svg"
+	favicon: "https://automod.vale.rocks/assets/favicons/favicon.svg"
 
 	items: Tree.values(Tree.map(blogs, (blog, fileName) => {
 		id: `https://automod.vale.rocks/blog/${ Origami.basename(fileName) }`
 		url: `https://automod.vale.rocks/blog/${ Origami.basename(fileName) }`
-		title: blog/title
-		content_html: `${ blog/_body }`
-		summary: blog/description
-		date_published: blog/pub_time
-		date_modified: blog/mod_time
+		title: blog.title
+		content_html: blog._body
+		summary: blog.description
+		date_published: blog.pub_time
+		...(blog.mod_time ? { date_modified: blog.mod_time } : {})
 	}))
 }
