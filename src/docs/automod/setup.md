@@ -12,19 +12,21 @@ AutoMod is a pretty easy bot to get setup and ready to help moderate your server
 
 2. **Create a role and assign it required permissions**\
    AutoMod has lots of features, so it requires lots of permissions. It is usually easiest just to enable them all, but the specific required items to get the most out of AutoMod are:
-
    - Kick Members
    - Ban Members
    - Timeout Members
+   - Assign Roles
    - Change Nickname
-   - Manage Nickname
-   - Change Avatar
+   - Manage Nicknames
    - Remove Avatars
    - View Channel
    - Send Messages
+   - Manage Messages
    - Send Embeds
+   - Upload Files
    - Masquerade
-   - Use Reactions
+   - React
+   - Bypass Slowmode
 
 3. **Assign the role to AutoMod**\
    Give AutoMod your newly made role and test that everything is working.

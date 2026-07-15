@@ -13,8 +13,8 @@ AutoDice is nice and simple, so it isn't difficult to get setup and ready to sta
 2. **Create a role and assign it the required permissions**\
    AutoDice is pretty simple, so it doesn't require many permissions to use. The permissions it does need are:
    - View Channel
-   - Read Message History
    - Send Messages
+   - Bypass Slowmode
 
 3. **Assign the role to AutoDice**\
    Give AutoDice your newly made role and test that everything is working. A good way to test is by running `@AutoDice help` and seeing if it responds. If it does, you're good to go.

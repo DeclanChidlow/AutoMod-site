@@ -13,9 +13,11 @@ AutoFeeds is a pretty easy bot to get setup and ready to start posting in your s
 2. **Create a role and assign it the required permissions**\
    AutoFeeds doesn't require much in the way of permissions. The specific items required to use the bot are:
    - View Channel
-   - Read Message History
    - Send Messages
    - Send Embeds
+   - Masquerade
+   - Mention Everyone
+   - Bypass Slowmode
    - Mention Everyone
    - Mention Roles
 
