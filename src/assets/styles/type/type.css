@@ -160,11 +160,18 @@ mark {
 }
 
 .button {
-	background: var(--red);
-	color: var(--white);
+	display: inline-block;
 	padding-block: 0.75rem;
 	padding-inline: 1.5rem;
 	border-radius: 100rem;
-	display: inline-block;
+	background: var(--red);
+	border: 2px solid var(--red);
+	color: var(--black);
+	font-weight: bold;
 	text-decoration: none;
+}
+
+.button-secondary {
+	background: none;
+	color: currentColor;
 }

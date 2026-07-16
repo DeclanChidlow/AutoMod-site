@@ -15,8 +15,11 @@
 		font-size: 1.3rem;
 	}
 
-	.button {
-		font-weight: bold;
+	.hero-buttons {
+		display: flex;
+		gap: 1rem;
+		inline-size: max-content;
+		text-align: center;
 	}
 
 	img {
@@ -31,6 +34,10 @@
 		gap: 1rem;
 		text-align: center;
 		justify-content: center;
+
+		.hero-buttons {
+			inline-size: auto;
+		}
 	}
 }
 

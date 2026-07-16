@@ -11,7 +11,10 @@ canonical: ""
 <div>
     <h1>AutoMod</h1>
     <p class="subtitle">Stoat's premier moderation bot</p>
-    <a href="https://stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
+    <div class="hero-buttons">
+        <a href="https://stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button">Add to Server</a>
+        <a href="https://stoat.chat/bot/01FHGJ3NPP7XANQQH8C2BE44ZY" class="button button-secondary">Open Dashboard</a>
+    </div>
 </div>
 
 <img src="/assets/hero.svg" alt="A shield with a wave moving through the centre of it. Behind it is a rainbow gradient.">
@@ -71,13 +74,14 @@ canonical: ""
 </div>
 
 <div class="stats">
+<!-- Dynamically updated by script -->
 
 Used in  
-**8900+**  
+<strong id="servers-stat">8,700+</strong><br>
 servers
 
 Servicing  
-**230,000+**  
+<strong id="users-stat">230,000+</strong><br>
 users
 
 </div>
@@ -108,8 +112,10 @@ A fully-featured dice bot perfect for TTRPGs
 
 ## Support Development & Hosting
 
-These bots cost me money to host and time to develop and [operates at a financial deficit](/blog/end-of-year-2025#financials). If you're able, consider chipping in to help support me.
+These bots cost me money to host and time to develop and [operate at a financial deficit](/blog/end-of-year-2025#financials). If you're able, consider chipping in to help support me.
 
 <a href="https://vale.rocks/support" class="button">Donate</a>
 
 </div>
+
+<script src="/assets/scripts/usage-stats.js"></script>
