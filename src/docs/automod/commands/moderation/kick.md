@@ -10,3 +10,13 @@ Removes a user from the server, but they can rejoin if they have an invite. Prov
 Usage: `/kick <user> [reason]`
 
 Aliases: `yeet`, `vent`
+
+## Vote
+
+Starts a community vote to kick a user. When the vote reaches the required number of votes, the user is kicked automatically.
+
+Any member of the server can start and participate in a vote. You cannot call a vote against yourself, bots, or server moderators.
+
+The vote thresholds and duration is configured in [AutoMod's dashboard](/docs/automod/dashboard).
+
+Usage: `/kick vote <user>`

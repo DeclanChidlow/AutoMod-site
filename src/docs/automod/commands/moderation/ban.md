@@ -16,3 +16,13 @@ Multiple users can be banned at once by replying to one or more messages, or by 
 Usage: `/ban <user> [duration] [purge <purge_duration>] [reason]`
 
 Aliases: `eject`
+
+## Vote
+
+Starts a community vote to ban a user. When the vote reaches the required number of votes, the user is banned automatically. The ban can be permanent or temporary, depending on the vote ban duration set via the dashboard.
+
+Any member of the server can start and participate in a vote. You cannot call a vote against yourself, bots, or server moderators.
+
+The vote threshold, duration, and the ban length are configured in [AutoMod's dashboard](/docs/automod/dashboard).
+
+Usage: `/ban vote <user>`

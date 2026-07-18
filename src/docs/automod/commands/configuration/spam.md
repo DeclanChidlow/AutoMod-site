@@ -9,6 +9,16 @@ Enable or disable anti-spam features. Note that anti-spam is enabled by default 
 
 The anti-spam rules can only be configured [in the dashboard](/docs/automod/dashboard).
 
+Aliases: `antispam`
+
+## Enable/Disable
+
+Enables spam mitigation.
+
 Usage: `/spam <enable|disable>`
 
-Aliases: `antispam`
+## List
+
+AutoMod will return a table showing configured anti-spam rules.
+
+Usage: `/spam list`

@@ -1,14 +1,14 @@
 ---
 title: Info
-description: Use AutoMod to provide information about users, servers, channels and more on Stoat when given their ULID.
+description: Use AutoMod to provide information about a user, channel, role, emoji, or ULID on Stoat.
 og_description: AutoMod's info command usage documentation.
 canonical: /docs/automod/commands/miscellaneous/info
 ---
 
-Provides information about a given ULID. It will automatically grab the ULID if you tag a channel or ping a user with this command.
+The info command fetches and provides assorted information about a given argument. You can tag a user, channel, or role or provide an emoji or direct ULID, and the bot will provide information about it.
 
-If used without an argument, it will return details about your current context.
+If used without an argument, the command will return details about your current context.
 
-Usage: `/info (ULID)`
+Usage: `/info (@user|#channel|%role|emoji|ULID)`
 
 Aliases: `debug`
