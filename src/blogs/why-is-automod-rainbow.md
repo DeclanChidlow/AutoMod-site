@@ -1,7 +1,7 @@
 ---
 title: Why Is AutoMod Rainbow?
 description: Explaining why the Stoat bot AutoMod has rainbow branding. The origins of the bot's rainbow visage to its current appearance today and why it is relevant and sticking around as representation of AutoMod's community and history and to represent the bot itself.
-og_description: 01FHGJ3NPPAVT0M0D4211FEE42
+og_description: There is a pot of gold at the end of AutoMod.
 pub_time: 2026-07-27T02:55Z
 author: Declan Chidlow (Vale)
 ---
