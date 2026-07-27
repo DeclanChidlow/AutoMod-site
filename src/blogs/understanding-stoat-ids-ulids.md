@@ -14,7 +14,7 @@ If you use Stoat, you've likely seen a ULID. They look like this: `01G6A2YMHED2T
 
 Stoat uses ULIDs to identify different pieces of information so they can be referenced easily. The average user never needs to interact with them directly, but it is good to know if you're developing for Stoat or getting into the weeds.
 
-You should keep in mind that ULIDs are _not_ the discriminator after your name (eg AutoMod*#0800*) and are also distinct from other types of IDs, like UUIDs, which are a separate system not used by Stoat.
+You should keep in mind that ULIDs are _not_ the discriminator after your name (eg AutoMod#0800) and are also distinct from other types of IDs, like UUIDs, which are a separate system not used by Stoat.
 
 ULIDs are in use everywhere on Stoat, even if you don't always see them. When you mention a user, like `@Vale`, what is technically written behind the scenes is `<@01G6A2YMHED2TFTEMNKKMKFGH0>`, which is the ULID preceded by `@` and wrapped in angle brackets (`<>`). The case is very similar for other content types:
 
