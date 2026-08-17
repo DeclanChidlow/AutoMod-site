@@ -9,6 +9,8 @@ Allows adding a role to, or removing a role from, a server member and managing r
 
 Aliases: `roles`
 
+Required permissions: `Manage Roles`
+
 ## Add
 
 Grants a role to a server member.

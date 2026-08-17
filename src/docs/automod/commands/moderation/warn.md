@@ -8,3 +8,5 @@ canonical: /docs/automod/commands/moderation/warn
 Adds an infraction to a user's record. You can view this record with [the infractions command](/docs/automod/commands/moderation/infractions).
 
 Usage: `/warn <user> [reason]`
+
+Required permissions: `Ban Members` or `Kick Members`

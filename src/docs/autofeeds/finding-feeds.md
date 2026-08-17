@@ -5,7 +5,7 @@ og_description: Assisting documentation for finding syndication feeds.
 canonical: /docs/autofeeds/finding-feeds
 ---
 
-AutoFeeds supports RSS 2.0, Atom 1.0, and JSON Feed 1.0/1.1 feeds.
+AutoFeeds supports RSS 2.0, Atom 1.0, and JSON Feed 1.0/1.1 feeds. It also supports podcast feeds, which are RSS feeds that include iTunes or podcast namespace data. Most podcast directories link directly to such feeds.
 
 ## Bluesky
 

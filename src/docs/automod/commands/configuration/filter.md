@@ -7,6 +7,8 @@ canonical: /docs/automod/commands/configuration/filter
 
 Allows for messages to be checked against a word list and then action to be taken based on infractions.
 
+Required permissions: `Manage Server` permission, or listed as a bot manager.
+
 ## Enable/Disable
 
 Enables message filtering.
@@ -15,7 +17,7 @@ Usage: `/filter <enable|disable>`
 
 ## Add
 
-Adds a word to the filter list. You can alter how strictly it'll be filtered by providing one of three strictness levels:
+Adds a word to the filter list. You can alter how strictly it'll be filtered by providing one of four strictness levels:
 
 - Soft
   - This will only match full, exact words.
@@ -26,38 +28,42 @@ Adds a word to the filter list. You can alter how strictly it'll be filtered by 
 - Strict
   - This will remove whitespace and try substitutions.
   - eg Filtering "sex" will trigger on 's3x' and 'car**s ex**ploded'.
-  - The substitution list is:
-    - 0 : o
-    - 1 : i
-    - 4 : a
-    - 3 : e
-    - 5 : s
-    - 6 : g
-    - 7 : t
-    - 8 : b
-    - 9 : g
-    - @ : a
-    - ^ : a
-    - Д : a
-    - ß : b
-    - ¢ : c
-    - © : c
-    - < : c
-    - € : e
-    - ƒ : f
-    - ท : n
-    - И : n
-    - Ø : o
-    - Я : r
-    - ® : r
-    - $ : s
-    - § : s
-    - † : t
-    - บ : u
-    - พ : w
-    - ₩ : w
-    - × : x
-    - ¥ : y
+- Regex
+  - This will treat the word as a case-insensitive regular expression pattern and match messages against the whole string.
+
+The substitution list for strict filtering is:
+
+- 0 : o
+- 1 : i
+- 4 : a
+- 3 : e
+- 5 : s
+- 6 : g
+- 7 : t
+- 8 : b
+- 9 : g
+- @ : a
+- ^ : a
+- Д : a
+- ß : b
+- ¢ : c
+- © : c
+- < : c
+- € : e
+- ƒ : f
+- ท : n
+- И : n
+- Ø : o
+- Я : r
+- ® : r
+- $ : s
+- § : s
+- † : t
+- บ : u
+- พ : w
+- ₩ : w
+- × : x
+- ¥ : y
 
 If no strictness is selected while adding a word, it'll default to hard.
 

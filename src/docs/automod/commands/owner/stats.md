@@ -9,4 +9,4 @@ Returns information about AutoMod, including the current cache, connection detai
 
 Usage: `/stats`
 
-Aliases: `statistics`
+Aliases: `statistics`, `status`

@@ -13,6 +13,7 @@
           <li><a href="/docs/automod/commands/moderation/unban">Unban</a></li>
           <li><a href="/docs/automod/commands/moderation/kick">Kick</a></li>
           <li><a href="/docs/automod/commands/moderation/nick">Nick</a></li>
+          <li><a href="/docs/automod/commands/moderation/pronouns">Pronouns</a></li>
           <li><a href="/docs/automod/commands/moderation/role">Role</a></li>
           <li><a href="/docs/automod/commands/moderation/purge">Purge</a></li>
           <li><a href="/docs/automod/commands/moderation/timeout">Timeout</a></li>
@@ -28,6 +29,7 @@
         <li><ul>
           <li><a href="/docs/automod/commands/configuration/filter">Filter</a></li>
           <li><a href="/docs/automod/commands/configuration/logs">Logs</a></li>
+          <li><a href="/docs/automod/commands/configuration/managers">Managers</a></li>
           <li><a href="/docs/automod/commands/configuration/prefix">Prefix</a></li>
           <li><a href="/docs/automod/commands/configuration/spam">Spam</a></li>
           <li><a href="/docs/automod/commands/configuration/allowlist">Allowlist</a></li>

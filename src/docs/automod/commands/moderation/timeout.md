@@ -13,12 +13,12 @@ Usage: `/timeout <user> [duration] [reason]`
 
 Aliases: `mute`, `silence`
 
+Required permissions: `Timeout Members`
+
 ## Vote
 
-Starts a community vote to timeout a user. When the vote reaches the required number of votes, the user is timed out automatically for the duration configured via the dashboard.
+If vote timeouts are enabled by the server managers, it starts a community vote to timeout a user. When the vote reaches the required number of votes, the user is timed out automatically. The number of votes required, the voting period's duration, and the timeout's length are configured by server managers in [AutoMod's dashboard](/docs/automod/dashboard).
 
 Any member of the server can start and participate in a vote. You cannot call a vote against yourself, bots, or server moderators.
-
-The vote threshold, duration, and the timeout length are configured in [AutoMod's dashboard](/docs/automod/dashboard).
 
 Usage: `/timeout vote <user>`

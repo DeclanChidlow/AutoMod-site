@@ -10,3 +10,5 @@ Removes a user's server ban, allowing them to rejoin the server if they have an 
 Usage: `/unban <user>`
 
 Aliases: `pardon`
+
+Required permissions: `Ban Members`

@@ -9,6 +9,8 @@ Permit users or roles to bypass AutoMod's moderation rules.
 
 Aliases: `whitelist`, `safelist`
 
+Required permissions: `Manage Server` permission, or listed as a bot manager.
+
 ## Add/Remove User/Role
 
 Adds or removes a user or role from the allowlist.

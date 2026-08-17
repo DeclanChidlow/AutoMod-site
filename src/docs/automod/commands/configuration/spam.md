@@ -11,6 +11,8 @@ The anti-spam rules can only be configured [in the dashboard](/docs/automod/dash
 
 Aliases: `antispam`
 
+Required permissions: `Manage Server` permission, or listed as a bot manager.
+
 ## Enable/Disable
 
 Enables spam mitigation.

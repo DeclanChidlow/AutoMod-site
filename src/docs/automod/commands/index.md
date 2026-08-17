@@ -15,16 +15,16 @@ This documentation site offers a detailed explanation of each available command.
 
 AutoMod's commands are split into four categories. These are:
 
-- **[Moderation](/docs/commands/moderation)** \
+- **[Moderation](/docs/automod/commands/moderation)** \
    Commands for enforcing server rules.
 
-- **[Configuration](/docs/commands/configuration)** \
+- **[Configuration](/docs/automod/commands/configuration)** \
    Commands for setting up and customising settings.
 
-- **[Owner](/docs/commands/owner)** \
+- **[Owner](/docs/automod/commands/owner)** \
    Exclusive commands for the bot owner to manage and control AutoMod.
 
-- **[Miscellaneous](/docs/commands/miscellaneous)** \
+- **[Miscellaneous](/docs/automod/commands/miscellaneous)** \
    Additional commands not covered by other categories.
 
 ## Syntax
@@ -36,10 +36,4 @@ Commands use the following notation:
 - `[argument1|argument2]` indicates you must choose one of the options.
 - `[argument,...]` indicates you can provide multiple values separated by commas.
 
-For example:
-`/purge <amount> [user1,user2,...]`
-
-This means:
-
-- `amount` is required (eg, '100').
-- `user1,user2,...` is optional and can include multiple users.
+For example, `/purge <amount> [user1,user2,...]` means that `amount` is required (eg, '100') and that `user1,user2,...` is optional and may include multiple users.

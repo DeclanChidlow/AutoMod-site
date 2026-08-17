@@ -5,4 +5,4 @@ og_description: AutoMod's dashboard documentation.
 canonical: /docs/automod/dashboard
 ---
 
-AutoMod has a dashboard which can be accessed on the web at <https://automod.vale.rocks/dashboard>. It will prompt you to log in with your Stoat account, and then select a server. From here you can customise AutoMod completely to your needs.
+AutoMod has a dashboard which can be accessed on the web at <https://automod.vale.rocks/dashboard>. It will prompt you to log in with your Stoat account and then select a server. From here you can customise AutoMod completely to your needs in a graphical manner. The majority of what can be accomplished in the dashboard is also available via commands.

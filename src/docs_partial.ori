@@ -5,12 +5,13 @@
 	stylesheet: "pages/docs.css"
 
 	_body: `
-    <button id="contents-button" popovertarget="sidebar-menu">
-      <svg aria-hidden="true" viewBox="0 -960 960 960"><path d="M500-640v320l160-160zM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120zm120-80v-560H200v560zm80 0h360v-560H400zm-80 0H200z"/></svg>
-      <span>Open Sidebar</span>
-    </button>
-
     <section data-pagefind-filter="Content Type:Documentation">
+      <button id="sidebar-toggle" popovertarget="sidebar-menu" aria-expanded="false" aria-label="Show sidebar navigation">
+        <svg class="icon-menu" aria-hidden="true" viewBox="0 -960 960 960"><path d="M120-240v-80h720v80zm0-200v-80h720v80zm0-200v-80h720v80z"/></svg>
+        <svg class="icon-close" aria-hidden="true" viewBox="0 -960 960 960"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224z"/></svg>
+        Contents
+      </button>
+
       <h1>${ doc.title }</h1>
 
       <div data-pagefind-body>
@@ -19,7 +20,9 @@
     </section>
 
     <aside id="sidebar-menu">
-      <button class="close-sidebar" popovertarget="sidebar-menu" aria-label="Close menu">&times; Close</button>
+      <button class="close-sidebar" popovertarget="sidebar-menu" aria-label="Close menu">
+        <svg aria-hidden="true" viewBox="0 -960 960 960"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224z"/></svg>
+      </button>
 
       <h2>Index</h2>
 

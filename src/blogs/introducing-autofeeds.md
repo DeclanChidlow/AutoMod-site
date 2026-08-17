@@ -52,7 +52,7 @@ As an example of how AutoFeeds works, I'll show you how you'd subscribe to this 
 
 1. The first step is to add AutoFeeds to your server. You can use [this invite link](https://stoat.chat/bot/01HZNFJK4C23AJE95JWY0JXB18) to add it.
 
-2. The next step is ensuring the bot has the necessary permissions required to send and receive messages in your Stoat server. You can do this by assigning the bot a role and setting the permissions of that role. This process is similar to [the steps for setting up AutoMod](/docs/setup).
+2. The next step is ensuring the bot has the necessary permissions required to send and receive messages in your Stoat server. You can do this by assigning the bot a role and setting the permissions of that role. This process is similar to [the steps for setting up AutoMod](/docs/automod/setup).
 
 3. Now you've got things configured, you may start using the bot. To get an overview of the bot's commands and check everything is working as it should be, you can run the command `@AutoFeeds help`, which will cause the bot to output some documentation.
 
