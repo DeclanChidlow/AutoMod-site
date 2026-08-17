@@ -20,17 +20,23 @@ The core syntax follows the standard `[quantity]d[sides]` format.
 #### Special Dice
 
 - Percentile: `@AutoDice d%` acts as shorthand for `d100`.
-- Fate/Fudge Dice: `@AutoDice 4dF` rolls four Fate dice, each returning `+`, `▯`, or `−` (−1 to +1).
+- Fate/Fudge Dice: `@AutoDice 4dF` rolls four Fate dice, each returning `+`, `▯`, or `−` (−1 to +1). Fate dice don't support modifiers.
 
-### Arithmetic & Modifiers
+### Arithmetic
 
-You can apply maths to your total results using standard operators: `+`, `-`, `*` (or `x`), and `/`.
+You can apply maths to your total results using the standard operators: `+`, `-`, `*`, and `/`, along with `**` for exponents. Decimals are supported in the maths itself, and results are rounded to two decimal places. Dice counts and sides must still be whole numbers.
 
-For example, `@AutoDice 10d6 + 5`.
+For example, `@AutoDice 10d6 + 5`, `@AutoDice d20**2`, or `@AutoDice d540*0.7`.
+
+Whenever maths is involved, AutoDice will display the full calculation in a KaTeX block alongside the result.
+
+#### Plain Maths
+
+You don't even need dice; AutoDice can evaluate plain maths expressions too. For example, `@AutoDice 2+2` or `@AutoDice (2+3)*2`.
 
 ### Advanced Mechanics
 
-Suffixes allow you to modify how dice behave or how results are displayed. They can be chained together: `5d20kl2r<4`.
+Modifiers are short suffixes appended directly to the end of a dice expression (with no spaces), like the `kl2` in `5d20kl2`. They change how dice behave or how results are displayed, and can be chained together: `5d20kl2r<4`.
 
 - **Sorting:** Use `s` or `sa` to sort results in ascending order, or `sd` for descending order. For example, `@AutoDice 10d6sd`.
 
@@ -46,9 +52,11 @@ Suffixes allow you to modify how dice behave or how results are displayed. They 
 
 - **Fail Counting:** Use `<[n]` to count how many dice fall below a target. Each failure becomes 1, each success 0. For example, `@AutoDice 5d10<3`.
 
+- **Nested Dice:** Use `d(...)` to have the sides of a die determined by another roll or formula. The nested expression is rounded to a whole number of sides. For example, `@AutoDice d(d20+20)` or `@AutoDice 2d(3d6)`. Modifiers aren't supported on nested dice.
+
 ### Advantage & Disadvantage
 
-As a convenience, `adv` and `dis` are shorthand for the most common keep expressions:
+As a convenience, `adv` and `dis` are shorthand for the most common keep expressions. The full words `advantage` and `disadvantage` work too:
 
 - `@AutoDice adv` expands to `2d20kh1`
 - `@AutoDice dis` expands to `2d20kl1`
@@ -68,3 +76,13 @@ Add descriptive text after your roll formula to label the result. Everything aft
 If you need to hide your rolls from the channel, use a privacy prefix. The bot will send the results directly to your DMs. The supported prefixes are: `dm`, `secret`, `priv`, or `private`.
 
 For example, `@AutoDice secret 10d6`.
+
+### Limits
+
+To keep things reasonable, AutoDice enforces a few limits:
+
+- Up to 1000 dice per roll.
+- Repeats are capped at 100 sets per command.
+- Expressions are limited to 1000 characters.
+- Dice expressions can be nested up to 10 levels deep.
+- Explosions chain up to 10 times per die.
