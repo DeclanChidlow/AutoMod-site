@@ -77,7 +77,7 @@ canonical: ""
 <!-- Dynamically updated by script -->
 
 Used in  
-<strong id="servers-stat">8,700+</strong><br>
+<strong id="servers-stat">9,000+</strong><br>
 servers
 
 Servicing  
@@ -92,8 +92,8 @@ users
 
 ## AutoFeeds
 
-A syndication feed bot that supports RSS, Atom, and JSON  
-[Learn More ➞](/blog/introducing-autofeeds)
+A syndication feed bot that supports RSS, Atom, and JSON Feed.  
+[Learn More ➞](/autofeeds)
 
 </div>
 
@@ -102,7 +102,7 @@ A syndication feed bot that supports RSS, Atom, and JSON
 ## AutoDice
 
 A fully-featured dice bot perfect for TTRPGs  
-[Learn More ➞](/blog/introducing-autodice)
+[Learn More ➞](/autodice)
 
 </div>
 
