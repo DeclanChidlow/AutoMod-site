@@ -80,3 +80,52 @@ article {
 		}
 	}
 }
+
+#about-author {
+	margin-block-start: 8rem;
+
+	h2 {
+		margin-block-end: 1rem;
+	}
+
+	.author-card {
+		display: flex;
+		align-items: center;
+		gap: 2rem;
+		padding: 2rem;
+		border-radius: 2rem;
+		background: var(--grey);
+
+		img {
+			inline-size: 5rem;
+			block-size: 5rem;
+			border-radius: 1rem;
+			flex-shrink: 0;
+			object-fit: cover;
+		}
+
+		.author-name {
+			font-size: 1.2rem;
+			font-weight: 700;
+		}
+
+		.author-links {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1rem;
+			margin-block-start: 1rem;
+			margin-inline-start: 0;
+
+			li {
+				list-style: none;
+				margin-block: 0;
+			}
+		}
+
+		@media (max-width: 45rem) {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 1rem;
+		}
+	}
+}
