@@ -101,7 +101,7 @@ A syndication feed bot that supports RSS, Atom, and JSON Feed.
 
 ## AutoDice
 
-A fully-featured dice bot perfect for TTRPGs  
+A fully-featured dice bot perfect for TTRPGs.  
 [Learn More ➞](/autodice)
 
 </div>
