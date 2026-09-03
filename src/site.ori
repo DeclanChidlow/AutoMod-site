@@ -35,7 +35,7 @@
 }
 
 → (site) => {
-    ...site
-    pagefind = Origami.once(() => package:@weborigami/pagefind(site))
+		...site
+		pagefind/ = package:@weborigami/pagefind(site)
     sitemap.xml = sitemap-improver.js(Origami.sitemap(site, { base: "https://automod.vale.rocks", assumeSlashes: true }))
 }
